@@ -1,0 +1,14 @@
+---
+layout: default
+title: "Research"
+title-cn: "研发"
+permalink: /research/
+---
+
+<h1 class="subpage-title" align="center">{{page.title}}</h1>
+<div class="post-line"></div>
+<div class="project-grid-container">
+    {% for post in site.posts reversed %}
+    {% include postitem.html %}
+    {% endfor %}
+</div>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  {% include navigation.html %}
+
+  <body>
+    <div
+      style="background-color: #fff3cd; border: 1px solid #ffeaa7; color: #856404; padding: 15px; text-align: center; margin-bottom: 20px;">
+      <strong>警告：</strong> 本网页还在建设中，可能存在失真信息，请非战斗人员撤离
+    </div>
+
+    <main>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+
+</html>
