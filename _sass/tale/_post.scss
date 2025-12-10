@@ -32,15 +32,15 @@
     text-align: justify;
   }
 
-  a:hover {
-    text-decoration: underline;
-  }
+  // a:hover {
+  //   text-decoration: underline;
+  // }
 
   img {
     margin: 0 auto 0.5rem;
   }
 
-  img + em {
+  img+em {
     color: $default-tint;
     display: block;
     font-family: $sans-serif;

@@ -52,7 +52,7 @@
 
   a:not(.btn) {
     color: $link !important;
-    text-decoration: underline;
+    // text-decoration: underline;
     @include transition(all .3s ease-out);
 
     &:hover {

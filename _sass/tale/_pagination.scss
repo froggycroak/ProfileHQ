@@ -5,6 +5,15 @@
   position: relative;
   text-align: center;
 
+  /* 使用 Flexbox 布局 */
+  display: flex;
+  justify-content: center;
+  /* 主轴（水平）居中 */
+  align-items: center;
+  /* 交叉轴（垂直）居中 */
+  position: relative;
+  /* 保持相对定位，以备子元素需要 */
+
   span {
     color: $default-shade;
     font-size: 1.1rem;
@@ -26,7 +35,7 @@
   .arrow {
     @include transition(all .3s ease-out);
     color: $default-color;
-    position: absolute;
+    // position: absolute;
 
     &:hover,
     &:focus {
@@ -36,10 +45,12 @@
   }
 
   .left {
-    left: 0;
+    // left: 0;
+    margin-right: auto;
   }
 
   .right {
-    right: 0;
+    // right: 0;
+    margin-left: auto;
   }
 }
