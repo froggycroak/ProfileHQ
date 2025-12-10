@@ -39,6 +39,6 @@ featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imgh
 * **公共道德**  
   我在美国访学的时候……他们那边禁烟的话，不像我们国家，虽然说有禁烟标识，但他还会在里头吸烟，所以国民素质，还是有一点，就是不尊重，这种所谓的，不遵从这种公共道德。看到那边有禁烟标识，就在公交上，也经常看到，上公交车都会有禁烟标识，嗯，上去以后，偶尔还会看到有一些人在吸烟，旁边人说的时候，好像有时候，他也是理直气壮。
 
-https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/floorplan.jpg
+![]https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/floorplan.jpg
 
 ---
