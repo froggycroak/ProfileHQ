@@ -1,21 +1,27 @@
 ---
 layout: design
 projid: D18-C02
+abbrev: BeyondPyramid
+icon-image:
+featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/birdview.jpg
 
 title: Beyond Pyramid
 title-cn: 在金字塔的一旁
-subtitle:
-subtitle-cn: 
+subtitle: 
+subtitle-cn: 武汉大学工学部教学区主广场设计
+team: [ HU Qian ]
+team-cn: [ 胡潜 ]
+location:
+
+
+
 type1: 
 type1-cn: 
 type2: 
 type2-cn: 
 type3: 
 type3-cn: 
-team: [ HU Qian ]
-team-cn: [ 胡潜 ]
-location:
-featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/birdview.jpg
+
 ---
 
 <br>

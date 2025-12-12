@@ -1,11 +1,16 @@
 ---
 layout: design
+projid: D20-S51
+abbrev: ErodedBlock
+icon-image:
+featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/img%20(2).jpg
+
 title: Eroded Block
 title-cn: 超级寓所
 subtitle:
 team: [ HU Qian, ZHANG Hanqing* ]
 location:
-featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/img%20(2).jpg
+
 ---
 
 <br>

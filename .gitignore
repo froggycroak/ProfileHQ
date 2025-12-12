@@ -3,6 +3,9 @@
 .DS_Store
 .sass-cache
 _site
+_aidfiles
 Gemfile.lock
 .jekyll-cache
-content.md
+
+README-content.md
+README-guide.md

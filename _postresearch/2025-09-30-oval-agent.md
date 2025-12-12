@@ -1,27 +1,30 @@
 ---
 layout: design
 projid: R24-J01
-abbrev: UnitéPacking
+abbrev: OvalAgent
+icon-image: 
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample.jpg
 
 title: 
-title-cn: 模数、层级、量形——整数规划视角下再话柯布西耶"尺度相当的居住单位"
-keywords-cn: [ 个人项目, xxx ]
+title-cn: 体育建筑智能设计助手
+keywords-cn: [ 网页工具, 人工智能, 体育建筑 ]
 
-team: [ HU Qian, TANG Peng* ]
-team-cn: [ 胡潜, 唐芃* ]
+team: [ SSTD-DTA ]
+team-cn: [ 华建科技数字化所 ]
 location: 
 
 ---
-
 <br>
 
-模数、层级、量形——整数规划视角下再话柯布西耶"尺度相当的居住单位"
-Modulor, Scale and Quantities:Rethinking Le Corbusier’s "Unités d'Habitation de Grandeur Conforme" from the Perspective of Integer Programming
+{% include link_button.html link='https://aiovaltool.com/' text='试用链接' style='outline-primary' %}
 
-柯布西耶“尺度相当的居住单位”包含高度复杂的空间分配问题。通过整数规划驱动的模板拼贴实验模拟该设计问题的求解，从模数、层级、量形维度讨论整数规划程序与柯布西耶设计思想的关联性，进而窥探柯布西耶对数学工具的运用方式，发掘其中建筑师独有的价值。
+体育建筑智能设计助手
 
-The "Unités d'habitation de grandeur conforme" advocated by Le Corbusier involves the problem of spatial configuration of high complexity. This paper simulates the solution to this problem through a template collage experiment driven by integer programming, and explicates the relationship between integer programming and Le Corbusier's design ideas in terms of modular, scale and quantities, to shed lights on Le Corbusier's use of mathematics and discover the unique value of architects.
+“体育建筑智能设计助手”是全球首款面向体育场馆方案设计与前期策划的智能设计平台。平台以AI技术重塑建筑设计流程，融合多智能体协同、大语言模型（LLM）、生成式设计算法与行业大数据，构建从语义输入到策略推荐、从模型生成到性能分析的一体化智能设计体系。
+
+依托覆盖全球144个国家、4000余座场馆与6万余张实景图片的体育建筑数据库，OVAL Agent可理解设计意图、生成参数化模型、并输出多维度看台分析。其核心能力涵盖智能看台生成、案例检索、AI问答与策划报告生成，让设计师从繁复建模中解放，聚焦创意与决策。
+
+OVAL Agent是一款用于体育建筑的智能设计产品，也是一套具备开放性、可复制性与持续拓展潜力的建筑智能设计平台。
 
 ---
 
