@@ -4,8 +4,7 @@
 .sass-cache
 _site
 _aidfiles
+_buffer
 Gemfile.lock
 .jekyll-cache
 
-README-content.md
-README-guide.md
