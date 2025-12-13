@@ -19,7 +19,7 @@ location:
 location-cn: 
 ---
 {% include link_button.html link='https://web.archialgo.com/nexuspace/' text='View & Tryout' style='outline-primary' %}
-https://aiovaltool.com/
+
 <br>
 
 模数、层级、量形——整数规划视角下再话柯布西耶"尺度相当的居住单位"

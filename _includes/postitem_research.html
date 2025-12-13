@@ -1,20 +1,48 @@
-<a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-  <div>
-    {% if include.sticky == 'true' %}
-    <span class="catalogue-pinned">Pinned &middot;</span>
+<article class="research-item">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="research-link">
+    <!-- 特色图片容器 -->
+    {% if post.featured-image %}
+    <div class="research-image-container">
+      <img src="{{ post.featured-image }}"
+        alt="{% if post.alt %}{{ post.alt }}{% else %}文章“{{ post.title | escape }}”的配图{% endif %}"
+        class="research-image" loading="lazy" />
+    </div>
+    {% else %}
+    <div class="research-image-container">
+      <img
+        src="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample.jpg"
+        class="research-image" loading="lazy" />
+    </div>
+
     {% endif %}
-    <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-    <h1 class="catalogue-title">{{ post.abbrev }}</h1>
-    <p class="catalogue-subtitle">{{ post.title-cn }}</p>
-    <div class="catalogue-line"></div>
 
-    <!-- <p>
-      {% if post.excerpt_separator %}
-      {{ post.excerpt | strip_html }}
-      {% else %}
-      {{ post.content | strip_html | truncatewords: 30 }}
+    <!-- 文本内容容器 -->
+    <div class="research-content">
+
+
+      <!-- 标题区域 -->
+      <h2 class="research-title">{{ post.abbrev | default: post.title }}</h2>
+      {% if post.subtitle or post.title-cn %}
+      <p class="research-subtitle">{{ post.subtitle | default: post.title-cn }}</p>
       {% endif %}
-    </p> -->
 
-  </div>
-</a>
+      <!-- 摘要 -->
+      {% if post.excerpt or post.description %}
+      <div class="research-excerpt">
+        <p>{{ post.excerpt | default: post.description | strip_html | truncate: 120 }}</p>
+      </div>
+      {% endif %}
+
+      <!-- 元信息（置顶标签、日期） -->
+      <div class="research-meta">
+        {% if include.sticky == 'true' %}
+        <span class="research-pinned">置顶 ·</span>
+        {% endif %}
+        <time datetime="{{ post.date }}" class="research-time">{{ post.date | date: "%Y年%m月%d日" }}</time>
+      </div>
+
+      <!-- 指示线 -->
+      <!-- <div class="research-line"></div> -->
+    </div>
+  </a>
+</article>

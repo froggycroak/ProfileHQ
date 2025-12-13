@@ -5,7 +5,7 @@ title: Blank Project
 title-cn: 空白项目
 team: [ PLS ]
 location:
-featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample.jpg
+featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample-16-10.jpg
 ---
 
 <br>
