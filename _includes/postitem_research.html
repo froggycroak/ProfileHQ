@@ -3,7 +3,7 @@
     <!-- 特色图片容器 -->
     {% if post.featured-image %}
     <div class="research-image-container">
-      <img src="{{ post.featured-image }}"
+      <img src='{{post.featured-image }}'
         alt="{% if post.alt %}{{ post.alt }}{% else %}文章“{{ post.title | escape }}”的配图{% endif %}"
         class="research-image" loading="lazy" />
     </div>
