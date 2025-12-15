@@ -26,7 +26,7 @@ featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imgh
 
 ![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample.jpg)
 
-图片宽度为1920px，高度可以是1080 / 1152 / 1200 / 1280 / 1440 px或其他尺寸，对应比例为 16:9 / 5:3 / 16:10 / 3:2 / 4:3 。
+
 
 那么燃气支管的接出处，应该设置旋塞，或者是，闸阀，我们前面注意介绍过闸阀的话呢是一关闭以后就是封闭得很严的。并且设有，不小于，这个千分之二的一个坡度，那么它是坡向进管的，那么这个来说的话就是说它一般来说就是考虑到这个送气的通畅性，那么这边这里我们大概有这样一个这个，认知。
 
