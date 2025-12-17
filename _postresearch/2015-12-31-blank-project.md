@@ -1,5 +1,5 @@
 ---
-layout: design
+layout: research
 projid: R00-S00-blank-project
 title: Blank Project
 title-cn: 空白项目

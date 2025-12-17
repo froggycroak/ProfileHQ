@@ -1,36 +1,38 @@
 ---
-layout: design
+layout: research
 projid: R24-C01
 abbrev: OvalAgent
 icon-image: 
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalPlus/featured.png
 
-title: 
+title:
 title-cn: 体育建筑智能设计助手
+keywords: [ ]
 keywords-cn: [ 网页工具, 人工智能, 体育建筑 ]
-
 team: [ SSTD-DTA ]
 team-cn: [ 华建科技数字化所 ]
-location: 
+
 
 ---
+
 <br>
 
 {% include link_button.html link='https://aiovaltool.com/' text='试用链接' style='outline-primary' %}
 
-体育建筑智能设计助手
+OVAL Agent体育建筑智能设计助手是华建科技数字化所开发的智能设计平台，由知名体育建筑设计师Henry Li开创。我在项目中负责的工作包括：后端几何服务的开发；；专利/软著/论文的书写等。
 
+---
+
+![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalPlus/img%20(1).png)
+
+**项目简介**
 “体育建筑智能设计助手”是全球首款面向体育场馆方案设计与前期策划的智能设计平台。平台以AI技术重塑建筑设计流程，融合多智能体协同、大语言模型（LLM）、生成式设计算法与行业大数据，构建从语义输入到策略推荐、从模型生成到性能分析的一体化智能设计体系。
 
 依托覆盖全球144个国家、4000余座场馆与6万余张实景图片的体育建筑数据库，OVAL Agent可理解设计意图、生成参数化模型、并输出多维度看台分析。其核心能力涵盖智能看台生成、案例检索、AI问答与策划报告生成，让设计师从繁复建模中解放，聚焦创意与决策。
 
 OVAL Agent是一款用于体育建筑的智能设计产品，也是一套具备开放性、可复制性与持续拓展潜力的建筑智能设计平台。
 
----
-
-![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalPlus/img%20(1).png)
-
-图片宽度为1920px，高度可以是1080 / 1200 / 1280 / 1440 px或其他尺寸，对应比例为 16:9 / 16:10 / 3:2 / 4:3 。
+![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample.jpg)
 
 那么燃气支管的接出处，应该设置旋塞，或者是，闸阀，我们前面注意介绍过闸阀的话呢是一关闭以后就是封闭得很严的。并且设有，不小于，这个千分之二的一个坡度，那么它是坡向进管的，那么这个来说的话就是说它一般来说就是考虑到这个送气的通畅性，那么这边这里我们大概有这样一个这个，认知。
 

@@ -1,9 +1,9 @@
 ---
-layout: design
-projid: R24-J01
+layout: research
+projid: R22-C01
 abbrev: UnitéPacking
 icon-image:
-featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample.jpg
+featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitePacking/featured.png
 
 title: 
 title-cn: 模数、层级、量形——整数规划视角下再话柯布西耶"尺度相当的居住单位"
