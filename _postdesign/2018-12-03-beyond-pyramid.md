@@ -30,7 +30,7 @@ type3-cn:
 
 ---
 
-![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/nightview.jpg)
+
 
 那么燃气支管的接出处，应该设置旋塞，或者是，闸阀，我们前面注意介绍过闸阀的话呢是一关闭以后就是封闭得很严的。并且设有，不小于，这个千分之二的一个坡度，那么它是坡向进管的，那么这个来说的话就是说它一般来说就是考虑到这个送气的通畅性，那么这边这里我们大概有这样一个这个，认知。
 
@@ -46,5 +46,8 @@ type3-cn:
   我在美国访学的时候……他们那边禁烟的话，不像我们国家，虽然说有禁烟标识，但他还会在里头吸烟，所以国民素质，还是有一点，就是不尊重，这种所谓的，不遵从这种公共道德。看到那边有禁烟标识，就在公交上，也经常看到，上公交车都会有禁烟标识，嗯，上去以后，偶尔还会看到有一些人在吸烟，旁边人说的时候，好像有时候，他也是理直气壮。
 
 ![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/floorplan.jpg)
+
+
+![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/nightview.jpg)
 
 ---
