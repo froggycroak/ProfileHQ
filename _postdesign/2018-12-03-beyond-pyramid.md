@@ -2,7 +2,7 @@
 layout: design
 projid: D18-C02
 abbrev: BeyondPyramid
-icon-image:
+icon-image: assets/icons/icon-d18c02.svg
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/birdview.jpg
 
 title: Beyond Pyramid

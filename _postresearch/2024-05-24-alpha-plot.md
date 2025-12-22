@@ -18,6 +18,10 @@ location:
 location-cn: 
 ---
 
+<br>
+
 **CITING** 胡潜. 走道式组合主导的建筑体量集合生成研究--以高校生活区为例[D]. 江苏:东南大学,2024.
+
+<br>
 
 ![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R24-C01-AlphaPlot/featured.png)

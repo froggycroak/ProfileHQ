@@ -25,6 +25,5 @@ team-cn: [ 胡潜, 李星桥 ]
 
 ![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R24-D01-StandRecons/flow.png)
 
-
-
+{% include link_button.html link='https://mp.weixin.qq.com/s/SrIZoVPc4MvnGmzDutXgKA' text='更多...' style='outline-primary' %}
 
