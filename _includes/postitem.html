@@ -1,16 +1,23 @@
 <a href="{{ post.url | relative_url }}" class="project-grid-item">
     <img src="{{ post.featured-image }}" alt="">
     <div class="project-grid-info">
-        <h6>
-            {{post.title}}
-        </h6>
-        <p>
-            {{post.date | date: '%Y'}}
-        </p>
+        <div class="inline-block">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{ post.icon-d }}" />
+            </svg>
+        </div>
+        <div class="inline-block">
+            <h5>
+                {{post.title}}
+            </h5>
+            <p>
+                {{post.date | date: '%Y'}}
+            </p>
+        </div>
     </div>
 
 </a>
-<div>
+<!-- <div>
     <br>
     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="{{ post.icon-d }}" fill="#3498db" />
@@ -21,4 +28,4 @@
     <p>
         {{post.date | date: '%Y'}}
     </p>
-</div>
+</div> -->

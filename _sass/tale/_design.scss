@@ -45,18 +45,22 @@
   left: 0;
   width: 100%;
   padding: 10px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.0);
   font-size: 14px;
-  opacity: 0;
+  opacity: 0.7;
   transition: opacity 0.3s;
   font-style: italic;
+  display: flex;
 }
 
 .project-grid-item:hover .project-grid-info {
+  background: rgba(0, 0, 0, 0.4);
   opacity: 1;
 }
 
-.project-grid-info h6 {
+.project-grid-info h6,
+.project-grid-info h5,
+.project-grid-info h4 {
   margin: 0;
   color: #fff;
   font-size: 14px;
@@ -67,6 +71,13 @@
   margin: 0;
   color: #fff;
   font-size: 10px;
+}
+
+.project-grid-info svg {
+  margin: 0 0.6rem 0 0;
+  fill: #ffffffd5;
+  width: 35px;
+  height: 35px;
 }
 
 a {
