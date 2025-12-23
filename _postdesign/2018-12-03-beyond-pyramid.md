@@ -6,9 +6,9 @@ icon-d: M40 40H0V0H40V40ZM4 36H6V28H10V31H14V26H20V36H25V30H32V32H36V4H4V36ZM10 
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/birdview.jpg
 
 title: Beyond Pyramid
-title-cn: 在金字塔的一旁
+title-cn: 在金字塔的一旁:武汉大学工学部教学区主广场设计
 subtitle: 
-subtitle-cn: 武汉大学工学部教学区主广场设计
+subtitle-cn: 
 team: [ HU Qian ]
 team-cn: [ 胡潜 ]
 location:

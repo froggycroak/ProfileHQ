@@ -4,10 +4,12 @@ projid: D20-S51
 abbrev: ErodedBlock
 icon-d: M40 40H0V0H40V40ZM4 12V20H9V12H4ZM23 36H36V33H28V28H23V36ZM28 9H36V4H28V9ZM17 20H12V28H4V36H15V28H20V20H28V25H36V17H28V12H20V4H12V12H17V20Z
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/featured.png
+themecolor: rgb(62, 130, 255)
 
 title: Eroded Block
-title-cn: 超级寓所
+title-cn: 超级寓所:后疫情时代的扁平化立体社区
 subtitle:
+subtitle-cn: 
 team: [ HU Qian, ZHANG Hanqing* ]
 team-cn: [ 胡潜, 张翰卿* ]
 keywords:

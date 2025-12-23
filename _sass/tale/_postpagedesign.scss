@@ -1,0 +1,110 @@
+.postpagedesign {
+    padding: 3rem 0;
+
+    // 新增：将容器定义为网格布局
+    display: grid;
+    grid-template-columns: auto 1fr; // 第一列宽度由内容（SVG）决定，第二列占据剩余空间
+    gap: 20px; // 设置两列之间的间距[1](@ref)
+    align-items: start; // 确保列内内容从顶部对齐
+
+    // 选择SVG图标，将其放置在第一列
+    >svg {
+        margin-top: 0.5rem;
+        grid-column: 1;
+    }
+
+    // 创建一个新的div包装标题和.info信息，放置在第二列
+    &-header {
+        grid-column: 2;
+    }
+
+    // 将内容区域单独放置在新的一行，并占据全部两列的宽度
+    .postpagedesign-content {
+        grid-column: 1 / -1; // 从第一列开始，到最后一列结束
+    }
+
+    &-info {
+        color: $default-tint;
+        font-family: $serif-secondary !important;
+        font-size: smaller;
+        margin: 0;
+
+        span {
+            font-style: italic;
+        }
+    }
+
+    &-title {
+        color: $default-shade;
+        font-family: $sans-serif !important;
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 0 0 0.5rem 0;
+    }
+
+    &-subtitle {
+        color: $default-shade;
+        font-family: $sans-serif !important;
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin: 0 0 0.5rem 0;
+    }
+
+    &-line {
+        border-top: 0.4rem solid $default-shade;
+        display: block;
+        margin: 1.5rem auto 1.5rem;
+        width: 4rem;
+    }
+
+    p {
+        margin: 0 0 1rem;
+        text-align: justify;
+    }
+
+    a.btn {
+        color: $link !important;
+        text-decoration: none !important;
+        @include transition(all .3s ease-out);
+
+        &:hover {
+            color: $primary !important;
+        }
+    }
+
+    a:not(.btn) {
+        color: $link !important;
+        // text-decoration: underline;
+        @include transition(all .3s ease-out);
+
+        &:hover {
+            color: $primary !important;
+        }
+    }
+
+    img {
+        margin: 0 auto 0.5rem;
+    }
+
+    img+em {
+        color: $default-tint;
+        display: block;
+        font-family: $sans-serif !important;
+        font-size: 0.9rem;
+        font-style: normal;
+        text-align: center;
+    }
+
+    // CSS for making emoji inline
+    img.emoji {
+        display: inline-block;
+        left: 0;
+        transform: none;
+        width: 1rem;
+        height: 1rem;
+        vertical-align: text-top;
+        padding: 0;
+        margin: 0;
+    }
+
+}

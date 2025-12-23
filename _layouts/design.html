@@ -29,27 +29,35 @@ layout: default
   {% endif %}
 </div>
 
-<div class="postpage">
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="{{ page.icon-d }}" fill="#3498db" />
+<div class="postpagedesign">
+
+  <svg width="60" height="60" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="{{ page.icon-d }}" fill="rgba(0,0,0,0.3)" />
   </svg>
+  <div class="postpagedesign-header">
+    <h1 class="postpagedesign-title">{{ page.abbrev }}</h1>
+    <h2 class="postpagedesign-subtitle">{{ page.title-cn }}</h2>
+    <!-- <h2 class="postpagedesign-subtitle">{{ page.subtitle-cn }}</h2> -->
 
-  <h1 class="postpage-title">{{ page.title }}</h1>
-  <h2 class="postpage-subtitle">{{ page.title-cn }}</h2>
+    <div class="postpagedesign-info m-0">
+      Team: {{ page.team-cn | join: ", " }}
+    </div>
+    <div class="postpagedesign-info m-0">
+      Intro: 有圣人，身世春秋，才高八斗，志趣不凡。然，时运不齐，难受重用，遂委身塾间，教书育人。每说书时，诵读讲义，至兴起处，必行触类旁通之法，生活为本，授之于人。
+    </div>
 
-  <div class="postpage-info m-0">
-    Team: {{ page.team | join: ", " }}
+    {% if page.location and page.location != "" %}
+    <div class="postpagedesign-info">
+      Location: {{ page.location }}
+    </div>
+    {% endif %}
+
+    <div class="postpagedesign-info">
+      Year: {{ page.date | date: "%Y" }}
+    </div>
   </div>
 
-  {% if page.location and page.location != "" %}
-  <div class="postpage-info">
-    Location: {{ page.location }}
+  <div class="postpagedesign-content">
+    {{ content }}
   </div>
-  {% endif %}
-
-  <div class="postpage-info">
-    Year: {{ page.date | date: "%Y" }}
-  </div>
-
-  {{ content }}
 </div>
