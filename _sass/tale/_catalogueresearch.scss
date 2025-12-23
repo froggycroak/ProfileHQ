@@ -9,14 +9,13 @@ $research-line-color: #333 !default;
 $research-image-size-desktop: 240px !default;
 $research-image-size-mobile: 180px !default;
 
-// 主项目样式
 .research-item {
     // border-bottom: 1px solid $research-item-border-color;
     background-color: #fff;
     transition: background-color 0.3s ease;
 
     &:hover {
-        background-color: $research-item-bg-hover;
+        // background-color: $research-item-bg-hover;
 
         .research-line {
             width: 5rem;
@@ -35,13 +34,24 @@ $research-image-size-mobile: 180px !default;
     text-decoration: none;
     color: inherit;
 
+    &:link,
+    &:visited,
+    &:hover,
+    &:active {
+        text-decoration: none !important;
+    }
+
+    * {
+        text-decoration: none !important;
+    }
+
     @media (max-width: 600px) {
         flex-direction: column;
         padding: 1.25rem 0;
     }
 }
 
-// 图片样式
+
 .research-image-container {
     flex-shrink: 0;
     margin-right: 1.5rem;
@@ -59,7 +69,7 @@ $research-image-size-mobile: 180px !default;
     height: $research-image-size-desktop*0.6225;
     object-fit: cover;
     border-radius: 10px;
-    border: 1px solid #f0f0f0;
+    border: 0px solid #f0f0f0;
     display: block;
     margin: 0 0 0 0;
 
@@ -97,7 +107,7 @@ $research-image-size-mobile: 180px !default;
     color: $research-title-color;
     font-size: 1.5rem;
     font-weight: 700;
-    margin: 0.25rem 0 0.5rem 0;
+    margin: 0.25rem 0 0.25rem 0;
     line-height: 1.3;
 
     @media (max-width: 600px) {
@@ -108,7 +118,7 @@ $research-image-size-mobile: 180px !default;
 .research-subtitle {
     color: $research-subtitle-color;
     font-size: 1rem;
-    margin: 0.25rem 0 0.75rem 0;
+    margin: 0.25rem 0 0.25rem 0;
     line-height: 1.4;
     font-weight: 400;
 }
@@ -131,6 +141,34 @@ $research-image-size-mobile: 180px !default;
     margin-top: 1rem;
     transition: width 0.3s ease-out;
 }
+
+.research-tags {
+    p {
+        display: inline-block;
+        margin: 0 0.1rem 0.2rem;
+        padding: 0.2rem 0.5rem;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        color: $default-color;
+        text-decoration: none;
+    }
+}
+
+
+
+// suppress all default underlines
+// .research-title,
+// .research-subtitle,
+// .research-excerpt,
+// .research-meta,
+// .research-tags {
+//     text-decoration: none !important;
+
+//     &:hover {
+//         text-decoration: none !important;
+//     }
+// }
+
 
 // 无图时的备用样式（例如显示一个图标）
 .research-item:not(.has-image) {
