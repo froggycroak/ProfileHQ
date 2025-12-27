@@ -6,7 +6,7 @@ icon-image:
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitePacking/featured.png
 
 title: 
-title-cn: 整数规划视角下柯布西耶"尺度相当的居住单位"的研究
+title-cn: 整数规划实验 / 柯布西耶"尺度相当的居住单位"的研究
 team: [ HU Qian, TANG Peng* ]
 team-cn: [ 胡潜, 唐芃* ]
 

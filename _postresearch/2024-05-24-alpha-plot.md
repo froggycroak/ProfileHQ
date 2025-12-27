@@ -5,7 +5,7 @@ abbrev: AlphaPlot
 icon-image:
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R24-C01-AlphaPlot/featured.png
 
-title: 
+title:
 title-cn: 走道式组合主导的建筑体量生成研究——以高校生活区为例
 team: [ HU Qian, TANG Peng(supervisor) ]
 team-cn: [ 胡潜, 唐芃(导师) ]
@@ -14,13 +14,16 @@ keywords-cn: [ 硕士论文 ]
 
 
 
-location: 
-location-cn: 
+location:
+location-cn:
 ---
 
 <br>
+<p>
+    <a class="postpageresearch-citesign">CITING</a>
+    <a class="postpageresearch-citecontent">胡潜. 走道式组合主导的建筑体量集合生成研究--以高校生活区为例[D]. 江苏:东南大学,2024.</a>
+</p>
 
-**CITING** 胡潜. 走道式组合主导的建筑体量集合生成研究--以高校生活区为例[D]. 江苏:东南大学,2024.
 
 <br>
 

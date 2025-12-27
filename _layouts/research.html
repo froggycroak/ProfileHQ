@@ -29,32 +29,27 @@ layout: default
   {% endif %}
 </div>
 
-<div class="postpage">
-  <div class="tags-clouds" align="left">
+<div class="postpageresearch">
+  <div class="research-tags">
     {% for tag in page.keywords-cn %}
     <a>{{ tag }}</a>
     {% endfor %}
   </div>
-  <h1 class="postpage-title">{{ page.abbrev }}</h1>
-  <h2 class="postpage-subtitle">{{ page.title-cn }}</h2>
+  <h1 class="postpageresearch-title">{{ page.abbrev }}</h1>
+  <h2 class="postpageresearch-subtitle">{{ page.title-cn }}</h2>
 
   <!-- <div class="tags"> -->
 
 
-
-  <div class="postpage-info m-0">
+  {% if page.team-cn and page.team-cn != "" %}
+  <div class="postpageresearch-info m-0">
     项目团队: {{ page.team-cn | join: ", " }}
   </div>
+  {% endif %}
 
-  <!-- {% if page.location and page.location != "" %}
-  <div class="postpage-info">
-    Location: {{ page.location }}
-  </div>
-  {% endif %} -->
-
-  <!-- <div class="postpage-info">
+  <div class="postpageresearch-info">
     Year: {{ page.date | date: "%Y" }}
-  </div> -->
+  </div>
 
   {{ content }}
 </div>

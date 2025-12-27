@@ -19,7 +19,7 @@ team-cn: [ 华建科技数字化所 ]
 
 {% include link_button.html link='https://aiovaltool.com/' text='试用链接' style='outline-primary' %}
 
-OVAL Agent体育建筑智能设计助手是华建科技数字化所开发的智能设计平台，由知名体育建筑设计师Henry Li开创。我在项目中负责的工作包括：后端几何服务的开发；；专利/软著/论文的书写等。
+OVAL Agent体育建筑智能设计助手是华建科技数字化所开发的智能设计平台，由知名体育建筑设计师Henry Li开创。我在项目中负责的工作包括：后端几何服务的开发和维护；总体架构的多项可行性实验；专利/软著/论文的书写等。
 
 ---
 
@@ -31,6 +31,8 @@ OVAL Agent体育建筑智能设计助手是华建科技数字化所开发的智�
 依托覆盖全球144个国家、4000余座场馆与6万余张实景图片的体育建筑数据库，OVAL Agent可理解设计意图、生成参数化模型、并输出多维度看台分析。其核心能力涵盖智能看台生成、案例检索、AI问答与策划报告生成，让设计师从繁复建模中解放，聚焦创意与决策。
 
 OVAL Agent是一款用于体育建筑的智能设计产品，也是一套具备开放性、可复制性与持续拓展潜力的建筑智能设计平台。
+
+<!-- ![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalPlus/maintecture.png) -->
 
 ![](https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample.jpg)
 

@@ -6,11 +6,21 @@ permalink: /design/
 ---
 <br>
 <h1 class="subpage-title" align="center">{{page.title-cn}}</h1>
+
 <br>
+
+
 
 <!-- <div class="post-line"></div> -->
 <div class="project-grid-container">
     {% for post in site.postdesign reversed %}
-    {% include postitem.html %}
+    {% include postitem_design.html %}
     {% endfor %}
+</div>
+<br>
+<div id="container" class="my-2">
+    <div id="element" align="center">
+        <img src="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/logos.jpg"
+            data-wow-delay=".1s" alt="" style="max-height: 180px" sizes="200 100">
+    </div>
 </div>

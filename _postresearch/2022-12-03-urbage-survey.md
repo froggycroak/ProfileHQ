@@ -6,7 +6,7 @@ icon-image:
 featured-image: http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/featured.png
 
 title: 
-title-cn: 网络信息平台支持的历史地段调研与设计
+title-cn: 网络信息平台支持的历史地段数据收集与城市设计
 team: [ HU Qian, TANG Peng* ]
 team-cn: [ 胡潜, 李金泽, 李帅, 唐芃* ]
 
@@ -21,10 +21,14 @@ location-cn:
 
 **CITING** 胡潜,唐芃. 基于网络信息平台的历史地段数据收集方法研究[C]. //2022全国建筑院系建筑数字技术教学与研究学术研讨会论文集. 2022:476-480.
 
+在历史地段的更新保护中，实地调研以收集数据是不可或缺的工作。由于缺乏系统的工作方法和专门的工具平台，调研工作时常效率低下，难以改良。群智计算的广泛应用启示我们，可以通过分划数据收集工作、搭建网络信息平台予以优化。本研究基于实际调研经验，搭建网络信息平台，探讨了一种多端合作、实时共享、高效便捷的调研方法，提升了调研工作效率，对于推进众包合作的历史地段更新设计模式具有重要意义。
+
 ![](http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/tecture.png)
 
 在此技术框架的支持下，我们完成了江苏省某城镇的历史地段调研和片区更新设计。
 
 ![](http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/site.png)
 
+
+啦啦啦，你好
 ![](http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/birdview.png)

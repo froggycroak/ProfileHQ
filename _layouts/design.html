@@ -40,20 +40,11 @@ layout: default
     <!-- <h2 class="postpagedesign-subtitle">{{ page.subtitle-cn }}</h2> -->
 
     <div class="postpagedesign-info m-0">
-      Team: {{ page.team-cn | join: ", " }}
-    </div>
-    <div class="postpagedesign-info m-0">
-      Intro: 有圣人，身世春秋，才高八斗，志趣不凡。然，时运不齐，难受重用，遂委身塾间，教书育人。每说书时，诵读讲义，至兴起处，必行触类旁通之法，生活为本，授之于人。
+      项目团队: {{ page.team-cn | join: ", " }}
     </div>
 
-    {% if page.location and page.location != "" %}
     <div class="postpagedesign-info">
-      Location: {{ page.location }}
-    </div>
-    {% endif %}
-
-    <div class="postpagedesign-info">
-      Year: {{ page.date | date: "%Y" }}
+      完成时间: {{ page.date | date: "%Y" }}
     </div>
   </div>
 

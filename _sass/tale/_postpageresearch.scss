@@ -1,22 +1,5 @@
-.postpagedesign {
+.postpageresearch {
     padding: 3rem 0;
-    display: grid;
-    grid-template-columns: auto 1fr; // 第一列宽度由内容（SVG）决定，第二列占据剩余空间
-    gap: 20px; // 设置两列之间的间距[1](@ref)
-    align-items: start; // 确保列内内容从顶部对齐
-
-    >svg {
-        margin-top: 0.5rem;
-        grid-column: 1;
-    }
-
-    &-header {
-        grid-column: 2;
-    }
-
-    &-content {
-        grid-column: 1 / -1; // 从第一列开始，到最后一列结束
-    }
 
     &-info {
         color: $default-tint;
@@ -34,15 +17,15 @@
         font-family: $sans-serif !important;
         font-weight: bold;
         font-size: 2rem;
-        margin: 0 0 0.5rem 0;
+        margin: 1rem 0;
     }
 
     &-subtitle {
-        color: $default-shade;
+        color: $default-color;
         font-family: $sans-serif !important;
         font-weight: bold;
         font-size: 1.3rem;
-        margin: 0 0 0.5rem 0;
+        margin: 1rem 0;
     }
 
     &-line {
@@ -50,6 +33,15 @@
         display: block;
         margin: 1.5rem auto 1.5rem;
         width: 4rem;
+    }
+
+    &-citesign {
+        color: $default-shade;
+        font-weight: bold;
+    }
+
+    &-citecontent {
+        color: $default-tint;
     }
 
     p {
@@ -77,10 +69,6 @@
         }
     }
 
-    imgtitle {
-        color: $default-tint;
-    }
-
     img {
         margin: 0 auto 0.5rem;
     }
@@ -105,5 +93,4 @@
         padding: 0;
         margin: 0;
     }
-
 }

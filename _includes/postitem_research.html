@@ -24,7 +24,7 @@
         {% if include.sticky == 'true' %}
         <span class="research-pinned">置顶 ·</span>
         {% endif %}
-        <time datetime="{{ post.date }}" class="research-time">{{ post.date | date: "%Y年%m月%d日" }}</time>
+        <!-- <time datetime="{{ post.date }}" class="research-time">{{ post.date | date: "%Y年%m月%d日" }}</time> -->
       </div>
       <div class="research-tags">
         {% for tag in post.keywords-cn %}

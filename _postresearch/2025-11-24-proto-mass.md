@@ -6,7 +6,7 @@ icon-image:
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/featured.jpg
 
 title: 
-title-cn: 建筑体量原型智能演绎工具
+title-cn: 面向原创设计的建筑体量原型智能演绎工具
 keywords: [ ]
 keywords-cn: [ 主要负责, 人工智能, 原创设计 ]
 team: [ SSTD-DTA, ECADI-CC ]
