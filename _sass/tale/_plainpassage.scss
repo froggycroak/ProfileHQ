@@ -1,0 +1,32 @@
+.plainpassage {
+    &-bold {
+        font-weight: bold;
+        color: $default-shade;
+    }
+
+    &-bold:hover {
+        color: $default-shade;
+        text-decoration: none;
+    }
+
+    &-link {
+        color: $default-shade;
+    }
+
+    &-link:hover {
+        color: grey;
+        text-decoration: none;
+    }
+
+    &-boldlink {
+
+        font-weight: bold;
+        color: $default-shade;
+    }
+
+    &-boldlink:hover {
+        // font-size: large;
+        color: grey;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,10 @@
+.mt-2 a i {
+    color: lightgrey;
+    /* for example, 'green', '#FF6B6B', 'rgb(100, 149, 237)' */
+}
+
+.mt-2 a i:hover {
+    transform: scale(1.1);
+    color: rgb(190, 190, 190);
+    transition: transform 0.3s;
+}

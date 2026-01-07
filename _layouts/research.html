@@ -11,6 +11,7 @@ layout: default
 {% endif %}
 {% endfor %}
 
+<!-- page {-previous} {-next} -->
 <div class="pagination">
   {% if page.next.url %}
   <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">
@@ -29,27 +30,31 @@ layout: default
   {% endif %}
 </div>
 
+<!-- title - info - content -->
 <div class="postpageresearch">
+
+  <!-- tags -->
   <div class="research-tags">
     {% for tag in page.keywords-cn %}
-    <a>{{ tag }}</a>
+    <p>{{ tag }}</p>
     {% endfor %}
   </div>
+
+  <!-- title -->
   <h1 class="postpageresearch-title">{{ page.abbrev }}</h1>
   <h2 class="postpageresearch-subtitle">{{ page.title-cn }}</h2>
 
-  <!-- <div class="tags"> -->
-
-
+  <!-- info grey -->
   {% if page.team-cn and page.team-cn != "" %}
   <div class="postpageresearch-info m-0">
     项目团队: {{ page.team-cn | join: ", " }}
   </div>
   {% endif %}
-
   <div class="postpageresearch-info">
     Year: {{ page.date | date: "%Y" }}
   </div>
 
+  <!-- main-content -->
   {{ content }}
+
 </div>

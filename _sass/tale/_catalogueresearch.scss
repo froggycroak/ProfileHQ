@@ -152,8 +152,20 @@ $research-image-size-mobile: 180px !default;
         color: $default-color;
         text-decoration: none;
     }
+
 }
 
+.research-tags-in-p {
+    a {
+        display: inline-block;
+        margin: 0 0.1rem 0.2rem;
+        padding: 0.2rem 0.5rem;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        color: $default-color;
+        text-decoration: none;
+    }
+}
 
 
 // suppress all default underlines
