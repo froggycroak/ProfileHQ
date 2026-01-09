@@ -7,8 +7,8 @@ featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/im
 
 title: 
 title-cn: 面向原创设计的建筑体量原型智能演绎工具
-keywords: [ ]
-keywords-cn: [ 主要负责, 人工智能, 原创设计 ]
+tags: [ ]
+tags-cn: [ 主要负责, 人工智能, 原创设计 ]
 team: [ SSTD-DTA, ECADI-CC ]
 team-cn: [ 华建科技数字化所, 华东院创作中心 ]
 

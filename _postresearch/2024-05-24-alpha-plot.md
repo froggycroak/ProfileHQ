@@ -9,8 +9,8 @@ title:
 title-cn: 走道式组合主导的建筑体量生成研究——以高校生活区为例
 team: [ HU Qian, TANG Peng(supervisor) ]
 team-cn: [ 胡潜, 唐芃(导师) ]
-keywords:
-keywords-cn: [ 硕士论文 ]
+tags:
+tags-cn: [ 硕士论文 ]
 
 
 
@@ -19,6 +19,8 @@ location-cn:
 ---
 
 <br>
+
+{% include citation.html key="PUB-2406-MTC" %}
 <p>
     <a class="postpageresearch-citesign">CITING</a>
     <a class="postpageresearch-citecontent">胡潜. 走道式组合主导的建筑体量集合生成研究--以高校生活区为例[D]. 江苏:东南大学,2024.</a>

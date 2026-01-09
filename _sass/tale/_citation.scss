@@ -1,0 +1,57 @@
+/* 文献引用气泡样式 */
+.citation-bubble {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    /* 灰色背景 */
+    border-radius: 12px;
+    /* 倒角效果 */
+    padding: 12px 16px;
+    margin: 10px 0;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+    /* 平滑过渡效果 */
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.citation-bubble:hover {
+    background-color: #eeeeee;
+    /* hover时颜色微调 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* 悬停阴影效果 */
+    // transform: translateY(-1px);
+    /* 轻微上浮 */
+}
+
+.citation-icon {
+    font-size: 1.2em;
+    margin-right: 12px;
+    opacity: 0.7;
+}
+
+.citation-content a {
+    text-decoration: none;
+    color: $default-shade;
+    font-style: normal;
+    line-height: 1.4;
+}
+
+.citation-content a:hover {
+    color: $default-shade;
+    /* 链接hover颜色 */
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .citation-bubble {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .citation-icon {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+}

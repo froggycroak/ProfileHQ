@@ -1,4 +1,12 @@
 .plainpassage {
+
+    color: $default-shade;
+
+    &:hover {
+        color: $default-shade;
+        text-decoration: none;
+    }
+
     &-bold {
         font-weight: bold;
         color: $default-shade;

@@ -7,8 +7,8 @@ featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/im
 
 title:
 title-cn: 体育建筑智能设计助手
-keywords: [ ]
-keywords-cn: [ 网页工具, 人工智能, 体育建筑 ]
+tags: [ ]
+tags-cn: [ 网页工具, 人工智能, 体育建筑 ]
 team: [ SSTD-DTA ]
 team-cn: [ 华建科技数字化所 ]
 
