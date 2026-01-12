@@ -1,6 +1,14 @@
 {% assign citation = site.publications | where: "pub-id", include.key | first %}
 
-<div class="citation-bubble">
+<div class="citation-simple">
+    <a class="in-text-icon" href='{{citation.link}}' target="_blank">
+        <i class="fa-solid fa-book fa-fw"></i>
+        {{citation.gbt}}
+    </a>
+</div>
+
+
+<!-- <div class="citation-bubble">
     <div class="citation-icon">
         <a>
             <i class="fa-solid fa-book"></i>
@@ -9,4 +17,4 @@
     <div class="citation-content">
         <a href='{{citation.link}}' target="_blank">{{citation.gbt}}</a>
     </div>
-</div>
+</div> -->

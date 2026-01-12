@@ -19,7 +19,7 @@ location:
 location-cn: 
 ---
 
-{% include citation.html key="PUB-2402-JAC" %}
+{% include link_citation.html key="PUB-2402-JAC" %}
 
 {% include link_button.html link='https://mp.weixin.qq.com/s/SrIZoVPc4MvnGmzDutXgKA' text='演示文件' style='outline-primary' %}
 

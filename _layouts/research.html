@@ -47,11 +47,18 @@ layout: default
   <!-- info grey -->
   {% if page.team-cn and page.team-cn != "" %}
   <div class="postpageresearch-info m-0">
-    项目团队: {{ page.team-cn | join: ", " }}
+    <a class="in-text-icon">
+      <i class="fa-solid fa-user fa-fw"></i>
+    </a>
+
+    团队 {{ page.team-cn | join: ", " }}
   </div>
   {% endif %}
   <div class="postpageresearch-info">
-    Year: {{ page.date | date: "%Y" }}
+    <a class="in-text-icon">
+      <i class="fa-solid fa-clock fa-fw"></i>
+    </a>
+    时间 {{ page.date | date: "%Y" }}
   </div>
 
   <!-- main-content -->

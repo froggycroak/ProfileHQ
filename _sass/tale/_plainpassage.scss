@@ -48,3 +48,15 @@
         text-decoration: none;
     }
 }
+
+.header-text>div {
+    display: flex;
+    justify-content: space-between;
+    /* 关键属性：两端对齐 */
+    align-items: center;
+    /* 可选：让内容在垂直方向上居中对齐 */
+    max-width: 800px;
+    /* 建议：设置一个最大宽度，这样两端对齐的效果更明显 */
+    margin: 0 auto;
+    /* 建议：如果父容器很宽，这个设置可以使该div水平居中 */
+}

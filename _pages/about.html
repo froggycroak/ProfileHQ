@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 <br>
-<h1 class="subpage-title" align="center">- {{page.title-cn}} -</h1>
+<!-- <h1 class="subpage-title" align="center">- {{page.title-cn}} -</h1> -->
 
 
 
@@ -14,9 +14,12 @@ permalink: /about/
     <div class="resume-content">
         <!-- 个人信息 -->
         <section class="resume-header">
-            <div class="header-text">
-                <h4>胡潜 HU Qian</h4>
-                <p>建筑设计 / 算法工程师</p>
+            <div class="header-text" align="center">
+                <h3>胡潜 HU Qian</h3>
+                <a>建筑设计 / 算法工程师</a>
+            </div>
+            <br>
+            <div>
                 <div>
                     <a class='in-text-icon'>
                         <i class=" fa-solid fa-envelope"></i>
@@ -53,8 +56,17 @@ permalink: /about/
                 <h5 class="year-heading mt-4 mb-1" style="color: gray; ">工作经历 Working</h5>
             </div>
             <hr style="margin: 0">
-            <br><strong>华东建筑集团-上海科技发展分公司</strong> - [科研人员] (`[2024.7] - [至今]`)
-            <br>Arcplus PLC Group - SSTD [Researcher]
+            <br>
+            <div style="display: flex; justify-content: space-between;">
+                <span>
+                    <a class='plainpassage-boldlink' href="http://www.arcplus.com.cn/">华东建筑集团</a>-<a
+                        class='plainpassage-boldlink'
+                        href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">上海科技发展分公司</a>
+                    [科研人员]
+                </span>
+                <span>2024.7 - 至今</span>
+            </div>
+            Arcplus PLC Group - SSTD [Researcher]
             <br>工作职责或成就一
             <br>工作职责或成就二
         </section>
@@ -65,11 +77,28 @@ permalink: /about/
                 <h5 class="year-heading mt-4 mb-1" style="color: gray; ">教育背景 Education</h5>
             </div>
             <hr style="margin: 0">
-            <br><strong>东南大学-建筑学院-建筑运算与应用研究所</strong> - [建筑设计及其理论 硕士] (`[2021.09] - [2024.06]`)
-            <br>GPA
             <br>
-            <br><strong>武汉大学-城市设计学院-建筑系</strong> - [建筑学 学士] (`[2016.09] - [2021.06]`)
-            <br>GPA
+            <div style="display: flex; justify-content: space-between;">
+                <span>
+                    <a class="plainpassage-boldlink" href="https://www.seu.edu.cn/">东南大学</a> -
+                    <a class="plainpassage-boldlink" href="https://arch.seu.edu.cn/">建筑学院</a> -
+                    <a class="plainpassage-boldlink" href="https://archialgo.com/">建筑运算与应用研究所</a>
+                    [建筑设计及其理论 硕士]
+                </span>
+                <span>2021.09 - 2024.06</span>
+            </div>
+            GPA
+            <br>
+            <div style="display: flex; justify-content: space-between;">
+                <span>
+                    <a class="plainpassage-boldlink" href="https://www.whu.edu.cn/">武汉大学</a> -
+                    <a class="plainpassage-boldlink" href="https://sud.whu.edu.cn/">城市设计学院</a> -
+                    <a class="plainpassage-boldlink">建筑系</a>
+                    [建筑学 学士]
+                </span>
+                <span>2016.09 - 2021.06</span>
+            </div>
+            GPA
         </section>
 
         <!-- 技术能力 -->
@@ -84,6 +113,14 @@ permalink: /about/
             <br>- 熟悉Rhino系列的开发(plugin/inside/compute等);
             <br>
             <br><strong>工具 </strong>
+        </section>
+
+        <!-- 发表情况 -->
+        <section>
+            <div class="col-12 p-0">
+                <h5 class="year-heading mt-4 mb-1" style="color: gray; ">学术发表 Publications</h5>
+            </div>
+            {% include link_citation.html key="PUB-2212-CPC" %}
         </section>
 
 

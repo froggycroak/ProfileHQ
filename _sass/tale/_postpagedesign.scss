@@ -20,8 +20,8 @@
 
     &-info {
         color: $default-tint;
-        font-family: $serif-secondary !important;
-        font-size: smaller;
+        // font-family: $serif-secondary !important;
+        // font-size: smaller;
         margin: 0;
 
         span {
@@ -68,7 +68,7 @@
     }
 
     a:not(.btn) {
-        color: $link !important;
+        color: $default-tint !important;
         // text-decoration: underline;
         @include transition(all .3s ease-out);
 

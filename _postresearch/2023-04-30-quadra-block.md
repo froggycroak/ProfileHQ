@@ -19,4 +19,10 @@ location:
 location-cn: 
 ---
 
-{% include citation.html key="PUB-2504-CPE" %}
+{% include link_citation.html key="PUB-2504-CPE" %}
+
+
+
+
+**Abstract**
+This research aims to tackle the problem of the generative urban design of residential areas using a general-solving machine of mathematical programming. Residential areas on university campuses are taken as examples. As a type of urban design problem, the layout of residential areas on campuses is subject to multiple indicators and various boundary shapes. Quadratic Programming (QP) offers a representation of this problem, and with the assistance of cutting-edge mathematical programming solvers, the urban design problem with quadratic constraints can be automatically tackled. However, the difficulties lie in formulating complex boundaries, flexible building templates, and directional variability. To overcome these challenges, this research combines inside-model techniques of representation and outside-model modules utilizing geometric methods to enhance the main model of QP. A pipeline is provided to apply the approach in real urban design projects. The generated results validate the effectiveness of the enhanced model and the pipeline.
