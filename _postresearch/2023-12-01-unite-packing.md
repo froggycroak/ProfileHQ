@@ -19,11 +19,9 @@ location:
 location-cn: 
 ---
 
-<br>
-
-
 {% include citation.html key="PUB-2402-JAC" %}
 
+{% include link_button.html link='https://mp.weixin.qq.com/s/SrIZoVPc4MvnGmzDutXgKA' text='演示文件' style='outline-primary' %}
 
 柯布西耶“尺度相当的居住单位”包含高度复杂的空间分配问题。通过整数规划驱动的模板拼贴实验模拟该设计问题的求解，从模数、层级、量形维度讨论整数规划程序与柯布西耶设计思想的关联性，进而窥探柯布西耶对数学工具的运用方式，发掘其中建筑师独有的价值。
 

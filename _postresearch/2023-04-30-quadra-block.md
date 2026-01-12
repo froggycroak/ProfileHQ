@@ -3,7 +3,7 @@ layout: research
 projid: R23-C01
 abbrev: QuadraBlock
 icon-image:
-featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample-16-10.jpg
+featured-image: http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R23-C01-QuadraBlock/featured.png
 
 title: 
 title-cn: 二次规划求解建筑群生成——以学生公寓为例

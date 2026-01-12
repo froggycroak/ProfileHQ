@@ -1,12 +1,12 @@
 {% assign citation = site.publications | where: "pub-id", include.key | first %}
 
-<div class="citation-bubble" href='{{citation.link}}'>
+<div class="citation-bubble">
     <div class="citation-icon">
         <a>
             <i class="fa-solid fa-book"></i>
         </a>
     </div>
     <div class="citation-content">
-        <a>{{citation.gbt}}</a>
+        <a href='{{citation.link}}' target="_blank">{{citation.gbt}}</a>
     </div>
 </div>

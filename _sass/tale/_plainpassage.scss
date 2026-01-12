@@ -37,4 +37,14 @@
         color: grey;
         text-decoration: none;
     }
+
+    &-boldlightlink {
+        font-weight: bold;
+        color: $midgrey;
+    }
+
+    &-boldlightlink:hover {
+        color: grey;
+        text-decoration: none;
+    }
 }

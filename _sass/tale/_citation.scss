@@ -25,9 +25,10 @@
 }
 
 .citation-icon {
-    font-size: 1.2em;
-    margin-right: 12px;
-    opacity: 0.7;
+    font-size: 1.5em;
+    margin-right: 18px;
+    margin-left: 6px;
+    opacity: 0.5;
 }
 
 .citation-content a {
@@ -39,6 +40,7 @@
 
 .citation-content a:hover {
     color: $default-shade;
+    text-decoration: none;
     /* 链接hover颜色 */
 }
 
