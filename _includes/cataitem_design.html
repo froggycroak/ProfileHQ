@@ -11,8 +11,11 @@
                 {{post.abbrev}}
             </h5>
             <p>
-                {{post.date | date: '%Y'}}
+                {{post.year}}
             </p>
+            {% if post.sticky == 'true' %}
+            <span class="catalogue-pinned">Pinned &middot;</span>
+            {% endif %}
         </div>
     </div>
 

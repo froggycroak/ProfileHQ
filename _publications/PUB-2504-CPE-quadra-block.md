@@ -1,5 +1,7 @@
 ---
 pub-id: PUB-2504-CPE
+paper-id: 
+attached-proj-abbrev: QuadraBlock
 pub-type: Conference Paper
 language: en
 gbt: 'HU Q, WANG Y, TANG P. Flexible Plot-Scale Urban Design Using Quadratic Programming[C]//CHAI H, BAO D W N, GUO Z, 等. Symbiotic Intelligence. Singapore: Springer Nature Singapore, 2025: 227-235.'
@@ -10,8 +12,6 @@ link: https://doi.org/10.1007/978-981-96-3433-0_20
 year: 2025
 month: 4
 day: 9
-
-
 
 title: 'Flexible Plot-scale Urban Design Using Quadratic Programming'
 title-cn: 

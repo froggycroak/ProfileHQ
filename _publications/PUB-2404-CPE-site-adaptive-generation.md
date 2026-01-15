@@ -1,5 +1,7 @@
 ---
 pub-id: PUB-2404-CPE
+paper-id: 
+attached-proj-abbrev: 
 pub-type: Conference Paper
 language: en
 gbt: Wang Y, Hu Q, Tang P, et al. URBAN SITE ADAPTIVE LAYOUT GENERATION:USER- CONFIGURABLE ALGORITHMS BASED ON MQP[C]//CAADRIA proceedings. Singapore, 2024. In Proceedings of the 29th CAADRIA Conference - Volume 2, Singapore, 20 April - 25 April 2024, pages 505–514

@@ -1,5 +1,6 @@
 ---
 pub-id: PUB-2402-JAC
+attached-proj-abbrev: UnitePacking
 pub-type: Journal Article
 language: ch
 gbt: 胡潜,唐芃. 模数、层级、量形——整数规划视角下再话柯布西耶“尺度相当的居住单位”[J]. 建筑学报,2024(2):016-021.
@@ -10,6 +11,9 @@ link: https://link.cnki.net/doi/10.19819/j.cnki.ISSN0529-1399.202402003
 year: 2024
 month: 2
 day: 20
+
+
+
 
 title: Modulor, Scale and Quantities - Rethinking Le Corbusier’s Unités d'Habitation de Grandeur Conforme from the Perspective of Integer Programming
 title-cn: 模数、层级、量形——整数规划视角下再话柯布西耶"尺度相当的居住单位"

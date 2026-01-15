@@ -1,6 +1,7 @@
 ---
 pub-id: PUB-2406-MTC
 pub-type: Master's Thesis
+attached-proj-abbrev: AlphaPlot
 language: ch
 gbt: 胡潜. 走道式组合主导的建筑体量集合生成研究--以高校生活区为例[D]. 江苏:东南大学,2024.
 mla:

@@ -2,17 +2,17 @@
 layout: default
 ---
 
-{% assign proj_count = site.postresearch | size %}
+<!-- {% assign proj_count = site.postresearch | size %}
 {% assign proj_index = 0 %}
 {% for proj in site.postresearch reversed %}
 {% assign proj_index = proj_index | plus: 1 %}
 {% if proj.url == page.url %}
 {% break %}
 {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- page {-previous} {-next} -->
-<div class="pagination">
+<!-- <div class="pagination">
   {% if page.next.url %}
   <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">
     <i class="fa-solid fa-arrow-left"></i>
@@ -28,40 +28,90 @@ layout: default
     <i class="fa-solid fa-arrow-right"></i>
   </a>
   {% endif %}
-</div>
+</div> -->
 
-<!-- title - info - content -->
-<div class="postpageresearch">
+{% assign sorted_posts = site.postresearch | sort: "year" | reverse %}
+{% assign proj_count = sorted_posts | size %}
+{% assign proj_index = 0 %}
+{% assign current_index = 0 %}
 
-  <!-- tags -->
-  <div class="research-tags">
-    {% for tag in page.tags-cn %}
-    <p>{{ tag }}</p>
-    {% endfor %}
-  </div>
+<!-- 遍历排序后的文章集合，找到当前文章的索引 -->
+{% for proj in sorted_posts %}
+{% assign proj_index = proj_index | plus: 1 %}
+{% if proj.url == page.url %}
+{% assign current_index = proj_index %}
+{% endif %}
+{% endfor %}
 
-  <!-- title -->
-  <h1 class="postpageresearch-title">{{ page.abbrev }}</h1>
-  <h2 class="postpageresearch-subtitle">{{ page.title-cn }}</h2>
+<!-- 基于当前索引获取上一篇（更旧）和下一篇（更新）文章 -->
+{% assign previous_post = nil %}
+{% assign next_post = nil %}
 
-  <!-- info grey -->
-  {% if page.team-cn and page.team-cn != "" %}
-  <div class="postpageresearch-info m-0">
-    <a class="in-text-icon">
-      <i class="fa-solid fa-user fa-fw"></i>
-    </a>
+{% if current_index > 1 %} {% assign previous_index=current_index | minus: 1 %} {% for proj in sorted_posts %} {% if
+forloop.index==previous_index %} {% assign previous_post=proj %} <!-- 下一篇：更新的文章（索引更小） -->
+{% endif %}
+{% endfor %}
+{% endif %}
 
-    团队 {{ page.team-cn | join: ", " }}
-  </div>
+{% if current_index < proj_count %} {% assign next_index=current_index | plus: 1 %} {% for proj in sorted_posts %} {% if
+  forloop.index==next_index %} {% assign next_post=proj %} <!-- 上一篇：更旧的文章（索引更大） -->
   {% endif %}
-  <div class="postpageresearch-info">
-    <a class="in-text-icon">
-      <i class="fa-solid fa-clock fa-fw"></i>
+  {% endfor %}
+  {% endif %}
+
+  <!-- 分页按钮 -->
+  <div class="pagination">
+    {% if previous_post %}
+    <a href="{{ previous_post.url | prepend: site.baseurl }}" class="left arrow">
+      <i class="fa-solid fa-arrow-left"></i> <!-- 指向更旧文章 -->
     </a>
-    时间 {{ page.date | date: "%Y" }}
+    {% endif %}
+
+    <div class="arrow">
+      {{ current_index }} of {{ proj_count }} <!-- 显示当前文章位置 -->
+    </div>
+
+    {% if next_post %}
+    <a href="{{ next_post.url | prepend: site.baseurl }}" class="right arrow">
+      <i class="fa-solid fa-arrow-right"></i> <!-- 指向更新文章 -->
+    </a>
+    {% endif %}
   </div>
 
-  <!-- main-content -->
-  {{ content }}
 
-</div>
+
+  <!-- title - info - content -->
+  <div class="postpageresearch">
+
+    <!-- tags -->
+    <div class="research-tags">
+      {% for tag in page.tags-cn %}
+      <p>{{ tag }}</p>
+      {% endfor %}
+    </div>
+
+    <!-- title -->
+    <h1 class="postpageresearch-title">{{ page.abbrev }}</h1>
+    <h2 class="postpageresearch-subtitle">{{ page.title-cn }}</h2>
+
+    <!-- info grey -->
+    {% if page.team-cn and page.team-cn != "" %}
+    <div class="postpageresearch-info m-0">
+      <a class="in-text-icon">
+        <i class="fa-solid fa-user fa-fw"></i>
+      </a>
+
+      团队 {{ page.team-cn | join: ", " }}
+    </div>
+    {% endif %}
+    <div class="postpageresearch-info">
+      <a class="in-text-icon">
+        <i class="fa-solid fa-clock fa-fw"></i>
+      </a>
+      时间 {{ page.year }}
+    </div>
+
+    <!-- main-content -->
+    {{ content }}
+
+  </div>

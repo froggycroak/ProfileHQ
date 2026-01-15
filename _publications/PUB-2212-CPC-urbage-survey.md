@@ -1,5 +1,7 @@
 ---
 pub-id: PUB-2212-CPC
+paper-id: 
+attached-proj-abbrev: UrbageSurvey
 pub-type: Conference Paper
 language: en
 gbt: 胡潜,唐芃. 基于网络信息平台的历史地段数据收集方法研究[C]. //2022全国建筑院系建筑数字技术教学与研究学术研讨会论文集. 2022:476-480.
@@ -10,6 +12,7 @@ link: https://link.cnki.net/doi/10.26914/c.cnkihy.2022.052061
 year: 2022
 month: 12
 day: 1
+
 
 title: Research on Data Collecting Method of Historical Area Based on Online Information Platform
 title-cn: 基于网络信息平台的历史地段数据收集方法研究

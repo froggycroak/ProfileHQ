@@ -4,14 +4,17 @@ projid: R23-C01
 abbrev: QuadraBlock
 icon-image:
 featured-image: http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R23-C01-QuadraBlock/featured.png
+year: 2023
 
-title: 
+
+
+title: Flexible Plot-Scale Urban Design Using Quadratic Programming
 title-cn: 二次规划求解建筑群生成——以学生公寓为例
 team: [ HU Qian, WANG Yujiao, TANG Peng* ]
 team-cn: [ 胡潜, 汪瑜娇, 唐芃* ]
 
 tags:
-tags-cn: [ 主要负责, 建筑群生成, 二次规划 ]
+tags-cn: [ 主导, 建筑群生成, 二次规划 ]
 
 
 
@@ -21,7 +24,7 @@ location-cn:
 
 {% include link_citation.html key="PUB-2504-CPE" %}
 
-
+---
 
 
 **Abstract**

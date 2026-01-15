@@ -18,7 +18,9 @@
     <div class="research-content">
       <h2 class="research-title">{{ post.abbrev}}</h2>
       {% if post.subtitle or post.title-cn %}
+      <p class="research-subtitle2">{{ post.title}}</p>
       <p class="research-subtitle">{{ post.title-cn }}</p>
+
       {% endif %}
       <div class="research-meta">
         {% if include.sticky == 'true' %}

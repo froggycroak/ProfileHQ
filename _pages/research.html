@@ -8,10 +8,13 @@ permalink: /research/
 <h1 class="subpage-title" align="center">- {{page.title-cn}} -</h1>
 <!-- <div class="post-line"></div> -->
 
+
+
 <div class="catalogue">
     {% assign current_year = nil %}
-    {% for post in site.postresearch reversed %}
-    {%- assign publication_year = post.date | date: "%Y" -%}
+    {% assign sorted_posts = site.postresearch | sort: "year" | reverse %}
+    {% for post in sorted_posts %}
+    {%- assign publication_year = post.year -%}
     {% if current_year != publication_year %}
     {% assign current_year = publication_year %}
     <div class="col-12 p-0">
@@ -20,6 +23,6 @@ permalink: /research/
     <hr style="margin: 0">
     {% endif %}
     {% assign pub_index = pub_index | plus: 1 %}
-    {% include postitem_research.html %}
+    {% include cataitem_research.html %}
     {% endfor %}
 </div>
