@@ -73,3 +73,13 @@
     width: 2rem;
   }
 }
+
+.cataloguepage-title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  color: $default-shade;
+  display: block;
+  font-family: $sans-serif;
+  margin: .5rem 0;
+}

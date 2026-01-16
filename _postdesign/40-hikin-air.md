@@ -7,7 +7,7 @@ featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imgh
 year: 2020
 
 title: Hike in the Air
-title-cn: 雷军科技大厦:高层建筑综合设计
+title-cn: '雷军科技大厦: 高层建筑综合设计'
 subtitle: 
 subtitle-cn: 
 team: [ HU Qian ]

@@ -49,7 +49,7 @@
   font-size: 14px;
   opacity: 0.7;
   transition: opacity 0.3s;
-  font-style: italic;
+  // font-style: italic;
   display: flex;
 }
 
@@ -61,20 +61,20 @@
 .project-grid-info h6,
 .project-grid-info h5,
 .project-grid-info h4 {
-  margin: 0;
+  margin: 0 0 2px 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .project-grid-info p {
   margin: 0;
   color: #fff;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .project-grid-info svg {
-  margin: 0 0.6rem 0 0;
+  margin: .15rem .6rem 0 0;
   fill: #ffffffd5;
   width: 35px;
   height: 35px;

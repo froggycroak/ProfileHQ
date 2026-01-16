@@ -3,6 +3,7 @@ layout: post
 title: "Example Content"
 author: "Chester"
 tags: Example
+type-cn: Example
 excerpt_separator: <!--more-->
 ---
 

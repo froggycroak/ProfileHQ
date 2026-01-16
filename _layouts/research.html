@@ -2,38 +2,23 @@
 layout: default
 ---
 
-<!-- {% assign proj_count = site.postresearch | size %}
-{% assign proj_index = 0 %}
-{% for proj in site.postresearch reversed %}
-{% assign proj_index = proj_index | plus: 1 %}
-{% if proj.url == page.url %}
-{% break %}
-{% endif %}
-{% endfor %} -->
 
-<!-- page {-previous} {-next} -->
-<!-- <div class="pagination">
-  {% if page.next.url %}
-  <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">
-    <i class="fa-solid fa-arrow-left"></i>
-  </a>
-  {% endif %}
-
-  <div class="arrow">
-    {{proj_index}} of {{proj_count}}
-  </div>
-
-  {% if page.previous.url %}
-  <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">
-    <i class="fa-solid fa-arrow-right"></i>
-  </a>
-  {% endif %}
-</div> -->
-
-{% assign sorted_posts = site.postresearch | sort: "year" | reverse %}
+<!-- 创建多层级集合 -->
+{% assign sorted_posts = site.postresearch | sort: "sort-year" | reverse %}
 {% assign proj_count = sorted_posts | size %}
 {% assign proj_index = 0 %}
 {% assign current_index = 0 %}
+
+{% assign sorted_posts = "" | split: "" %}
+
+{% assign posts_grouped_by_year = site.postresearch | group_by: "sort-year" %}
+{% assign sorted_groups = posts_grouped_by_year | sort: "name" | reverse %}
+
+{% for year_group in sorted_groups %}
+{% assign sorted_posts_in_group = year_group.items | sort: "sort-order" %}
+{% assign sorted_posts = sorted_posts | concat: sorted_posts_in_group %}
+{% endfor %}
+
 
 <!-- 遍历排序后的文章集合，找到当前文章的索引 -->
 {% for proj in sorted_posts %}
@@ -108,10 +93,50 @@ forloop.index==previous_index %} {% assign previous_post=proj %} <!-- 下一篇�
       <a class="in-text-icon">
         <i class="fa-solid fa-clock fa-fw"></i>
       </a>
-      时间 {{ page.year }}
+      时间 {{ page.sort-year }}
     </div>
 
     <!-- main-content -->
     {{ content }}
 
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- {% assign proj_count = site.postresearch | size %}
+{% assign proj_index = 0 %}
+{% for proj in site.postresearch reversed %}
+{% assign proj_index = proj_index | plus: 1 %}
+{% if proj.url == page.url %}
+{% break %}
+{% endif %}
+{% endfor %} -->
+
+  <!-- page {-previous} {-next} -->
+  <!-- <div class="pagination">
+  {% if page.next.url %}
+  <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">
+    <i class="fa-solid fa-arrow-left"></i>
+  </a>
+  {% endif %}
+
+  <div class="arrow">
+    {{proj_index}} of {{proj_count}}
+  </div>
+
+  {% if page.previous.url %}
+  <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">
+    <i class="fa-solid fa-arrow-right"></i>
+  </a>
+  {% endif %}
+</div> -->

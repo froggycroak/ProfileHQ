@@ -144,6 +144,7 @@ $research-image-size-mobile: 180px !default;
 }
 
 .research-line {
+    border-top: 0.15rem solid $default-shade;
     height: 2px;
     background-color: $research-line-color;
     width: 2rem;

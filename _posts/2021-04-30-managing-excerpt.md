@@ -3,6 +3,7 @@ layout: post
 title: "Managing Excerpt"
 author: "Chester"
 tags: Tutorial
+type-cn: Tutorial
 excerpt_separator: <!--more-->
 ---
 

@@ -39,12 +39,20 @@ layout: default
     <h2 class="postpagedesign-subtitle">{{ page.title-cn }}</h2>
     <!-- <h2 class="postpagedesign-subtitle">{{ page.subtitle-cn }}</h2> -->
 
-    <div class="postpagedesign-info m-0">
-      项目团队: {{ page.team-cn | join: ", " }}
-    </div>
+    {% if page.team-cn and page.team-cn != "" %}
+    <div class="postpageresearch-info m-0">
+      <!-- <a class="in-text-icon">
+        <i class="fa-solid fa-user fa-fw"></i>
+      </a> -->
 
-    <div class="postpagedesign-info">
-      完成时间: {{ page.date | date: "%Y" }}
+      团队 {{ page.team-cn | join: ", " }}
+    </div>
+    {% endif %}
+    <div class="postpageresearch-info">
+      <!-- <a class="in-text-icon">
+        <i class="fa-solid fa-clock fa-fw"></i>
+      </a> -->
+      时间 {{ page.year }}
     </div>
   </div>
 

@@ -5,16 +5,22 @@ title-cn: "研究 · 开发"
 permalink: /research/
 ---
 <br>
-<h1 class="subpage-title" align="center">- {{page.title-cn}} -</h1>
+<h1 class="cataloguepage-title" align="center">- {{page.title-cn}} -</h1>
 <!-- <div class="post-line"></div> -->
 
 
 
 <div class="catalogue">
+
     {% assign current_year = nil %}
-    {% assign sorted_posts = site.postresearch | sort: "year" | reverse %}
-    {% for post in sorted_posts %}
-    {%- assign publication_year = post.year -%}
+
+    {% assign posts_grouped_by_year = site.postresearch | group_by: "sort-year" %}
+    {% assign sorted_groups = posts_grouped_by_year | sort: "name" | reverse %}
+
+    {% for year_group in sorted_groups %}
+    {% assign sorted_posts_in_group = year_group.items | sort: "sort-order" %}
+    {% for post in sorted_posts_in_group %}
+    {%- assign publication_year = post.sort-year -%}
     {% if current_year != publication_year %}
     {% assign current_year = publication_year %}
     <div class="col-12 p-0">
@@ -24,5 +30,6 @@ permalink: /research/
     {% endif %}
     {% assign pub_index = pub_index | plus: 1 %}
     {% include cataitem_research.html %}
+    {% endfor %}
     {% endfor %}
 </div>
