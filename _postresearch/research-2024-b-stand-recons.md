@@ -6,7 +6,7 @@ icon-image:
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R24-D01-StandRecons/featured.png
 sort-year: 2024
 sort-order: 2
-
+permalink: /hello/
 
 
 title: Image-based 3D Reconstruction of Stadium Bowls

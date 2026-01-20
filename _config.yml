@@ -56,7 +56,12 @@ collections:
     permalink: /publications/:name
   postdesign:
     output: true
-    permalink: /design/:name
+    permalink: /design/:title
   postresearch:
     output: true
-    permalink: /research/:name
+    permalink: /research/:title
+
+# seo:
+#   title_separator: " | "
+#   title: "{{ page.abbrev | default: page.title | default: site.title }}{{ site.title_separator }}{{ site.title }}"
+

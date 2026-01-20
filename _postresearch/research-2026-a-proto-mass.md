@@ -10,7 +10,7 @@ sort-order: 1
 title: Exploring Architectural Design with Digital Ptototypes of Building Volume
 title-cn: 面向原创设计的建筑体量原型智能演绎工具
 tags: [ ]
-tags-cn: [ 主导, AI, 原创建筑设计, 进行中... ]
+tags-cn: [ 进行中...,  主导, AI, 原创建筑设计]
 team: [ SSTD-DTA, ECADI-CC ]
 team-cn: [ 华建科技数字化所, 华东院创作中心 ]
 ---

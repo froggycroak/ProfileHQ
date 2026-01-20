@@ -1,7 +1,18 @@
 <div class="figure-full">
+
+    {% if include.link-jump %}
+    <a class="figure-full-link" href="{{ include.link-jump }}">
+        <img src="{{ include.link }}" alt="点击跳转">
+    </a>
+    <p>
+        <i class="fa-solid fa-caret-up"></i>
+        {{ include.note }} (点击图片跳转)
+    </p>
+    {% else %}
     <img src="{{ include.link }}" alt="">
     <p>
         <i class="fa-solid fa-caret-up"></i>
         {{ include.note }}
     </p>
+    {% endif %}
 </div>

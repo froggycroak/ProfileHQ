@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<head>
+  <title>{{ page.abbrev }} | {{ site.title }}</title>
+</head>
+
 {% assign proj_count = site.postdesign | size %}
 {% assign proj_index = 0 %}
 {% for proj in site.postdesign reversed %}

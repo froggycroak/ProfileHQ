@@ -2,6 +2,8 @@
 
     margin: 1rem 0 1.5rem 0;
 
+
+
     img {
         margin: 0 0 0 0;
         padding: 0 0 0 0;
@@ -17,5 +19,27 @@
     p i {
         color: $default-tint;
         margin: 0 0 0 0;
+    }
+
+    a.figure-full-link {
+        display: block;
+        overflow: hidden; // 防止放大时内容溢出
+        transition: transform 0.8s ease;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: transform 0.8s ease; // 与容器同步过渡
+        }
+
+        &:hover {
+
+
+            img {
+                transform: scale(1.12);
+                // transform: scale(1); // 保持原比例，让容器控制缩放
+            }
+        }
     }
 }

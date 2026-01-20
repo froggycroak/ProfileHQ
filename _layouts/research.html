@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<head>
+  <title>{{ page.abbrev }} | {{ site.title }}</title>
+</head>
 
 <!-- 创建多层级集合 -->
 {% assign sorted_posts = site.postresearch | sort: "sort-year" | reverse %}
