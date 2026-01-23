@@ -7,6 +7,10 @@
         text-decoration: none;
     }
 
+    div a {
+        color: $default-shade;
+    }
+
     &-bold {
         font-weight: bold;
         color: $default-shade;
@@ -22,7 +26,7 @@
     }
 
     &-link:hover {
-        color: grey;
+        color: $link-hover;
         text-decoration: none;
     }
 
@@ -34,7 +38,7 @@
 
     &-boldlink:hover {
         // font-size: large;
-        color: grey;
+        color: $link-hover;
         text-decoration: none;
     }
 
@@ -44,7 +48,7 @@
     }
 
     &-boldlightlink:hover {
-        color: grey;
+        color: $link-hover;
         text-decoration: none;
     }
 }

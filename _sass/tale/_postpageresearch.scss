@@ -82,7 +82,7 @@
         @include transition(all .3s ease-out);
 
         &:hover {
-            color: $primary !important;
+            color: $link-hover !important;
         }
     }
 

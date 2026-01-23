@@ -98,4 +98,24 @@ footer {
     color: $default-color;
     font-size: .8rem;
   }
+
+
+}
+
+.footer-nav1 {
+  a {
+    color: $default-tint;
+  }
+
+  a:hover {
+    text-decoration: none;
+    // font-weight: 600;
+    color: $link-hover;
+  }
+}
+
+.footer-info {
+  span {
+    color: $default-tint;
+  }
 }

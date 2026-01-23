@@ -30,11 +30,13 @@ type3-cn:
 The project involves designing a moon gate, which is a common element in Chinese gardens, for a small exhibition hall that showcases local agriculture. I am responsible for its panel design. The town mayor has requested that the panels of the moon gate depict representational patterns of swimming fish to reflect the local agricultural characteristics. To achieve this, a multi-agent system is used to represent the shoal of fish, with individuals in the system changing their positions, speeds, shapes and directions according to rules including distance, cohesion and alignment. The key step is to capture a moment when over 200 fish swim vividly around the doorway, which is then recorded as JSON files and transferred to DXF files for laser engraving machines. The panels are processed in a metalwork factory and assembled on the construction site.
 The project shows the imitative ability of a MAS and the power of the workflow of automatically generating patterns and DXF files for laser engraving machines, which allows for facade variation without extensive manual drawing in AutoCAD.
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D22-P02-FishFlow/from-living.jpg" note="生物形象-简笔绘画-金属余料" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D22-P02-FishFlow/from-moongate.jpg" note="群体组织-拱门意象-鱼群模拟" %}
+
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D22-P02-FishFlow/from-living.jpg" note="生物形象-简笔绘画-金属切割" %}
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D22-P02-FishFlow/facade-construction.jpg" note="立面造型-面板细节-工厂建造" %}
 
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D22-P02-FishFlow/building-view.jpg" note="农业科技展示馆建筑总体形象" %}
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D22-P02-FishFlow/six-shots.jpg" note="程序截图与创意联想" %}
+<!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D22-P02-FishFlow/six-shots.jpg" note="程序截图与创意联想" %} -->
