@@ -7,49 +7,73 @@
         text-decoration: none;
     }
 
+    a {
+        color: $default-shade;
+    }
+
     div a {
         color: $default-shade;
     }
 
+    &-title {
+        font-weight: 600;
+        color: $default-tint !important;
+        margin: 1rem 0 !important;
+        align-content: center;
+
+        &:hover {
+            color: $default-tint !important;
+            text-decoration: none;
+        }
+    }
+
+
+
     &-bold {
         font-weight: bold;
         color: $default-shade;
+
+        &:hover {
+            color: $default-shade;
+            text-decoration: none;
+        }
     }
 
-    &-bold:hover {
-        color: $default-shade;
-        text-decoration: none;
-    }
+
 
     &-link {
         color: $default-shade;
+
+        &:hover {
+            color: $link-hover;
+            text-decoration: none;
+        }
     }
 
-    &-link:hover {
-        color: $link-hover;
-        text-decoration: none;
-    }
+
 
     &-boldlink {
 
         font-weight: bold;
         color: $default-shade;
+
+        &:hover {
+            // font-size: large;
+            color: $link-hover;
+            text-decoration: none;
+        }
     }
 
-    &-boldlink:hover {
-        // font-size: large;
-        color: $link-hover;
-        text-decoration: none;
-    }
+
 
     &-boldlightlink {
         font-weight: bold;
         color: $midgrey;
-    }
 
-    &-boldlightlink:hover {
-        color: $link-hover;
-        text-decoration: none;
+        &:hover {
+            color: $link-hover;
+            text-decoration: none;
+        }
     }
 }
 
@@ -67,4 +91,22 @@
 
 .figure-note {
     color: $midgrey;
+}
+
+.year-heading {
+    color: gray;
+}
+
+.chapter-heading {
+    color: grey;
+    margin-top: 1.5rem !important;
+    margin-bottom: .25rem !important;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.subpassage {
+    margin: 0.7rem 0;
 }

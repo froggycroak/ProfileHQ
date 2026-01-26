@@ -13,7 +13,7 @@ team: [ HU Qian, TANG Peng* ]
 team-cn: [ 胡潜, 李金泽, 李帅, 唐芃* ]
 
 tags:
-tags-cn: [ 主导, 城镇更新, Web ]
+tags-cn: [ 主导, 城镇更新, WebGIS ]
 
 
 

@@ -15,7 +15,6 @@ team: [ SSTD-DTA, ECADI-CC ]
 team-cn: [ 华建科技数字化所, 华东院创作中心 ]
 ---
 
-`ONGOING`
 
 ---
 

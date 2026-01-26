@@ -10,6 +10,8 @@ permalink: /about/
 <!-- <h1 class="subpage-title" align="center">- {{page.title-cn}} -</h1> -->
 
 
+{% assign UrbageSurvey = site.postresearch | where: "abbrev", "UrbageSurvey" | first %}
+
 
 <article class="post">
     <div class="resume-content">
@@ -54,56 +56,70 @@ permalink: /about/
         <!-- 工作经历 -->
         <section>
             <div class="col-12 p-0">
-                <h5 class="year-heading mt-4 mb-1" style="color: gray; ">工作经历 Working</h5>
+                <h5 class="chapter-heading mt-4 mb-1"">工作经历 Working</h5>
             </div>
-            <hr style="margin: 0">
-            <br>
+            <hr style=" margin: 0">
 
-            <!-- 华建科技 -->
-            <div style="display: flex; justify-content: space-between;">
-                <span>
-                    <a class='plainpassage-boldlink' href="http://www.arcplus.com.cn/">华东建筑集团</a>-<a
-                        class='plainpassage-boldlink'
-                        href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">上海科技发展分公司</a>
-                    [算法工程师]
-                </span>
-                <span>2024.7 - 至今</span>
-            </div>
-            Arcplus PLC Group - SSTD [Researcher]
-            <br>- 体育建筑系列开发:
-            <br>- 科研课题:
 
-            <!-- 东大院 -->
-            <div style="display: flex; justify-content: space-between;">
-                <span>
-                    <a class='plainpassage-boldlink' href="https://adri.seu.edu.cn/">东南大学建筑设计研究院</a>
-                    [实习生]
-                </span>
-                <span>2022.9 - 2023.3</span>
-            </div>
-            Architectural Enterprise of Southeast University - AESEU [Intern Researcher]
-            <br>- 研发项目:<a href="">大学城量形互动布局生成</a>, 获专利2项, ;
-            <br>- 数控建造项目: <a href="">莲花荡农业展馆</a>
-            <br>- 小城镇更新项目: 参与<a href="">丁蜀镇城市设计</a>; <a>丁蜀镇古南街单体建筑设计</a>;
-            <!-- 浙江省院 -->
-            <div style="display: flex; justify-content: space-between;">
-                <span>
-                    <a class='plainpassage-boldlink' href="https://adri.seu.edu.cn/">浙江大学建筑设计研究院</a>
-                    [实习生]
-                </span>
-                <span>2020.06 - 2020.08</span>
-            </div>
-            xx - ZIAD [Intern Architect]
+                    <!-- 华建科技 -->
+                    <div class="subpassage">
+                        <div style="display: flex; justify-content: space-between;">
+                            <span>
+                                <a class='plainpassage-boldlink' href="http://www.arcplus.com.cn/">华东建筑集团</a>-<a
+                                    class='plainpassage-boldlink'
+                                    href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">上海科技发展分公司</a>
+                                [研发岗]
+                            </span>
+                            <span>2024.7 - 至今</span>
+                        </div>
 
-            <!-- 浙江天然 -->
-            <div style="display: flex; justify-content: space-between;">
-                <span>
-                    <a class='plainpassage-boldlink' href="https://adri.seu.edu.cn/">浙江天然建筑设计集团</a>
-                    [实习生]
-                </span>
-                <span>2018.07-2018.08</span>
-            </div>
-            xx - ？ [Intern Architect]
+                        Arcplus PLC Group - SSTD [Researcher]
+                        <br>- 开发项目: 体育建筑智能设计助手:
+                        <br>- 科研课题: 面向原创设计的建筑体量原型智能演绎工具
+                    </div>
+
+                    <!-- 东大院 -->
+                    <div class="subpassage">
+                        <div style="display: flex; justify-content: space-between;">
+                            <span>
+                                <a class='plainpassage-boldlink' href="https://adri.seu.edu.cn/">东南大学建筑设计研究院</a>
+                                [实习生]
+                            </span>
+                            <span>2022.9 - 2023.3</span>
+                        </div>
+                        Architectural Enterprise of Southeast University - AESEU [Intern Researcher]
+                        <br>- 参与科研项目<a class="plainpassage-link" href="">大学城量形互动布局生成</a>, 获专利2项, 软著1项;
+                        <br>- 数控建造项目: <a class="plainpassage-link" href="">莲花荡农业展馆</a> 门圈数控建造设计; 建筑总体施工图绘制;
+                        <br>- 参与小城镇更新项目<a class="plainpassage-link"
+                            href="{{UrbageSurvey.url | prepend: site.baseurl}}">丁蜀镇城市设计</a>;
+                        <a class="plainpassage-link" href="">丁蜀镇古南街单体建筑设计</a>;
+                    </div>
+
+
+                    <!-- 浙江省院 -->
+                    <div class="subpassage">
+                        <div style="display: flex; justify-content: space-between;">
+                            <span>
+                                <a class='plainpassage-boldlink' href="https://www.ziad.cn/">浙江省建筑设计研究院</a>
+                                [实习生]
+                            </span>
+                            <span>2020.06 - 2020.08</span>
+                        </div>
+                        xx - ZIAD [Intern Architect]
+                    </div>
+
+                    <!-- 浙江天然 -->
+                    <div class="subpassage">
+                        <div style="display: flex; justify-content: space-between;">
+                            <span>
+                                <a class='plainpassage-boldlink'
+                                    href="http://www.zjtianran.com/index.aspx">浙江天然建筑设计集团</a>
+                                [实习生]
+                            </span>
+                            <span>2018.07-2018.08</span>
+                        </div>
+                        xx - ? [Intern Architect]
+                    </div>
 
         </section>
 
@@ -123,8 +139,8 @@ permalink: /about/
                 </span>
                 <span>2021.09 - 2024.06</span>
             </div>
-            GPA 3.83/4 | 排名 26/108
-            <br>
+            <p>GPA 3.83/4 | 排名 26/108</p>
+
             <div style="display: flex; justify-content: space-between;">
                 <span>
                     <a class="plainpassage-boldlink" href="https://www.whu.edu.cn/">武汉大学</a> -
@@ -134,7 +150,7 @@ permalink: /about/
                 </span>
                 <span>2016.09 - 2021.06</span>
             </div>
-            GPA 3.85/4 | 排名 3/50
+            <p>GPA 3.85/4 | 排名 3/50</p>
         </section>
 
         <!-- 技术能力 -->
@@ -143,12 +159,15 @@ permalink: /about/
                 <h5 class="year-heading mt-4 mb-1" style="color: gray; ">技术能力 Skills</h5>
             </div>
             <hr style="margin: 0">
-            <br><strong>程序 </strong>
-            <br>- 熟练使用C#/Python/Java等常用编程语言;
-            <br>- 熟悉计算几何方法,有自主开发的工具库;熟悉优化类工具;
-            <br>- 熟悉Rhino系列的开发(plugin/inside/compute等);
+            <div class="subpassage">
+                <br><strong>程序 </strong>
+                <br>- 熟练使用C#/Python/Java等常用编程语言;
+                <br>- 熟悉计算几何方法,有自主开发的工具库;熟悉优化类工具;
+                <br>- 熟悉Rhino系列的开发(plugin/inside/compute等);
+            </div>
             <br><strong>工具 </strong>
             <br><strong>语言 </strong>
+
         </section>
 
         <!-- 发表情况 -->

@@ -74,7 +74,7 @@ forloop.index==previous_index %} {% assign previous_post=proj %} <!-- 下一篇�
     <!-- tags -->
     <div class="research-tags">
       {% for tag in page.tags-cn %}
-      <p>{{ tag }}</p>
+      <p tag-content="{{ tag }}">{{ tag }}</p>
       {% endfor %}
     </div>
 
