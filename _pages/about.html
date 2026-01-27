@@ -125,91 +125,99 @@ permalink: /about/
 
         <!-- 教育背景 -->
         <section>
+
             <div class="col-12 p-0">
-                <h5 class="year-heading mt-4 mb-1" style="color: gray; ">教育背景 Education</h5>
+                <h5 class="chapter-heading mt-4 mb-1" style="color: gray; ">教育背景 Education</h5>
             </div>
             <hr style="margin: 0">
-            <br>
-            <div style="display: flex; justify-content: space-between;">
-                <span>
-                    <!-- <a class="plainpassage-boldlink" href="https://www.seu.edu.cn/"></a> - -->
-                    <a class="plainpassage-boldlink" href="https://arch.seu.edu.cn/">东南大学建筑学院</a> -
-                    <a class="plainpassage-boldlink" href="https://archialgo.com/">建筑运算与应用研究所</a>
-                    [建筑设计及其理论 硕士]
-                </span>
-                <span>2021.09 - 2024.06</span>
+            <div class="subpassage">
+                <div style="display: flex; justify-content: space-between;">
+                    <span>
+                        <!-- <a class="plainpassage-boldlink" href="https://www.seu.edu.cn/"></a> - -->
+                        <a class="plainpassage-boldlink" href="https://arch.seu.edu.cn/">东南大学建筑学院</a> -
+                        <a class="plainpassage-boldlink" href="https://archialgo.com/">建筑运算与应用研究所</a>
+                        [建筑设计及其理论 硕士]
+                    </span>
+                    <span>2021.09 - 2024.06</span>
+                </div>
+                <p>GPA 3.83/4 | 排名 26/108</p>
             </div>
-            <p>GPA 3.83/4 | 排名 26/108</p>
-
-            <div style="display: flex; justify-content: space-between;">
-                <span>
-                    <a class="plainpassage-boldlink" href="https://www.whu.edu.cn/">武汉大学</a> -
-                    <a class="plainpassage-boldlink" href="https://sud.whu.edu.cn/">城市设计学院</a> -
-                    <a class="plainpassage-boldlink">建筑系</a>
-                    [建筑学 学士]
-                </span>
-                <span>2016.09 - 2021.06</span>
+            <div class="subpassage">
+                <div style="display: flex; justify-content: space-between;">
+                    <span>
+                        <a class="plainpassage-boldlink" href="https://www.whu.edu.cn/">武汉大学</a> -
+                        <a class="plainpassage-boldlink" href="https://sud.whu.edu.cn/">城市设计学院</a> -
+                        <a class="plainpassage-boldlink">建筑系</a>
+                        [建筑学 学士]
+                    </span>
+                    <span>2016.09 - 2021.06</span>
+                </div>
+                <p>GPA 3.85/4 | 排名 3/50</p>
             </div>
-            <p>GPA 3.85/4 | 排名 3/50</p>
         </section>
 
         <!-- 技术能力 -->
         <section>
             <div class="col-12 p-0">
-                <h5 class="year-heading mt-4 mb-1" style="color: gray; ">技术能力 Skills</h5>
+                <h5 class="chapter-heading mt-4 mb-1" style="color: gray; ">技术能力 Skills</h5>
             </div>
             <hr style="margin: 0">
             <div class="subpassage">
-                <br><strong>程序 </strong>
+                <strong>程序 </strong>
                 <br>- 熟练使用C#/Python/Java等常用编程语言;
                 <br>- 熟悉计算几何方法,有自主开发的工具库;熟悉优化类工具;
                 <br>- 熟悉Rhino系列的开发(plugin/inside/compute等);
             </div>
-            <br><strong>工具 </strong>
-            <br><strong>语言 </strong>
+            <div class="subpassage"><strong>工具 </strong></div>
+            <div class="subpassage"><strong>语言 </strong></div>
 
         </section>
 
         <!-- 发表情况 -->
         <section class="plainpassage">
             <div class="col-12 p-0">
-                <h5 class="year-heading mt-4 mb-1" style="color: gray; ">论文发表 Publications</h5>
+                <h5 class="chapter-heading mt-4 mb-1" style="color: gray; ">论文发表 Publications</h5>
             </div>
             <hr style="margin: 0">
 
-            <br><strong>学位 Thesis</strong>
-            {% include link_citation.html key="PUB-2406-MTC" %}
+            <div class="subpassage"><strong>学位 Thesis</strong>
+                {% include link_citation.html key="PUB-2406-MTC" %}
+            </div>
+            <div class="subpassage"><strong>期刊 Journal</strong>
+                {% include link_citation.html key="PUB-2402-JAC" %}
+            </div>
 
-            <strong>期刊 Journal</strong>
-            {% include link_citation.html key="PUB-2402-JAC" %}
-
-            <strong>会议 Conference</strong>
-            {% include link_citation.html key="PUB-2504-CPE" %}
-            {% include link_citation.html key="PUB-2404-CPE" %}
-            {% include link_citation.html key="PUB-2212-CPC" %}
+            <div class="subpassage"><strong>会议 Conference</strong>
+                {% include link_citation.html key="PUB-2504-CPE" %}
+                {% include link_citation.html key="PUB-2404-CPE" %}
+                {% include link_citation.html key="PUB-2212-CPC" %}
+            </div>
         </section>
 
 
         <section class="plainpassage">
             <div class="col-12 p-0">
-                <h5 class="year-heading mt-4 mb-1" style="color: gray; ">知识产权 Copyright</h5>
+                <h5 class="chapter-heading mt-4 mb-1" style="color: gray; ">知识产权 Copyright</h5>
             </div>
             <hr style="margin: 0">
-            <br><strong>发明专利 Patent</strong>
-            {% include link_citation_pre.html content="高校校园规划设计中量性形统筹的数字化生成方法:CN202311191285.7[P].2024-08-09." %}
-            {% include link_citation_pre.html content="高校校园规划设计中面积分配与分区测算的数字化方法:CN202310878488.7[P]. 2024-09-06." %}
-            {% include link_citation_pre.html content="体育场馆建筑看台碗设计中关键设计参数配置的数字化方法(受理)." %}
-            {% include link_citation_pre.html content="基于视觉语言模型自进化的建筑体量原型生成与优化方法、系统和应用(受理)." %}
+            <div class="subpassage">
+                <strong>发明专利 Patent</strong>
+                {% include link_citation_pre.html content="高校校园规划设计中量性形统筹的数字化生成方法:CN202311191285.7[P].2024-08-09." %}
+                {% include link_citation_pre.html content="高校校园规划设计中面积分配与分区测算的数字化方法:CN202310878488.7[P]. 2024-09-06." %}
+                {% include link_citation_pre.html content="体育场馆建筑看台碗设计中关键设计参数配置的数字化方法(受理)." %}
+                {% include link_citation_pre.html content="基于视觉语言模型自进化的建筑体量原型生成与优化方法、系统和应用(受理)." %}
+            </div>
 
-            <strong>软件著作权</strong>
-            {% include link_citation_pre.html content="高校校园规划指标计算与分区分配软件" %}
-            {% include link_citation_pre.html content="体育场馆内场设计参数智能调配系统" %}
-            {% include link_citation_pre.html content="体育场馆内场看台智能分析系统" %}
-            {% include link_citation_pre.html content="体育场馆内场看台智能建模系统" %}
-            {% include link_citation_pre.html content="体育场馆案例检索与前期策划平台" %}
-            {% include link_citation_pre.html content="体育场馆设计智能问答平台" %}
-            {% include link_citation_pre.html content="体育建筑看台碗实景图片几何信息提取与智能建模系统" %}
-
+            <div class="subpassage">
+                <strong>软件著作权</strong>
+                {% include link_citation_pre.html content="高校校园规划指标计算与分区分配软件" %}
+                {% include link_citation_pre.html content="体育场馆内场设计参数智能调配系统" %}
+                {% include link_citation_pre.html content="体育场馆内场看台智能分析系统" %}
+                {% include link_citation_pre.html content="体育场馆内场看台智能建模系统" %}
+                {% include link_citation_pre.html content="体育场馆案例检索与前期策划平台" %}
+                {% include link_citation_pre.html content="体育场馆设计智能问答平台" %}
+                {% include link_citation_pre.html content="体育建筑看台碗实景图片几何信息提取与智能建模系统" %}
+            </div>
 
         </section>
 
