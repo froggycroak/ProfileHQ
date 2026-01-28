@@ -105,8 +105,13 @@
     font-weight: 500;
     line-height: 1.2;
     font-style: italic;
+    text-align: center;
 }
 
 .subpassage {
     margin: 0.7rem 0;
+}
+
+.weakpassage {
+    color: $midgrey;
 }

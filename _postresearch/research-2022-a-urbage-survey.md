@@ -49,7 +49,7 @@ This study addresses manual data collection challenges in Chinese historic areas
 
 {% include figure_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/site.png" note="江苏省某城镇更新项目场地概况" %}
 
-在该技术框架的支持下，我们已完成对江苏省某小镇的历史遗址调查与区域更新设计。该项目聚焦一座小山上的复杂区域——因该区域被城市空间环绕，自身又呈现高密度村落特征，故可视为城中村。该城中村的保护与再生需开展详尽场地调查、整体规划、后续建筑设计，并兼顾遗产保护考量。为充分挖掘土地价值、提升居民生活质量，项目嵌入若干新功能，优化了路网与开放空间环境；同时提出多套建筑设计方案，涵盖部分旧建筑的保留与改造。设计有望激活该地区的不行交通和门店商业，同时让更多的市民欣赏到奇特的地形和山顶的风景。
+在该技术框架的支持下，我们已完成对江苏省某小镇的历史遗址调查与区域更新设计。该项目聚焦一座小山上的复杂区域——因该区域被城市空间环绕，自身又呈现高密度村落特征，可视为城中村。该城中村的保护与再生需开展详尽场地调查、整体规划、后续建筑设计，并兼顾遗产保护考量。为充分挖掘土地价值、提升居民生活质量，项目嵌入若干新功能，优化了路网与开放空间环境；同时提出多套建筑设计方案，涵盖部分旧建筑的保留与改造。设计有望激活该地区的不行交通和门店商业，同时让更多的市民欣赏到奇特的地形和山顶的风景。
 
 With the support of this technical framework, we have completed a historical site survey and area renewal design for a town in Jiangsu Province. It is a renewal design of a complex area on a small hill, which may be regarded as an urban village because the area is surrounded by urban space while itself is more like a high-density village. The conservation and regeneration of this urban village requires exhaustive site investigation, overall planning, further architectural design and consideration of heritage preservation. In order to fully develop land value and improve the life quality of vulnerable residents, several new functions were embed and the environment of road network and open spaces were bettered. Also, several schemes for architectural design were proposed, including preservation and renovation of some old buildings. The design might also activate the area and the eccentric terrain as well as the scenery on the top of the hill could be enjoyed by more citizens.
 

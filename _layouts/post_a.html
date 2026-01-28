@@ -15,17 +15,17 @@ layout: default
 
 
     <!-- title -->
-    <h1 class="postpageresearch-title">Hello</h1>
+    <h1 class="postpageresearch-title">{{ page.abbrev }}</h1>
     <h2 class="postpageresearch-subtitle">{{ page.title-cn }}</h2>
 
     <!-- info grey -->
-    {% if page.team-cn and page.team-cn != "" %}
+    {% if page.tags and page.tags != "" %}
     <div class="postpageresearch-info m-0">
         <a class="in-text-icon">
             <i class="fa-solid fa-user fa-fw"></i>
         </a>
 
-        类目 {{ page.type-cn }}
+        类目 {{ page.tags | join: ', ' }}
     </div>
     {% endif %}
     <div class="postpageresearch-info">

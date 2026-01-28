@@ -30,7 +30,7 @@ permalink: /more/
     {% for post in tag[1] %}
     <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
       <div>
-        <span class="tags-post-title">{{ post.title}} / {{ post.title-cn }}</span>
+        <span class="tags-post-title">- {{ post.abbrev}} / {{ post.title-cn }}</span>
         <div class="tags-post-line"></div>
       </div>
       <span class="tags-post-meta">
@@ -43,8 +43,9 @@ permalink: /more/
   </div>
   {% endfor %}
 </div>
-
-
+<br>
+<br>
+<br>
 <div>
   <a>
     <i class="fa-brands fa-sistrix"></i>

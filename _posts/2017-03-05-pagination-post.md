@@ -1,9 +1,12 @@
 ---
-layout: post
-title: "Pagination Post"
-author: "Chester"
-tags: Tale
-type-cn: Tale
+
+layout: post_a
+abbrev: ResearchMap
+tags: 测绘 
+comments: true
+
+title: English Title
+title-cn: 中文标题
 
 ---
 
