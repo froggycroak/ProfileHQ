@@ -12,7 +12,7 @@ title-cn: 后疫情时代的扁平化立体社区
 subtitle:
 subtitle-cn: 
 team: [ HU Qian, ZHANG Hanqing* ]
-team-cn: [ 胡潜, 张翰卿* ]
+team-cn: [ 胡潜, 张翰卿(指导) ]
 tags:
 tags-cn: [  ]
 

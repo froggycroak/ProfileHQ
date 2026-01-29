@@ -11,7 +11,7 @@ title-cn: '雷军科技大厦: 高层建筑综合设计'
 subtitle: 
 subtitle-cn: 
 team: [ HU Qian ]
-team-cn: [ 胡潜, 郭翔*, 兰兵*]
+team-cn: [ 胡潜, 郭翔(指导), 兰兵(指导)]
 location:
 sticky: true
 
@@ -47,7 +47,7 @@ type3-cn:
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/tectonic.png" note="构造剖透视" %}
 
 
-{% include figure_full.html url="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/perspective.png" alt="透视图" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/perspective.png" note="透视图" %}
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/floorplans.png" note="楼层平面图" %}
 

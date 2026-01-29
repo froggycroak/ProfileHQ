@@ -13,8 +13,8 @@ title:
 title-cn: 桂圆食堂综合体设计
 subtitle:
 subtitle-cn: 
-team: [ HU Qian, ZHANG Hanqing* ]
-team-cn: [ 胡潜, 兰兵* ]
+team: [ HU Qian]
+team-cn: [ 胡潜, 兰兵(指导) ]
 tags:
 tags-cn: [  ]
 
