@@ -1,10 +1,21 @@
 <a href="{{ post.url | relative_url }}" class="project-grid-item">
-    <img src="{{ post.featured-image }}" alt="">
+    <img src="{{ site.osshost-url }}design/imghost-{{ post.projid}}-{{post.abbrev}}/featured.jpg" alt="">
     <div class="project-grid-info">
         <div class="inline-block">
+
+            {% if post.icon-d=='png' %}
+            <div class="img-container" style="width: 35px; height: 35px;">
+
+                <img viewBox="0 0 40 40" style="width: 35px; height: 35px;"
+                    src="{{ site.osshost-url }}design/imghost-{{post.projid}}-{{post.abbrev}}/icon-white.png" alt="">
+            </div>
+            {% else %}
             <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="{{ post.icon-d }}" />
             </svg>
+            {% endif %}
+
+
         </div>
         <div class="inline-block">
             <h5>

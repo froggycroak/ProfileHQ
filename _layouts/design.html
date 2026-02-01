@@ -34,10 +34,16 @@ layout: default
 </div>
 
 <div class="postpagedesign">
-
+  {% if page.icon-d=='png' %}
+  <div>
+    <img class="img-container" viewBox="0 0 40 40" style="width: 60px; height: 60px;opacity: 0.3;"
+      src="{{ site.osshost-url }}design/imghost-{{page.projid}}-{{page.abbrev}}/icon-black.png" alt="">
+  </div>
+  {% else %}
   <svg width="60" height="60" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="{{ page.icon-d }}" fill="rgba(0,0,0,0.3)" />
   </svg>
+  {% endif %}
   <div class="postpagedesign-header">
     <h1 class="postpagedesign-title">{{ page.abbrev }}</h1>
     <h2 class="postpagedesign-subtitle">{{ page.title-cn }}</h2>

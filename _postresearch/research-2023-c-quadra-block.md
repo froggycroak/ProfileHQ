@@ -15,7 +15,7 @@ team: [ HU Qian, WANG Yujiao, TANG Peng* ]
 team-cn: [ 胡潜, 汪瑜娇, 唐芃* ]
 
 tags:
-tags-cn: [ 主导, 建筑群生成, 二次规划 ]
+tags-cn: [ 主导, 建筑群, 数学规划, 生成式设计 ]
 
 
 

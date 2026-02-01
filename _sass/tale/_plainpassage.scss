@@ -55,11 +55,11 @@
     &-boldlink {
 
         font-weight: bold;
-        color: $default-shade;
+        color: $default-shade !important;
 
         &:hover {
             // font-size: large;
-            color: $link-hover;
+            color: $link-hover !important;
             text-decoration: none;
         }
     }
@@ -99,13 +99,24 @@
 
 .chapter-heading {
     color: grey;
-    margin-top: 1.5rem !important;
-    margin-bottom: .25rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.2;
-    font-style: italic;
+    // font-style: italic;
     text-align: center;
+}
+
+.chapter-heading-left {
+    color: grey;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    // font-style: italic;
+    text-align: left;
 }
 
 .subpassage {

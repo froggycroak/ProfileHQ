@@ -8,7 +8,7 @@ year: 2018
 
 
 title: Beyond Pyramid
-title-cn: 在金字塔的一旁
+title-cn: 在金字塔的另一旁
 subtitle: 
 subtitle-cn: 武汉大学工学部教学区主广场设计
 team: [ HU Qian ]

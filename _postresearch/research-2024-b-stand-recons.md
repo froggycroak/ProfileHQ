@@ -12,7 +12,7 @@ permalink: /hello/
 title: Image-based 3D Reconstruction of Stadium Bowls
 title-cn: 基于实景图片的体育场馆看台碗三维重建
 tags: [ ]
-tags-cn: [ 主导, 三维重建, 体育建筑 ]
+tags-cn: [ 主导, 三维重建, 体育场馆 ]
 team: [ HU Qian, Henry LI ]
 team-cn: [ 胡潜, 李星桥 ]
 

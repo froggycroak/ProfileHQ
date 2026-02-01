@@ -3,7 +3,7 @@ layout: research
 projid: R22-C01
 abbrev: UnitéPacking
 icon-image:
-featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitePacking/featured.png
+featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitéPacking/featured.png
 sort-year: 2023
 sort-order: 2
 
@@ -15,7 +15,7 @@ team: [ HU Qian, TANG Peng* ]
 team-cn: [ 胡潜, 唐芃* ]
 
 tags:
-tags-cn: [ 主导, 建筑学报, 历史理论 ]
+tags-cn: [ 主导, 《建筑学报》, 生成式设计 ]
 
 
 
@@ -36,9 +36,9 @@ location-cn:
 
 The "Unités d'habitation de grandeur conforme" advocated by Le Corbusier involves the problem of spatial configuration of high complexity. This paper simulates the solution to this problem through a template collage experiment driven by integer programming, and explicates the relationship between integer programming and Le Corbusier's design ideas in terms of modular, scale and quantities, to shed lights on Le Corbusier's use of mathematics and discover the unique value of architects.
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitePacking/prototype-fourcolumn.jpg" note="问题原型：尺度相当的居住单位" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitéPacking/prototype-fourcolumn.jpg" note="问题原型：尺度相当的居住单位" %}
 
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitePacking/cases.png" note="典型案例拆解分析" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitéPacking/cases.png" note="典型案例拆解分析" %}
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitePacking/experiment.png" note="实验原理与测试输出" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitéPacking/experiment.png" note="实验原理与测试输出" %}

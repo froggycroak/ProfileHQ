@@ -3,6 +3,7 @@ title:          HU Qian
 description:    "HU Qian's Academic Blog!"
 baseurl:        "/ProfileHQ" #大小写敏感
 url:            "https://froggycroak.github.io"
+osshost-url:    "https://workhub.oss-cn-shanghai.aliyuncs.com/picture/"
 future: true
 
 

@@ -19,21 +19,30 @@ layout: default
     <h2 class="postpageresearch-subtitle">{{ page.title-cn }}</h2>
 
     <!-- info grey -->
-    {% if page.tags and page.tags != "" %}
     <div class="postpageresearch-info m-0">
         <a class="in-text-icon">
             <i class="fa-solid fa-user fa-fw"></i>
         </a>
 
-        类目 {{ page.tags | join: ', ' }}
+        作者 {{ page.team-cn | join: ", " }}
     </div>
-    {% endif %}
     <div class="postpageresearch-info">
         <a class="in-text-icon">
             <i class="fa-solid fa-clock fa-fw"></i>
         </a>
-        时间 {{ page.year }}
+        时间 <time datetime="{{ page.date }}">
+            {{ page.date | date:"%Y-%m-%d" }}
+        </time>
     </div>
+    {% if page.tags and page.tags != "" %}
+    <div class="postpageresearch-info m-0">
+        <a class="in-text-icon">
+            <i class="fa-solid fa-bars fa-fw"></i>
+        </a>
+
+        类目 {{ page.tags | join: ', ' }}
+    </div>
+    {% endif %}
 
     <!-- main-content -->
     {{ content }}

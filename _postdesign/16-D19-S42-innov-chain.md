@@ -2,7 +2,7 @@
 layout: design
 projid: D19-S42
 abbrev: InnovChain
-icon-d: M40 40H0V0H40V40ZM4 36H36V4H4V36Z
+icon-d: png
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D19-S42-InnovChain/featured.png
 year: 2019
 

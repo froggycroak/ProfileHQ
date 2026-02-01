@@ -59,7 +59,7 @@ $research-image-size-mobile: 180px !default;
 
     @media (max-width: 600px) {
         margin-right: 0;
-        // margin-bottom: 1rem;
+        margin-bottom: .5rem;
         align-self: center; // 移动端图片居中
     }
 }
@@ -170,6 +170,11 @@ $research-image-size-mobile: 180px !default;
         }
 
         &[tag-content="主导"] {
+            background-color: rgba(0, 128, 0, 0.1);
+            color: #388e3c; // 绿色系
+        }
+
+        &[tag-content="深度参与"] {
             background-color: rgba(0, 128, 0, 0.1);
             color: #388e3c; // 绿色系
         }

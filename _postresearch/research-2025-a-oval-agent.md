@@ -12,7 +12,7 @@ sort-order: 1
 title: Intelligent Stadium Bowl Design Assistant with Compound Abilities
 title-cn: 体育建筑智能设计助手
 tags: [ ]
-tags-cn: [ 网页应用, 生成式设计, 体育场馆 ]
+tags-cn: [ 深度参与, 网页应用, 生成式设计, 体育场馆 ]
 team: [ SSTD-DTA ]
 team-cn: [ 华建科技数字化所 ]
 

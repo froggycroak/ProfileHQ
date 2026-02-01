@@ -2,7 +2,7 @@
 layout: default
 title: "More"
 abbrev: "More"
-title-cn: "更多"
+title-cn: "更多 · 有趣"
 
 permalink: /more/
 ---
@@ -25,7 +25,10 @@ permalink: /more/
   {% for tag in site.tags %}
   <div class="tags-item" id="{{ tag[0] }}">
     <!-- <i class="fa-solid fa-list"></i> -->
-    <h2 class="tags-item-label">{{ tag[0] }}</h2>
+    <!-- <h5 class="tags-item-label">{{ tag[0] }}</h5> -->
+    <div class="col-12 p-0">
+      <h5 class="chapter-heading-left">{{ tag[0] }}</h5>
+    </div>
 
     {% for post in tag[1] %}
     <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">

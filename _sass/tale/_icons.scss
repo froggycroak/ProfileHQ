@@ -26,3 +26,27 @@
     color: grey;
     transition: transform 0.3s;
 }
+
+
+.icon-container {
+    display: inline-flex;
+    /* 使用 flex 布局确保居中 */
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+    /* 水平居中 */
+    width: 40px;
+    /* 固定宽度 */
+    height: 40px;
+    /* 固定高度 */
+
+}
+
+.icon-scalable {
+    width: 100%;
+    /* 宽度填满容器 */
+    height: 100%;
+    /* 高度填满容器 */
+    object-fit: contain !important;
+    /* 保持比例完整显示 */
+}

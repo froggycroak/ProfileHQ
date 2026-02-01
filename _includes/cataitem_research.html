@@ -1,6 +1,6 @@
 <article class="research-item">
   <a href="{{ post.url | prepend: site.baseurl }}" class="research-link">
-    {% if post.featured-image %}
+    <!-- {% if post.featured-image %}
     <div class="research-image-container">
       <img src='{{post.featured-image }}'
         alt="{% if post.alt %}{{ post.alt }}{% else %}文章“{{ post.title | escape }}”的配图{% endif %}"
@@ -12,8 +12,11 @@
         src="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample.jpg"
         class="research-image" loading="lazy" />
     </div>
-    {% endif %}
-
+    {% endif %} -->
+    <div class="research-image-container">
+      <img src="{{ site.osshost-url }}research/imghost-{{ post.projid}}-{{post.abbrev}}/featured.jpg" alt=""
+        class="research-image" loading="lazy" />
+    </div>
 
     <div class="research-content">
       <h2 class="research-title">{{ post.abbrev}}</h2>

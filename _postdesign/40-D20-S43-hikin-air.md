@@ -51,7 +51,7 @@ type3-cn:
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/floorplans.png" note="楼层平面图" %}
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/section.png" note="截面图" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/section.png" note="剖面图和立面图" %}
 
 
 ---

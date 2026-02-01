@@ -2,27 +2,34 @@
 layout: default
 title: "About"
 abbrev: "About"
-title-cn: "关于"
+title-cn: "关于 · 简历"
 permalink: /about/
 ---
 
-<br>
-<!-- <h1 class="subpage-title" align="center">- {{page.title-cn}} -</h1> -->
-
-
+<!-- Research Assignment -->
 {% assign UrbageSurvey = site.postresearch | where: "abbrev", "UrbageSurvey" | first %}
+{% assign UnitePacking = site.postresearch | where: "abbrev", "UnitePacking" | first %}
+{% assign QuadraBlock = site.postresearch | where: "abbrev", "QuadraBlock" | first %}
+{% assign AlphaPlot = site.postresearch | where: "abbrev", "AlphaPlot" | first %}
+{% assign StandRecons = site.postresearch | where: "abbrev", "StandRecons" | first %}
+{% assign OvalAgent = site.postresearch | where: "abbrev", "OvalAgent" | first %}
+{% assign ProtoMass = site.postresearch | where: "abbrev", "ProtoMass" | first %}
 
-
+<!-- DesignAssignment -->
+{% assign FishFlow = site.postdesign | where: "abbrev", "FishFlow" | first %}
+<br>
+<!-- <h1 class="cataloguepage-title" align="center">- {{page.title-cn}} -</h1> -->
 <article class="post">
     <div class="resume-content">
         <!-- 个人信息 -->
         <section class="resume-header">
             <div class="header-text" align="center">
-                <h3>胡潜 HU Qian</h3>
-                <a>建筑设计 / 算法工程师</a>
+                <h4>胡 潜</h4>
+                <a>建筑设计师 / 算法工程师</a>
             </div>
             <br>
             <div>
+                <strong>联系方式</strong>
                 <div>
                     <a class='in-text-icon'>
                         <i class=" fa-solid fa-envelope"></i>
@@ -57,14 +64,14 @@ permalink: /about/
         <section>
             <!-- <hr style=" margin: 0"> -->
             <div class="col-12 p-0">
-                <h5 class="chapter-heading mt-4 mb-1" align="center">- 工作经历 Working -</h5>
+                <h5 class="chapter-heading" align="center">- 工作经历 Working -</h5>
             </div>
 
             <!-- 华建科技 -->
             <div class="subpassage">
                 <div style="display: flex; justify-content: space-between;">
                     <span>
-                        <a class='plainpassage-boldlink' href="http://www.arcplus.com.cn/">华东建筑集团</a>-<a
+                        <a class='plainpassage-boldlink' href="http://www.arcplus.com.cn/">华东建筑集团</a> - <a
                             class='plainpassage-boldlink'
                             href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">上海科技发展分公司</a>
                         SSTD
@@ -89,10 +96,10 @@ permalink: /about/
                     <span>2022.9 - 2023.3</span>
                 </div>
                 <!-- Architectural Enterprise of Southeast University(AESEU) [Intern Researcher] -->
-                - 参与科研项目<a class="plainpassage-link" href="">大学城量形互动布局生成</a>, 获专利2项, 软著1项;
-                <br>- 数控建造项目: <a class="plainpassage-link" href="">莲花荡农业展馆</a> 门圈数控建造设计; 建筑总体施工图绘制;
-                <br>- 参与小城镇更新项目<a class="plainpassage-link"
-                    href="{{UrbageSurvey.url | prepend: site.baseurl}}">丁蜀镇城市设计</a>;
+                - 参与科研项目<a class="plainpassage-link" href="">大学城量形互动布局生成</a>, 获专利2项, 软著1项;<br>
+                - 数控建造项目: <a class="plainpassage-link" href="{{FishFlow.url | prepend: site.baseurl}}">莲花荡农业展馆</a>
+                门圈数控建造设计; 建筑总体施工图绘制;<br>
+                - 参与小城镇更新项目<a class="plainpassage-link" href="{{UrbageSurvey.url | prepend: site.baseurl}}">丁蜀镇城市设计</a>;
                 <a class="plainpassage-link" href="">丁蜀镇古南街单体建筑设计</a>;
             </div>
 
@@ -127,20 +134,22 @@ permalink: /about/
         <section>
             <!-- <hr style="margin: 0"> -->
             <div class="col-12 p-0">
-                <h5 class="chapter-heading mt-4 mb-1" style="color: gray; ">- 教育背景 Education -</h5>
+                <h5 class="chapter-heading" style="color: gray; ">- 教育背景 Education -</h5>
             </div>
 
             <div class="subpassage">
                 <div style="display: flex; justify-content: space-between;">
                     <span>
-                        <!-- <a class="plainpassage-boldlink" href="https://www.seu.edu.cn/"></a> - -->
-                        <a class="plainpassage-boldlink" href="https://arch.seu.edu.cn/">东南大学建筑学院</a> -
+                        <a class="plainpassage-boldlink" href="https://www.seu.edu.cn/">东南大学</a> -
+                        <a class="plainpassage-boldlink" href="https://arch.seu.edu.cn/">建筑学院</a> -
                         <a class="plainpassage-boldlink" href="https://archialgo.com/">建筑运算与应用研究所</a>
                         [建筑设计及其理论 硕士]
                     </span>
                     <span>2021.09 - 2024.06</span>
                 </div>
-                <p>导师: 唐芃 教授 | GPA 3.83/4 | 排名 26/108</p>
+                - 导师唐芃教授, 研究方向为生成式设计<br>
+                - 学业成绩 GPA 3.83/4 | 排名 26/108
+
             </div>
             <div class="subpassage">
                 <div style="display: flex; justify-content: space-between;">
@@ -152,14 +161,14 @@ permalink: /about/
                     </span>
                     <span>2016.09 - 2021.06</span>
                 </div>
-                <p>GPA 3.85/4 | 排名 3/50</p>
+                <p>- 学业成绩 GPA 3.85/4 | 排名 3/50</p>
             </div>
         </section>
 
         <!-- 技术能力 -->
         <section>
             <div class="col-12 p-0">
-                <h5 class="chapter-heading mt-4 mb-1" style="color: gray; ">- 技术能力 Skills -</h5>
+                <h5 class="chapter-heading" style="color: gray; ">- 技术能力 Skills -</h5>
             </div>
             <!-- <hr style="margin: 0"> -->
             <div class="subpassage">
@@ -176,9 +185,7 @@ permalink: /about/
             </div>
             <div class="subpassage">
                 <strong>语言 </strong>
-                <br>- ;
-                <br>- ;
-                <br>- ;
+                <br>- 优秀的英文能力, 雅思7.5;
             </div>
 
         </section>
@@ -186,7 +193,7 @@ permalink: /about/
         <!-- 发表情况 -->
         <section class="plainpassage">
             <div class="col-12 p-0">
-                <h5 class="chapter-heading mt-4 mb-1" style="color: gray; ">- 论文发表 Publications -</h5>
+                <h5 class="chapter-heading" style="color: gray; ">- 论文发表 Publications -</h5>
             </div>
             <!-- <hr style="margin: 0"> -->
 
@@ -207,7 +214,7 @@ permalink: /about/
 
         <section class="plainpassage">
             <div class="col-12 p-0">
-                <h5 class="chapter-heading mt-4 mb-1" style="color: gray; ">- 知识产权 Copyright -</h5>
+                <h5 class="chapter-heading" style="color: gray; ">- 知识产权 Copyright -</h5>
             </div>
             <!-- <hr style="margin: 0"> -->
             <div class="subpassage">

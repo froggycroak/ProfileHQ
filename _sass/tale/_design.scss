@@ -19,7 +19,7 @@
   padding-top: 62.25%;
   overflow: hidden;
   background-color: #ccc;
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   transition: transform 0.3s, background-color 0.3s;
   border-radius: 10px;
 }
@@ -51,6 +51,25 @@
   transition: opacity 0.3s;
   // font-style: italic;
   display: flex;
+
+  .img-container {
+    margin: .15rem .6rem 0 0;
+    fill: #ffffffd5;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center !important;
+    /* 同时实现水平和垂直居中 */
+
+    img {
+      position: relative;
+      top: auto;
+      left: auto;
+      transform: none;
+      opacity: 0.84;
+
+    }
+  }
 }
 
 .project-grid-item:hover .project-grid-info {
@@ -75,10 +94,17 @@
 
 .project-grid-info svg {
   margin: .15rem .6rem 0 0;
-  fill: #ffffffd5;
+  fill: rgba(255, 255, 255, 0.84);
   width: 35px;
   height: 35px;
 }
+
+// .project-grid-info img {
+//   margin: .15rem .6rem 0 0;
+//   width: 35px;
+//   height: 35px;
+//   text-align: left;
+// }
 
 a {
   text-decoration: none;
