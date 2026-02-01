@@ -37,6 +37,21 @@ OVAL Agent体育建筑智能设计助手是华建科技数字化所开发的智�
 
 **评述** 随着数字技术的更新迭代，建筑设计的工具库也日益丰富。然而，建筑智能的探索大多止于工具生产，未能塑造细分领域内的工作模式。本研究提出的OVAL AI体育建筑智能设计助手，是人工智能在体育建筑设计领域的落地应用，体现了以建筑师业务为主体的模式创新。OVAL AI紧跟人工智能技术前沿，通过对象描述、知识编码、策略合成、形态编辑等模块的连接，配合案例推荐、前期策划、知识问答等多种功能，形成云端协同的智能助手。本研究详述了以业务问题为核心，随技术更迭而拓展边界的开发和应用模式，为人工智能时代建筑师业务的数字化转型提供了参考样例。
 
+附：体育建筑系列开发规划
+
+<ul>
+<li><a class="plainpassage-bold" >ConfigManager</a>设计参数智能配置</li>
+<li><a class="plainpassage-bold" >ModelSculptor</a>看台三维模型生成</li>
+<li><a class="plainpassage-bold" >SpaceAnalyst</a>空间视觉质量分析</li>
+<li><a class="plainpassage-bold" >ChatEditor</a>语言交互形态编辑</li>
+<li><a class="plainpassage-bold" >AbcdEfghij</a>问答数据库</li>
+<li><a class="plainpassage-bold" >AbcdEfghij</a>案例数据库</li>
+<li><a class="plainpassage-bold" >AbcdEfghij</a>图片数据库</li>
+<li><a class="plainpassage-bold" >PricePredict</a>造价测算（进行中...）</li>
+<li><a class="plainpassage-bold" >OvalAcc</a>加速版本（进行中...）</li>
+<li><a class="plainpassage-bold" >StandRecons</a>基于实景图片的看台碗三维重建（相对独立）</li>
+</ul>
+
 <!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/moresults.jpg" note="生成功能的成果输出示例"  %}
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/sixanalysis.jpg" note="看台碗视觉质量分析功能实例"  %} -->

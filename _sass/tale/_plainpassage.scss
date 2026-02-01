@@ -31,10 +31,10 @@
 
     &-bold {
         font-weight: bold;
-        color: $default-shade;
+        color: $default-shade !important;
 
         &:hover {
-            color: $default-shade;
+            color: $default-shade !important;
             text-decoration: none;
         }
     }

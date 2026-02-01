@@ -31,6 +31,8 @@ type3-cn:
 
 ---
 
+场地位于武汉大学主教学楼南侧，是较为荒凉的中心广场。广场南侧的道路人车混行，高峰期颇为不便。本设计在拓宽人行道的同时，利用高差形成活动空间；用金字塔型的采光顶建立视线关系，形成独特的建筑景观；通过活动空间和采光构筑激活原本无人使用的中心广场。
+
 {% include figure_full.html note="夜景效果图" link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/nightview.jpg" %}
 
 {% include figure_full.html note="平面图" link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/floorplan.jpg" %}
