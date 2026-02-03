@@ -31,6 +31,8 @@ OVAL Agent体育建筑智能设计助手是华建科技数字化所开发的智�
 
 体育建筑智能设计助手是面向体育场馆方案设计与前期策划的智能设计平台。平台以AI技术重塑建筑设计流程，融合多智能体协同、大语言模型、生成式设计算法与行业大数据，构建从语义输入到策略推荐、从模型生成到性能分析的一体化智能设计体系。依托覆盖全球144个国家、4000余座场馆与6万余张实景图片的体育建筑数据库，OVAL Agent可理解设计意图、生成参数化模型、并输出多维度看台分析。其核心能力涵盖智能看台生成、案例检索、AI问答与策划报告生成，让设计师从繁复建模中解放，聚焦创意与决策。
 
+项目获得上海市“模塑申城”住建行业人工智能创新应用十佳案例。
+
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/sixwebpages.jpg" note="网页应用的各功能页面"  %}
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/maintecture.png" note="网页应用功能架构图"  %}
