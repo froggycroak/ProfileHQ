@@ -1,7 +1,7 @@
 ---
 
 layout: post_a
-abbrev: MathematicalProgramming
+abbrev: MatheProg
 tags: 技术分享
 year: 2022
 

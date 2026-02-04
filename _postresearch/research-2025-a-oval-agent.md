@@ -41,19 +41,58 @@ OVAL Agent体育建筑智能设计助手是华建科技数字化所开发的智�
 
 附：体育建筑系列开发规划
 
-<ul>
-<li><a class="plainpassage-bold" >ConfigManager</a>设计参数智能配置</li>
-<li><a class="plainpassage-bold" >ModelSculptor</a>看台三维模型生成</li>
-<li><a class="plainpassage-bold" >SpaceAnalyst</a>空间视觉质量分析</li>
-<li><a class="plainpassage-bold" >ChatEditor</a>语言交互形态编辑</li>
-<li><a class="plainpassage-bold" >AbcdEfghij</a>问答数据库</li>
-<li><a class="plainpassage-bold" >AbcdEfghij</a>案例数据库</li>
-<li><a class="plainpassage-bold" >AbcdEfghij</a>图片数据库</li>
-<li><a class="plainpassage-bold" >PricePredict</a>造价测算（进行中...）</li>
-<li><a class="plainpassage-bold" >OvalAcc</a>加速版本（进行中...）</li>
-<li><a class="plainpassage-bold" >StandRecons</a>基于实景图片的看台碗三维重建（相对独立）</li>
-</ul>
-
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>名称</th>
+                <th>功能描述</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ConfigManager</td>
+                <td>设计参数智能配置</td>
+            </tr>
+            <tr>
+                <td>ModelSculptor</td>
+                <td>看台三维模型生成</td>
+            </tr>
+            <tr>
+                <td>SpaceAnalyst</td>
+                <td>空间视觉质量分析</td>
+            </tr>
+            <tr>
+                <td>ChatEditor</td>
+                <td>语言交互形态编辑</td>
+            </tr>
+            <tr>
+                <td>AbcdEfghij</td>
+                <td>问答数据库</td>
+            </tr>
+            <tr>
+                <td>AbcdEfghij</td>
+                <td>案例数据库</td>
+            </tr>
+            <tr>
+                <td>AbcdEfghij</td>
+                <td>图片数据库</td>
+            </tr>
+            <tr>
+                <td>PricePredict</td>
+                <td>造价测算（进行中...）</td>
+            </tr>
+            <tr>
+                <td>OvalAcc</td>
+                <td>加速版本（进行中...）</td>
+            </tr>
+            <tr>
+                <td>StandRecons</td>
+                <td>基于实景图片的看台碗三维重建（相对独立）</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 <!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/moresults.jpg" note="生成功能的成果输出示例"  %}
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/sixanalysis.jpg" note="看台碗视觉质量分析功能实例"  %} -->
