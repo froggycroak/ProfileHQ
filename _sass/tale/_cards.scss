@@ -139,6 +139,11 @@
     /* 添加过渡效果 */
     cursor: pointer;
     position: relative;
+
+    @media print {
+        border-bottom: 1px solid #c7c7c7;
+        border-radius: 0px;
+    }
 }
 
 /* 悬停效果：向上移动和阴影加深 */
@@ -153,6 +158,7 @@
     align-items: center;
     gap: 30px;
     padding: 20px 30px 20px 30px;
+
 }
 
 /* 左侧Logo样式 - 移除圆形裁切 */
@@ -245,41 +251,41 @@
 
 
 /* 响应式设计：当屏幕宽度小于400px时 */
-// @media (max-width: 400px) {
-//     .business-card-container {
-//         width: 100%;
-//         margin: 1rem auto;
-//         border-radius: 0;
-//         position: relative;
-//     }
+@media (max-width: 400px) {
+    .business-card-container {
+        width: 100%;
+        margin: 1rem auto;
+        border-radius: 0;
+        position: relative;
+    }
 
-//     .business-card {
-//         flex-direction: column;
-//         text-align: center;
-//         gap: 10px;
-//         padding: 15px;
-//         /* 移动端减少内边距 */
-//     }
+    .business-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 15px;
+        /* 移动端减少内边距 */
+    }
 
-//     .card-right {
-//         text-align: center;
-//     }
+    .card-right {
+        text-align: center;
+    }
 
-//     .contact-info {
-//         justify-content: center;
-//     }
+    .contact-info {
+        justify-content: center;
+    }
 
 
-//     /* 移动端更紧凑的文字大小 */
-//     .card-right h2 {
-//         font-size: 1.3rem;
-//     }
+    /* 移动端更紧凑的文字大小 */
+    .card-right h2 {
+        font-size: 1.3rem;
+    }
 
-//     .card-right h4 {
-//         font-size: 0.9rem;
-//     }
+    .card-right h4 {
+        font-size: 0.9rem;
+    }
 
-//     .contact-info {
-//         font-size: 0.8rem;
-//     }
-// }
+    .contact-info {
+        font-size: 0.8rem;
+    }
+}

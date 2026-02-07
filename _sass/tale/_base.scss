@@ -36,7 +36,7 @@ h6 {
 }
 
 a {
-  color: $blue;
+  // color: $blue;
   text-decoration: none;
 
   // &:hover {
@@ -44,6 +44,35 @@ a {
   //   text-decoration: none;
   // }
 }
+
+@media print {
+  a {
+    text-decoration: none !important;
+    /* 强制去除下划线 */
+  }
+
+  .nav,
+  .footer-container {
+    display: none !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  .chapter-heading {
+    page-break-after: avoid;
+    /* 尽量避免在标题后分页 */
+  }
+
+  pre,
+  table,
+  img,
+  .subpassage {
+    page-break-inside: avoid;
+    /* 尽量避免这些元素内部被分页 */
+  }
+}
+
 
 blockquote {
   border-left: .25rem solid $grey-2;
