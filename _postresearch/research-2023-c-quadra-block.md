@@ -23,7 +23,9 @@ location:
 location-cn: 
 ---
 
-{% include link_citation.html key="PUB-2504-CPE" %}
+{% include link_citation.html key="PUB-2504-CPE" note="引用 "%}
+{% include link_pdf.html content='文献直达-article' link='http://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2025)C%25CDRF-Flexible%20Plot-scale%20Urban%20Design%20using%20QP-FullVersion.pdf'  %}
+
 
 ---
 

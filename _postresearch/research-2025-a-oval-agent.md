@@ -19,7 +19,7 @@ team-cn: [ 华建科技数字化所 ]
 
 ---
 
-{% include link_citation_pre.html content="李星桥,胡潜,徐晓明*. 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型[J]. 建筑技艺,2026(pre)." %}
+{% include link_citation_pre.html content="李星桥,胡潜,徐晓明*. 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型[J]. 建筑技艺,2026(pre)." note="引用 "%}
 
 {% include link_clip.html link='https://aiovaltool.com/' content='试用链接' %}
 

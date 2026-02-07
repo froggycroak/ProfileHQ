@@ -20,7 +20,7 @@ location:
 location-cn:
 ---
 
-{% include link_citation.html key="PUB-2406-MTC" %}
+{% include link_citation.html key="PUB-2406-MTC" note="引用 "%}
 
 {% include link_pdf.html content='文献直达-article' link='https://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2024)M%25%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87-%E8%B5%B0%E9%81%93%E5%BC%8F%E7%BB%84%E5%90%88%E4%B8%BB%E5%AF%BC%E7%9A%84%E5%BB%BA%E7%AD%91%E4%BD%93%E9%87%8F%E9%9B%86%E5%90%88%E7%94%9F%E6%88%90%E7%A0%94%E7%A9%B6.pdf'  %}
 
@@ -46,7 +46,7 @@ location-cn:
 
 
 
-**表 CorriBase系列研究**
+**表 CorriBase系列研究** `编辑中...`
 
 |项目|研究对象||||
 |---|---|---|---|---|

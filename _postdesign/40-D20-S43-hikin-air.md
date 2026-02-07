@@ -3,7 +3,7 @@ layout: design
 projid: D20-S43
 abbrev: HikinAir
 icon-d: M40 40H0V0H40V40ZM22.5 12H4V25H12V36H36V28H15V15H36V4H22.5V12Z
-featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/featured.png
+featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/featured.jpg
 year: 2020
 
 title: Hike in the Air

@@ -28,7 +28,7 @@ type3-cn:
 
 ---
 
-创客就是喜欢睡大觉
+`编辑中...`
 
 {%include figure_full.html note='手工模型照片' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D19-S42-InnovChain/model.png" %}
 

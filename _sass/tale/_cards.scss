@@ -1,0 +1,285 @@
+/* 卡片容器网格布局 */
+.plainpassage-card-container {
+    display: grid;
+    /* 初始状态：4列，每列等宽 */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* 卡片间距 */
+    margin: 2rem 0;
+}
+
+// .plainpassage-card-container {
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 20px;
+//     /* 卡片之间的间距 */
+//     margin: 2rem 0;
+// }
+
+/* 单个卡片样式 */
+.plainpassage-card {
+    flex: 1;
+    /* 均分宽度 */
+    min-width: 150px;
+    min-height: 150px;
+    /* 卡片最小宽度，防止过小 */
+    background-color: #f8f9fa;
+    /* 默认背景色，背景图加载前的回退 */
+    border-radius: 10px;
+    /* 倒角半径，可调整大小 */
+    padding: 2rem 2rem;
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    /* 悬停动画效果 */
+    text-decoration: none;
+    /* 移除链接下划线 */
+    color: inherit;
+    /* 继承父元素文字颜色 */
+    background-size: cover;
+    /* 确保背景图覆盖整个卡片 [6](@ref) */
+    background-position: center;
+    /* 背景图居中显示 [6](@ref) */
+    background-repeat: no-repeat;
+    /* 背景图不重复 [6](@ref) */
+    position: relative;
+    overflow: hidden;
+}
+
+/* 为背景图添加一层深色半透明遮罩，确保文字可读性*/
+.plainpassage-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    /* 遮罩颜色和透明度 */
+    z-index: 1;
+    border-radius: 10px;
+    /* 与卡片倒角保持一致 */
+}
+
+/* 卡片内容定位，确保显示在遮罩上方 */
+.plainpassage-card-content {
+    position: relative;
+    z-index: 2;
+    /* 确保文字内容在遮罩之上 */
+    color: #fff;
+}
+
+/* 卡片悬停效果 */
+.plainpassage-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+/* 卡片内标题样式 */
+.plainpassage-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* 卡片内描述文字样式 */
+.plainpassage-card p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/* 响应式设计：在小屏幕（如手机）上堆叠显示 */
+
+
+@media (max-width: 1000px) {
+    .plainpassage-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        /* 强制2列 */
+    }
+}
+
+/* 小屏幕：当宽度不足以舒适地放下2列时，变为1列 */
+@media (max-width: 600px) {
+    .plainpassage-card-container {
+        grid-template-columns: 1fr;
+        /* 强制1列 */
+    }
+}
+
+// @media (max-width: 600px) {
+//     .plainpassage-card {
+//         min-width: 100%;
+//         /* 小屏幕下卡片占满整个宽度 */
+//     }
+// }
+
+
+
+//BUSSINESS-CARD
+
+/* 名片外层容器样式 - 现在作为可点击的整体 */
+.business-card-container {
+    display: block;
+    /* 使<a>标签表现为块级元素 */
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    text-decoration: none;
+    /* 移除链接下划线 */
+    color: inherit;
+    /* 继承文字颜色 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* 添加过渡效果 */
+    cursor: pointer;
+    position: relative;
+}
+
+/* 悬停效果：向上移动和阴影加深 */
+.business-card-container:hover {
+    transform: translateY(-2px);
+    // box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* 名片主体样式 */
+.business-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 30px 20px 30px;
+}
+
+/* 左侧Logo样式 - 移除圆形裁切 */
+.card-left {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.card-logo {
+    width: 80px;
+    height: 80px;
+    /* 移除了border-radius: 50%，保持矩形显示 */
+    object-fit: contain;
+    /* 保持图片比例 */
+    opacity: 0.6;
+    margin: 0;
+}
+
+/* 右侧信息区域样式 - 更紧凑的布局 */
+.card-right {
+    flex: 1;
+    text-align: left;
+
+    .position-title {
+        margin: 0 0 8px 0 !important;
+    }
+
+}
+
+/* 紧凑的文字间距 */
+.card-right h2 {
+    margin: 0 0 3px 0;
+    /* 减少上下间距 */
+    font-size: 1.5rem;
+}
+
+.card-right h4 {
+    margin: 0 0 15px 0;
+    /* 减少下方间距 */
+    font-size: 1rem;
+    color: #666;
+}
+
+.contact-info {
+    // margin-bottom: 5px;
+    /* 减少行间距 */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    /* 稍小的字体 */
+}
+
+
+
+
+/* 社交媒体图标样式 - 确保为灰色 */
+.social-links {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    // justify-content: flex-start;
+    justify-content: center;
+}
+
+.social-links a i {
+    color: $midgrey;
+    /* 灰色图标 */
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.social-links a i:hover {
+    color: grey;
+    /* 悬停时稍深一些 */
+}
+
+.card-link-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    text-decoration: none;
+}
+
+
+/* 响应式设计：当屏幕宽度小于400px时 */
+// @media (max-width: 400px) {
+//     .business-card-container {
+//         width: 100%;
+//         margin: 1rem auto;
+//         border-radius: 0;
+//         position: relative;
+//     }
+
+//     .business-card {
+//         flex-direction: column;
+//         text-align: center;
+//         gap: 10px;
+//         padding: 15px;
+//         /* 移动端减少内边距 */
+//     }
+
+//     .card-right {
+//         text-align: center;
+//     }
+
+//     .contact-info {
+//         justify-content: center;
+//     }
+
+
+//     /* 移动端更紧凑的文字大小 */
+//     .card-right h2 {
+//         font-size: 1.3rem;
+//     }
+
+//     .card-right h4 {
+//         font-size: 0.9rem;
+//     }
+
+//     .contact-info {
+//         font-size: 0.8rem;
+//     }
+// }

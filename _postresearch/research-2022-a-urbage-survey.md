@@ -21,8 +21,8 @@ location:
 location-cn: 
 ---
 
-{% include link_citation.html key="PUB-2212-CPC" %}
-
+{% include link_citation.html key="PUB-2212-CPC" note="引用 "%}
+{% include link_pdf.html content='文献直达-article' link='http://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2022)C%25DADA-%E5%9F%BA%E4%BA%8E%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%8E%86%E5%8F%B2%E5%9C%B0%E6%AE%B5%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6.pdf'  %}
 ---
 
 在历史地段的更新保护中，实地调研以收集数据是不可或缺的工作。由于缺乏系统的工作方法和专门的工具平台，调研工作时常效率低下，难以改良。群智计算的广泛应用启示我们，可以通过分划数据收集工作、搭建网络信息平台予以优化。本研究基于实际调研经验，搭建网络信息平台，探讨了一种多端合作、实时共享、高效便捷的调研方法，提升了调研工作效率，对于推进众包合作的历史地段更新设计模式具有重要意义。

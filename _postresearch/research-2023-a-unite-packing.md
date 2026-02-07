@@ -23,9 +23,9 @@ location:
 location-cn: 
 ---
 
-{% include link_citation.html key="PUB-2402-JAC" %}
+{% include link_citation.html key="PUB-2402-JAC" note="引用 "%}
 
-{% include link_clip.html link='' content='演示文件-slides' iconstr='fa-solid fa-file-pdf fa-fw' %}
+<!-- {% include link_clip.html link='' content='演示文件-slides' iconstr='fa-solid fa-file-pdf fa-fw' %} -->
 
 {% include link_pdf.html content='文献直达-article' link='https://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2024)J%25%E5%BB%BA%E7%AD%91%E5%AD%A6%E6%8A%A5-%E6%A8%A1%E6%95%B0%E3%80%81%E5%B1%82%E7%BA%A7%E3%80%81%E9%87%8F%E5%BD%A2.pdf'  %}
 

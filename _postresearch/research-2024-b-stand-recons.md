@@ -19,7 +19,7 @@ team-cn: [ 胡潜, 李星桥 ]
 
 ---
 
-{% include link_clip.html link='https://mp.weixin.qq.com/s/SrIZoVPc4MvnGmzDutXgKA' content='相关推文'  %}
+{% include link_clip.html link='https://mp.weixin.qq.com/s/SrIZoVPc4MvnGmzDutXgKA' content='相关推文' note="引用 "%}
 
 ---
 

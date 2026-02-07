@@ -4,23 +4,140 @@ abbrev: "Home"
 ---
 
 
-<div class="row justify-content-center align-items-center p-2 pb-4">
-  <div class="col-10 col-lg-4 col-md-4 text-center mt-4">
 
-    <!-- personal figure -->
-    <div id="container" class="my-2">
-      <div id="dummy"></div>
-      <div id="element" align="center" class="figure-interect">
-        <!-- <img src="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/general/intro-personal/hq-figure-abj.png"
-          data-wow-delay=".1s" alt="" style="max-height: 500px"> -->
-        <img src="assets/logo.png" data-wow-delay=".1s" alt="" style="max-height: 150px">
-        <!-- <img src="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/general/logos/logo6-1200.png"
-          data-wow-delay=".1s" alt="" style="max-height: 500px"> -->
-      </div>
+
+
+<br>
+
+<!-- 卡片网格 -->
+<div class="plainpassage-card-container">
+  <!-- 研发/Research 卡片 -->
+  <a href="{{ '/research' | relative_url }}" class="plainpassage-card"
+    style="background-image: url('https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/featured.jpg');">
+    <div class="plainpassage-card-content">
+      <h3>研究 · 开发</h3>
+      <p>我主导或参与的课题研究和程序开发</p>
+      <p>Research I lead or participate in</p>
     </div>
+  </a>
 
-    <!-- titled info -->
-    <h2 data-wow-delay=".2s" style="font-weight: bold">胡 潜</h2>
+  <!-- 设计/Design 卡片 -->
+  <a href="{{ '/design' | relative_url }}" class="plainpassage-card"
+    style="background-image: url('https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/featured.jpg');">
+    <div class="plainpassage-card-content">
+      <h3>设计 · 作品</h3>
+      <p>我在建筑设计及相关领域的各类作品</p>
+      <p>Architectural design and other</p>
+    </div>
+  </a>
+
+  <!-- 更多/More 卡片 -->
+  <a href="{{ '/more' | relative_url }}" class="plainpassage-card"
+    style="background-image: url('http://workhub.oss-cn-shanghai.aliyuncs.com/picture/morepost/archigeo-pypi-page.png');">
+    <div class="plainpassage-card-content">
+      <h3>更多 · 有趣</h3>
+      <p>我原创发布或整理分享的资讯和知识</p>
+      <p>Information and knowledge</p>
+    </div>
+  </a>
+
+  <!-- 关于/About 卡片 -->
+  <a href="{{ '/about' | relative_url }}" class="plainpassage-card"
+    style="background-image: url('/assets/images/about-bg.jpg');">
+    <div class="plainpassage-card-content">
+      <h3>关于 · 简历</h3>
+      <p>我的联系方式和详尽的个人信息介绍</p>
+      <p>Detailed personal introduction</p>
+    </div>
+  </a>
+</div>
+
+<!-- <p>
+  欢迎来到我的个人网页！
+</p> -->
+
+<p class="plainpassage">
+  我是<a class='plainpassage-bold'>胡潜</a>，一名<a class='plainpassage-bold'>程序员&建筑师</a>，致力于运用计算智能的理论方法，解决建成环境中的实际问题。
+  我的研究兴趣包括生成式建筑设计 / 人工智能辅助设计 / 建筑中的具身智能等。
+  我毕业于<a class="plainpassage-boldlink" href="https://arch.seu.edu.cn/main.htm">东南大学建筑学院</a>-<a
+    class="plainpassage-boldlink" href="https://archialgo.com/">建筑运算与应用研究所</a>，现就职于<a class='plainpassage-boldlink'
+    href="http://www.arcplus.com.cn/">华东建筑集团</a>的<a class='plainpassage-boldlink'
+    href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">科技分公司</a>，从事建筑数字化技术研究。
+</p>
+
+
+<!-- <p>
+  Welcome to my blog!
+</p> -->
+
+<p class="plainpassage">I am Hu Qian, a <a class='plainpassage-bold'>Algorithm Engineer & Architect</a>, dedicated to
+  applying theories and methods of computational intelligence to solve practical problems in the built environment. My
+  research interests include Generative Design / AI-Aided Design / Embodied Intelligence in Architecture, etc. I
+  graduated from the
+  <a class="plainpassage-boldlink" href="">SEU School of Architecture</a> -
+  <a class="plainpassage-boldlink" href="">Institute of Architectural Computing and Applications</a>,
+  and currently work at the
+  <a class='plainpassage-boldlink' href="">Science and Technology Department</a> of
+  <a class='plainpassage-boldlink' href="">Arcplus PLC Group</a>,
+  engaged in research on architectural digital technologies.
+</p>
+
+
+
+
+
+
+{% include social_media.html %}
+{% include business_card.html %}
+
+
+
+<!-- <div class=" pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+  {% endif %}
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+  {% endif %}
+
+  <span>{{ paginator.page }}</span>
+  </div> -->
+
+<!-- <p class="plainpassage">
+  通过我的个人网页，您将了解到我近年来的工作内容和成果。
+  <a class='plainpassage-boldlink' href="{{ '/research' | relative_url }}">[研发]</a>是我主导、参与的课题研究和程序开发；
+  <a class='plainpassage-boldlink' href="{{ '/design' | relative_url }}">[设计]</a>收录了我在建筑设计相关领域的的作品；
+  <a class='plainpassage-boldlink' href="{{ '/tags' | relative_url }}">[更多]</a>收纳了更多有趣的资讯和知识，包含更多非正式的奇思妙想；
+  <a class='plainpassage-boldlink' href="{{ '/about' | relative_url }}">[关于]</a>则包含了我更为详尽的个人信息介绍。
+</p>
+
+<p class="plainpassage">
+  Through my personal website, you can learn about my recent work and achievements.
+  <a class='plainpassage-boldlink' href="{{ '/research' | relative_url }}">[Research]</a>
+  covers research projects and program development that I lead or participate in;
+  <a class='plainpassage-boldlink' href="{{ '/design' | relative_url }}">[Design]</a>
+  features my works in architecture and related fields;
+  <a class='plainpassage-boldlink' href="{{ '/tags' | relative_url }}">[More]</a>
+  collects additional interesting information and knowledge, including informal ideas and thoughts;
+  <a class='plainpassage-boldlink' href="{{ '/about' | relative_url }}">[About]</a>
+  contains a more detailed personal introduction.
+</p> -->
+
+
+
+
+<!-- <div class="row justify-content-center align-items-center p-2 pb-4">
+  <div class="col-10 col-lg-4 col-md-4 text-center mt-4"> -->
+
+<!-- personal figure -->
+<!-- <div id="container" class="my-2">
+      <div id="element" align="center" class="figure-interect">
+        <img src="assets/logo.png" data-wow-delay=".1s" alt="" style="max-height: 100px">
+      </div>
+    </div> -->
+
+<!-- titled info -->
+<!-- <h2 data-wow-delay=".2s" style="font-weight: bold">胡 潜</h2>
     <h4 class="pt-2" data-wow-delay=".15s" style="font-weight: default">HU Qian</h4>
 
     <div>
@@ -39,11 +156,11 @@ abbrev: "Home"
       <a class="plainpassage">
         huqian.archi@outlook.com
       </a>
-    </div>
+    </div> -->
 
-    <!-- Social Media Links -->
+<!-- Social Media Links -->
 
-    <div class="mt-2" style="display: flex; justify-content: space-evenly; font-size: 1.5rem">
+<!-- <div class="mt-2" style="display: flex; justify-content: space-evenly; font-size: 1.5rem">
       <a href="https://s.wanfangdata.com.cn/paper?q=%E4%BD%9C%E8%80%85%3A%22%E8%83%A1%E6%BD%9C%22%20%E4%BD%9C%E8%80%85%E5%8D%95%E4%BD%8D%3A%20%22%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%22&p=1"
         target="_blank" alt="万方">
         <i class="fa-solid fa-book"></i>
@@ -58,77 +175,5 @@ abbrev: "Home"
         <i class="fa-brands fa-github fa-lg"></i>
       </a>
     </div>
-
-
-
-
-
   </div>
-</div>
-
-
-
-
-<p>
-  欢迎来到我的个人网页！
-</p>
-
-<p class="plainpassage">
-  我是<a class='plainpassage-bold'>胡潜</a>，一名<a class='plainpassage-bold'>程序员&建筑师</a>，致力于运用计算智能的理论方法，解决建成环境中的实际问题。
-  我的研究兴趣包括生成式设计 / 人工智能辅助设计 / 建筑中的具身智能等。
-  我毕业于<a class="plainpassage-boldlink" href="https://arch.seu.edu.cn/main.htm">东南大学建筑学院</a>-<a
-    class="plainpassage-boldlink" href="https://archialgo.com/">建筑运算与应用研究所</a>，现就职于<a class='plainpassage-boldlink'
-    href="http://www.arcplus.com.cn/">华东建筑集团</a>的<a class='plainpassage-boldlink'
-    href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">科技分公司</a>，从事建筑数字化技术研究。
-</p>
-
-<p class="plainpassage">
-  通过我的个人网页，您将了解到我近年来的工作内容和成果。
-  <a class='plainpassage-boldlink' href="{{ '/research' | relative_url }}">[研发]</a>是我主导、参与的课题研究和程序开发；
-  <a class='plainpassage-boldlink' href="{{ '/design' | relative_url }}">[设计]</a>收录了我在建筑设计相关领域的的作品；
-  <a class='plainpassage-boldlink' href="{{ '/tags' | relative_url }}">[更多]</a>收纳了更多有趣的资讯和知识，包含更多非正式的奇思妙想；
-  <a class='plainpassage-boldlink' href="{{ '/about' | relative_url }}">[关于]</a>则包含了我更为详尽的个人信息介绍。
-</p>
-
-
-
-<p>
-  Welcome to my blog!
-</p>
-
-<p class="plainpassage">I am Hu Qian, a <a class='plainpassage-bold'>Algorithm Engineer & Architect</a>, dedicated to
-  applying theories and methods of computational intelligence to solve practical problems in the built environment. My
-  research interests include Generative Design / AI-Aided Design / Embodied Intelligence in Architecture, etc. I
-  graduated from the
-  <a class="plainpassage-boldlink" href="">SEU School of Architecture</a> -
-  <a class="plainpassage-boldlink" href="">Institute of Architectural Computing and Applications</a>,
-  and currently work at the
-  <a class='plainpassage-boldlink' href="">Science and Technology Department</a> of
-  <a class='plainpassage-boldlink' href="">Arcplus PLC Group</a>,
-  engaged in research on architectural digital technologies.
-</p>
-
-<p class="plainpassage">
-  Through my personal website, you can learn about my recent work and achievements.
-  <a class='plainpassage-boldlink' href="{{ '/research' | relative_url }}">[Research]</a>
-  covers research projects and program development that I lead or participate in;
-  <a class='plainpassage-boldlink' href="{{ '/design' | relative_url }}">[Design]</a>
-  features my works in architecture and related fields;
-  <a class='plainpassage-boldlink' href="{{ '/tags' | relative_url }}">[More]</a>
-  collects additional interesting information and knowledge, including informal ideas and thoughts;
-  <a class='plainpassage-boldlink' href="{{ '/about' | relative_url }}">[About]</a>
-  contains a more detailed personal introduction.
-</p>
-
-
-
-<!-- <div class="pagination">
-  {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-  {% endif %}
-
-  <span>{{ paginator.page }}</span>
 </div> -->
