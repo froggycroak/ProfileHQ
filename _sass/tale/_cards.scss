@@ -141,7 +141,7 @@
     position: relative;
 
     @media print {
-        border-bottom: 1px solid #c7c7c7;
+        // border-bottom: 1px solid #c7c7c7;
         border-radius: 0px;
     }
 }
@@ -253,7 +253,7 @@
 /* 响应式设计：当屏幕宽度小于400px时 */
 @media (max-width: 400px) {
     .business-card-container {
-        width: 100%;
+        width: 75%;
         margin: 1rem auto;
         border-radius: 0;
         position: relative;

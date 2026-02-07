@@ -7,3 +7,48 @@
         text-decoration: none;
     }
 }
+
+.btn-simple {
+    a {
+        /* 形状与边框 */
+        border-radius: 20px;
+        /* 控制倒角大小，值越大角越圆 */
+        border: 1px solid #cecece;
+        /* 浅灰色边框 */
+        color: #2b2b2b;
+        /* 深灰色文字 */
+        // background-color: rgb(230, 230, 230);
+        /* 中灰色背景 */
+        padding: .3rem .8rem;
+    }
+
+
+    /* 过渡效果 */
+    transition: all 0.5s ease-in-out;
+    /* 为颜色变化添加平滑过渡 */
+
+
+    // @media print {
+    //     .important-highlight {
+    //         background-color: rgb(230, 230, 230) !important;
+    //         print-color-adjust: exact;
+    //         -webkit-print-color-adjust: exact;
+    //     }
+    // }
+
+    /* 鼠标悬停时的样式 */
+    &:hover {
+
+        // background-color: #f8f9fa;
+        a {
+            text-decoration: none;
+            color: #2b2b2b;
+            background-color: #e7e7e7;
+            // box-shadow: 0 4px 2px #c6c6c6;
+        }
+
+
+        // transform: translateY(-2px);
+
+    }
+}
