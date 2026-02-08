@@ -27,11 +27,11 @@ team-cn: [ 胡潜, 杨淑玥 ]
 
 {% include figure_full.html note="改造前后对比图" link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-P01-YardFaçade/comparison.jpg" %}
 
-{% include figure_full.html note="拆除现场-构件利用-安装模拟  " link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-P01-YardFaçade/material.jpg" %}
-
 被拆除建筑在上个世纪曾用于中学教学，后经学院元老们设计改造，成为专业教学楼。立面上的绿色条状构件和白色桁架构件是这次改造时添加，陪伴学院师生二十余载。其文化意义和价值的体现之一是：由崔愷院士操刀的原址新建教学楼方案，采用了类似的立面构件塑造西北角建筑形象，回应这一文脉符号。在拆除和建设计划中，原有构件并未得到充分利用，因而本设计利用这些构件组合出评图板，休息座椅等物件，在一公里内的四方楼庭院快速安装。
 
 此外，设计还利用了原室内装修的木制板片，在庭院西侧搭建孔子雕像背景板与简易书架。孔子雕像背景板亦有特殊的含义，与被拆除建筑大堂内老子雕像及其背景板相呼应。背景板背面为木制书架，与庭院西侧的廊道结合，为廊道赋予功能特性。
+
+{% include figure_full.html note="拆除现场-构件利用-安装模拟  " link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-P01-YardFaçade/material.jpg" %}
 
 {% include figure_full.html note="庭院改造后效果图" link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-P01-YardFaçade/after.jpg" %}
 

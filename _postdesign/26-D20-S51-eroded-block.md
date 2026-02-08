@@ -33,13 +33,14 @@ location:
 
 {%include figure_full.html note='侵蚀概念示意' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/idea.png" %}
 
+设计场地为某城市中心的城中村，东侧是湖泊，西北侧临近知名高校的校内山丘。城中村内的人群包扩原住民和外地租客，其中相当一部分是刚毕业的创业人群。由于建筑密度过大，疫情期间管理瘫痪，政府决定进行部分拆除，并建设以创业公寓为主的多层住区，为大学生创业提供有力支撑。
+
+截至2020年10月，多数村民和租客已经迁出，但仍有不少人拒绝拆迁，要求在原有区位补偿等面积住宅。本方案设想了一种建设模式，将城中村分割成7个面积为1公顷的寓所地块，分3个批次建设，将城中村改造为适应后疫情时代 / 对外界有屏障和连接作用 / 满足初创创业人群和未迁村民生活需求的新型居住区。并以其中一个地块为例，设计了创业人群与原住民共生的“超级寓所”。
+
 {%include figure_full.html note='多尺度层级的设计策略' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/operations.png" %}
 
 <!-- {%include figure_full.html note='超级寓所元素' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/ele.png" %} -->
 
 
-螃蝗市(化名)是我国近年发展迅速的一座城市。时尚村位于螃蝗市中心，东侧是湖泊，西北侧临近知名 985 大学的校内小山，村内主要的人群是原住民和外地租客。其中相当一部分是刚毕业的创业人群。由于时尚村建筑密度过大，在疫情期间管理瘫痪，政府决定进行拆迁，并在此建设以创业公寓为主的多层住区，为大学生留螃创业提供有力支撑。
-
-截至2020年10月，时尚村多数村民和租客已经迁出，但仍有不少人拒绝拆迁，要求在原有区位补偿等面积住宅。本方案要探索的是一种建设模式，将时尚村分割成7个 面积为1公顷的「超寓所地块」，分3个批次建设，将时尚村改造为适应后疫情时代 / 对外界有屏障和连接作用 / 满足初创创业人群和未迁村民生活需求的新型居住区。
 
 
