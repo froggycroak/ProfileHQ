@@ -13,12 +13,9 @@
         /* 形状与边框 */
         border-radius: 20px;
         /* 控制倒角大小，值越大角越圆 */
-        border: 1px solid #cecece;
-        /* 浅灰色边框 */
-        color: #2b2b2b;
-        /* 深灰色文字 */
+        border: 1px solid $default-shade;
+        color: $default-shade;
         // background-color: rgb(230, 230, 230);
-        /* 中灰色背景 */
         padding: .3rem .8rem;
     }
 
@@ -36,14 +33,15 @@
     //     }
     // }
 
-    /* 鼠标悬停时的样式 */
+
     &:hover {
 
         // background-color: #f8f9fa;
         a {
             text-decoration: none;
-            color: #2b2b2b;
-            background-color: #e7e7e7;
+            color: $link-hover;
+            border-color: $link-hover;
+            // background-color: #e7e7e7;
             // box-shadow: 0 4px 2px #c6c6c6;
         }
 

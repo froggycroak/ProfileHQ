@@ -163,6 +163,8 @@ $research-image-size-mobile: 180px !default;
         background: rgba(0, 0, 0, 0.05);
         color: $grey-1;
 
+        @media print {}
+
 
         &[tag-content="进行中..."] {
             background-color: rgba(255, 0, 0, 0.1);
