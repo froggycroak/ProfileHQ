@@ -35,7 +35,7 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # theme:      tale
-# remote_theme: chesterhow/tale
+remote_theme: chesterhow/tale
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
