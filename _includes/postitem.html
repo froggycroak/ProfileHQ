@@ -1,0 +1,19 @@
+<a href="{{ post.url | relative_url }}" class="project-grid-item">
+    <img src="{{ post.featured-image }}" alt="">
+    <div class="project-grid-info">
+        <div class="inline-block">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="{{ post.icon-d }}" />
+            </svg>
+        </div>
+        <div class="inline-block">
+            <h5>
+                {{post.abbrev}}
+            </h5>
+            <p>
+                {{post.date | date: '%Y'}}
+            </p>
+        </div>
+    </div>
+
+</a>

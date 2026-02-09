@@ -1,0 +1,65 @@
+---
+layout: default
+title: "More"
+abbrev: "More"
+title-cn: "更多 · 有趣"
+
+permalink: /more/
+---
+
+<br>
+<h1 class="cataloguepage-title" align="center">- {{page.title-cn}} -</h1>
+
+
+
+
+
+<div class="tags">
+
+  <!-- <div class="tags-clouds">
+    {% for tag in site.tags %}
+    <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
+    {% endfor %}
+  </div> -->
+
+  {% for tag in site.tags %}
+  <div class="tags-item" id="{{ tag[0] }}">
+    <!-- <i class="fa-solid fa-list"></i> -->
+    <!-- <h5 class="tags-item-label">{{ tag[0] }}</h5> -->
+    <div class="col-12 p-0">
+      <h5 class="chapter-heading-left">{{ tag[0] }}</h5>
+    </div>
+
+    {% for post in tag[1] %}
+    <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+      <div>
+        <span class="tags-post-title">- {{ post.abbrev}} / {{ post.title-cn }}</span>
+        <div class="tags-post-line"></div>
+      </div>
+      <span class="tags-post-meta">
+        <time datetime="{{ post.date }}">
+          {{ post.date | date:"%Y-%m" }}
+        </time>
+      </span>
+    </a>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
+
+<!-- <div>
+  <a>
+    <i class="fa-brands fa-sistrix"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <i class="fa-regular fa-envelope"></i>
+    <i class="fa-solid fa-paperclip"></i>
+    <i class="fa-solid fa-up-right-from-square"></i>
+    <i class="fa-solid fa-list"></i>
+    <i class="fa-solid fa-0"></i>
+    <i class="fa-solid fa-angle-down"></i>
+    <i class="fa-solid fa-comment"></i>
+    <i class="fa-solid fa-phone"></i>
+    <i class="fa-solid fa-trophy"></i>
+    <i class="fa-solid fa-award"></i>
+  </a>
+</div> -->

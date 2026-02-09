@@ -1,0 +1,20 @@
+{% assign citation = site.publications | where: "pub-id", include.key | first %}
+
+<div class="citation-simple">
+    <a class="in-text-icon" href='{{citation.link}}' target="_blank">
+        <i class="{{include.iconstr | default: 'fa-solid fa-paperclip fa-fw'}}"></i>
+        {{include.note}}{{citation.gbt}}
+    </a>
+</div>
+
+
+<!-- <div class="citation-bubble">
+    <div class="citation-icon">
+        <a>
+            <i class="fa-solid fa-book"></i>
+        </a>
+    </div>
+    <div class="citation-content">
+        <a href='{{citation.link}}' target="_blank">{{citation.gbt}}</a>
+    </div>
+</div> -->

@@ -1,0 +1,85 @@
+.catalogue {
+  &-item {
+    border-bottom: 1px solid $grey-2;
+    color: $default-color;
+    display: block;
+    padding: 2rem 0;
+    overflow: hidden;
+    /* 清除浮动，确保容器高度被撑起 */
+    text-decoration: none;
+    color: inherit;
+    /* 继承父元素颜色 */
+
+    &:hover .catalogue-line,
+    &:focus .catalogue-line {
+      width: 5rem;
+    }
+
+    &:last-child {
+      border: 0;
+    }
+  }
+
+
+  &-featured-image {
+    float: left;
+    /* 核心属性，使图片左浮动 */
+    margin-right: 15px;
+    /* 在图片和文字之间创建间距 */
+    width: 80px;
+    /* 建议设置固定宽度或使用max-width控制大小 */
+    height: 80px;
+    /* 建议设置固定高度 */
+    object-fit: cover;
+    /* 确保图片按比例缩放并覆盖整个区域，避免变形 */
+    border-radius: 4px;
+    /* 可选，添加圆角 */
+  }
+
+  &-text {
+    overflow: hidden;
+    /* 触发BFC，使文本内容自适应剩余空间 */
+  }
+
+  /* 您原有的.catalogue-time, .catalogue-title等样式保持不变 */
+
+
+
+  &-pinned {
+    color: $default-tint;
+    font-family: $serif-secondary;
+    letter-spacing: .5px;
+  }
+
+  &-time {
+    color: $default-tint;
+    font-family: $serif-secondary;
+    letter-spacing: .5px;
+  }
+
+  &-title {
+    color: $default-shade;
+    display: block;
+    font-family: $sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: .5rem 0;
+  }
+
+  &-line {
+    @include transition(all .3s ease-out);
+    border-top: .2rem solid $default-shade;
+    display: block;
+    width: 2rem;
+  }
+}
+
+.cataloguepage-title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  color: $default-shade;
+  display: block;
+  font-family: $sans-serif;
+  margin: .5rem 0;
+}

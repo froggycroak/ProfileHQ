@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<head>
+  <title>{{ page.abbrev }} | {{ site.title }}</title>
+</head>
+
+{% assign proj_count = site.postdesign | size %}
+{% assign proj_index = 0 %}
+{% for proj in site.postdesign reversed %}
+{% assign proj_index = proj_index | plus: 1 %}
+{% if proj.url == page.url %}
+{% break %}
+{% endif %}
+{% endfor %}
+
+<div class="pagination">
+  {% if page.next.url %}
+  <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">
+    <i class="fa-solid fa-arrow-left"></i>
+  </a>
+  {% endif %}
+
+  <div class="arrow">
+    {{proj_index}} of {{proj_count}}
+  </div>
+
+  {% if page.previous.url %}
+  <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">
+    <i class="fa-solid fa-arrow-right"></i>
+  </a>
+  {% endif %}
+</div>
+
+<div class="postpagedesign">
+  {% if page.icon-d=='png' %}
+  <div>
+    <img class="img-container" viewBox="0 0 40 40" style="width: 60px; height: 60px;opacity: 0.3;"
+      src="{{ site.osshost-url }}design/imghost-{{page.projid}}-{{page.abbrev}}/icon-black.png" alt="">
+  </div>
+  {% else %}
+  <svg width="60" height="60" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="{{ page.icon-d }}" fill="rgba(0,0,0,0.3)" />
+  </svg>
+  {% endif %}
+  <div class="postpagedesign-header">
+    <h1 class="postpagedesign-title">{{ page.abbrev }}</h1>
+    <h2 class="postpagedesign-subtitle">{{ page.title-cn }}</h2>
+    <!-- <h2 class="postpagedesign-subtitle">{{ page.subtitle-cn }}</h2> -->
+
+    {% if page.team-cn and page.team-cn != "" %}
+    <div class="postpageresearch-info m-0">
+      <!-- <a class="in-text-icon">
+        <i class="fa-solid fa-user fa-fw"></i>
+      </a> -->
+
+      团队 {{ page.team-cn | join: ", " }}
+    </div>
+    {% endif %}
+    <div class="postpageresearch-info">
+      <!-- <a class="in-text-icon">
+        <i class="fa-solid fa-clock fa-fw"></i>
+      </a> -->
+      时间 {{ page.year }}
+    </div>
+  </div>
+
+  <div class="postpagedesign-content">
+    {{ content }}
+  </div>
+</div>

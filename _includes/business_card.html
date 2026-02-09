@@ -1,0 +1,43 @@
+<!-- 名片外层容器，控制卡片整体样式、居中和响应式宽度 -->
+<div class="business-card-container">
+
+    <!-- 名片主体，使用Flexbox实现左右布局 -->
+    <div class="business-card">
+        <a class="card-link-overlay" href="{{ '/about' | prepend: site.baseurl }}"></a>
+        <!-- 左侧头像/Logo区域 -->
+        <div class="card-left">
+            <img src="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/general/logos/logo2.png" alt="胡潜的个人Logo"
+                class="card-logo">
+        </div>
+        <!-- 右侧信息区域 -->
+        <div class="card-right">
+            <h2 data-wow-delay=".2s">胡 潜 HU Qian</h2>
+            <p class="position-title">建筑设计师 / 算法工程师</p>
+            <div class="contact-info">
+                <a class='in-text-icon'>
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a class="plainpassage">huqian.archi@outlook.com</a>
+            </div>
+
+            <div class="contact-info">
+                <a class='in-text-icon'>
+                    <i class="fa-brands fa-weixin"></i>
+                </a>
+                <a class="plainpassage">hq604036262</a>
+            </div>
+
+
+            <div class="contact-info">
+                <a class='in-text-icon'>
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+                <a class="plainpassage">
+                    15927613607
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+</div>

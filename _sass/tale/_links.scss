@@ -1,0 +1,52 @@
+.link-inline {
+
+    margin: 0 1.5rem 0 0;
+    display: inline-block;
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.btn-simple {
+    a {
+        /* 形状与边框 */
+        border-radius: 20px;
+        /* 控制倒角大小，值越大角越圆 */
+        border: 1px solid $default-shade;
+        color: $default-shade;
+        // background-color: rgb(230, 230, 230);
+        padding: .3rem .8rem;
+    }
+
+
+    /* 过渡效果 */
+    transition: all 0.5s ease-in-out;
+    /* 为颜色变化添加平滑过渡 */
+
+
+    // @media print {
+    //     .important-highlight {
+    //         background-color: rgb(230, 230, 230) !important;
+    //         print-color-adjust: exact;
+    //         -webkit-print-color-adjust: exact;
+    //     }
+    // }
+
+
+    &:hover {
+
+        // background-color: #f8f9fa;
+        a {
+            text-decoration: none;
+            color: $link-hover;
+            border-color: $link-hover;
+            // background-color: #e7e7e7;
+            // box-shadow: 0 4px 2px #c6c6c6;
+        }
+
+
+        // transform: translateY(-2px);
+
+    }
+}

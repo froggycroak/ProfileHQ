@@ -1,0 +1,101 @@
+* {
+  @include box-sizing;
+  line-height: 1.5;
+}
+
+html,
+body {
+  color: $default-color;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: $serif-primary;
+  font-size: 14px;
+  overflow-y: scroll;
+
+  @media (min-width: 600px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $default-shade;
+  font-family: $sans-serif;
+  line-height: normal;
+}
+
+a {
+  // color: $blue;
+  text-decoration: none;
+
+  // &:hover {
+
+  //   text-decoration: none;
+  // }
+}
+
+@media print {
+  a {
+    text-decoration: none !important;
+    /* 强制去除下划线 */
+  }
+
+  .nav,
+  .pagination,
+  .footer-container {
+    display: none !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  .chapter-heading {
+    page-break-after: avoid;
+    /* 尽量避免在标题后分页 */
+  }
+
+  pre,
+  table,
+  img,
+  .subpassage {
+    page-break-inside: avoid;
+    /* 尽量避免这些元素内部被分页 */
+  }
+}
+
+
+blockquote {
+  border-left: .25rem solid $grey-2;
+  color: $grey-1;
+  margin: .8rem 0;
+  padding: .5rem 1rem;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 600px) {
+    padding: 0 5rem 0 1.25rem;
+  }
+}
+
+img {
+  display: block;
+  margin: 0 0 1rem;
+  max-width: 100%;
+}
+
+td {
+  vertical-align: top;
+}

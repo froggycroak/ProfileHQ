@@ -1,0 +1,47 @@
+/* 所有样式都封装在.table-container中 */
+.table-container {
+    /* 容器样式 */
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 15px;
+    // font-family: "SimSun", "宋体", serif;
+    color: #333;
+
+    /* 表格基础样式 */
+    --border-width: 2px;
+    --header-border-width: 1px;
+    --line-color: #000;
+    --header-bg: transparent;
+    --even-row-bg: #f9f9f9;
+
+    /* 表格元素样式 */
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: var(--border-width) solid var(--line-color);
+    border-bottom: var(--border-width) solid var(--line-color);
+}
+
+.table-container thead tr {
+    border-bottom: var(--header-border-width) solid var(--line-color);
+}
+
+.table-container th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    background: var(--header-bg);
+}
+
+.table-container td {
+    padding: 12px 15px;
+    text-align: left;
+    border: none;
+}
+
+// .table-container tbody tr:nth-child(even) {
+//     background-color: var(--even-row-bg);
+// }

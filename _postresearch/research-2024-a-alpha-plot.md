@@ -1,0 +1,55 @@
+---
+layout: research
+projid: R24-C01
+abbrev: AlphaPlot
+icon-image:
+featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R24-C01-AlphaPlot/featured.png
+sort-year: 2024
+sort-order: 3
+
+title: Generative Design of Building Volumes Dominated by Corridors
+title-cn: 走道式组合主导的建筑体量集合生成研究——以高校生活区为例
+team: [ HU Qian, TANG Peng(supervisor) ]
+team-cn: [ 胡潜, 唐芃(导师) ]
+tags:
+tags-cn: [ 硕士论文, 主导, 生成式设计 ]
+
+
+
+location:
+location-cn:
+---
+
+{% include link_citation.html key="PUB-2406-MTC" note="引用 "%}
+
+{% include link_pdf.html content='文献直达-article' link='https://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2024)M%25%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87-%E8%B5%B0%E9%81%93%E5%BC%8F%E7%BB%84%E5%90%88%E4%B8%BB%E5%AF%BC%E7%9A%84%E5%BB%BA%E7%AD%91%E4%BD%93%E9%87%8F%E9%9B%86%E5%90%88%E7%94%9F%E6%88%90%E7%A0%94%E7%A9%B6.pdf'  %}
+
+{% include link_clip.html content='相关推文-post' link='https://mp.weixin.qq.com/s/Kh6RqFmwjeXjkcWCTDvzUQ'  %}
+
+---
+
+走道式组合是一种常见的空间组合模式，其影响能扩展到建筑体量的形态特征，因而产生了走道式组合主导的建筑体量集合。在城市中，这类建筑体量集合普遍存在，且在形态规律和设计方法上呈现出共性，因而具有广泛的研究价值。随着计算机技术应用的普及，程序作为建筑知识载体和建筑设计工具成为可能。通过编写程序来把握一类建筑体量的形态特征，能够将模糊零散的设计知识整合到更为明确的结构中。另一方面，实际设计工作也需要高效的工作流程和合适的辅助工具，来解决与之相关规划和建筑设计问题。
+
+本研究以大学校园中的学生公寓组团、生活区建筑群为例，研究走道式组合主导下单一地块上建筑体量集合的生成式设计。理论研究部分从空间组合模式和城市形态现象出发，依据形态类型学理论梳理走道式组合的内在要素、结构、逻辑，并由此引出两个生成实验的研究问题；在此基础上以“类型”语境的探讨回应了研究背景中的现象认知；最后从数据结构和算法范式的角度，探析了实验中可能用到的建模方式和算法工具。
+
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R24-C01-AlphaPlot/thesis-structure.png" note="研究框架与论文目录" %}
+
+方法研究部分包含两个实验。
+
+- 学生公寓组团生成实验以规则系统为主要范式，完成了一种学生公寓建筑组团的生成方法。该实验将常见的学生公寓走道生成概括为一系列可操作的步骤，给出了一种由地块形态“译制”走道形态的方法，同时通过引入建筑师常用的“模数”概念简化了转角处理的问题。（这是项目AlphaPlot的主要实验）
+
+- 高校生活区生成实验以数学规划为主要模型，转译了高校生活区中的要素和约束条件，借助通用解算器求解问题。该实验尝试了建筑生成设计中应用尚且有限的二次规划连续模型，给出了二次规划模型中复杂凹多边形地块，以及建筑编组这一“类语法”秩序的表述方法，这些内容尚未被解决且具有实际意义。在生成实验的基础上，研究通过应用框架组织算法模块，并在实例中检验可行性。（与项目QuadraBlock有所重合）
+
+本研究在建筑形态认知和基于形态特征的生成设计中做出了有益尝试，为大学校园中一些实践问题提供了数字化解决方案，在学科知识转化、算法工具应用、设计生产提效等方面具有创新价值。
+
+
+
+
+
+**表 CorriBase系列研究** `编辑中...`
+
+|项目|研究对象||||
+|---|---|---|---|---|
+|UnitéPacking|建筑内部|马赛公寓等案例|||
+|AlphaPlot|建筑单体|高校学生公寓|||
+|QuandraBlock|建筑群体|高校学生公寓|||
