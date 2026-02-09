@@ -1,8 +1,8 @@
 .postpagedesign {
-    padding: 3rem 0;
+    padding: 2rem 0;
     display: grid;
     grid-template-columns: auto 1fr; // 第一列宽度由内容（SVG）决定，第二列占据剩余空间
-    gap: 20px; // 设置两列之间的间距[1](@ref)
+    gap: 0px 20px; // 设置两列之间的间距
     align-items: start; // 确保列内内容从顶部对齐
 
     >svg {

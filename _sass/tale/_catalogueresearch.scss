@@ -153,12 +153,16 @@ $research-image-size-mobile: 180px !default;
 }
 
 .research-tags {
+
+
     p {
         display: inline-block;
         margin: 0 0.1rem 0.2rem;
         padding: 0.2rem 0.5rem;
         border-radius: 5px;
         text-decoration: none;
+        font-size: 0.9rem !important;
+
 
         background: rgba(0, 0, 0, 0.05);
         color: $grey-1;
@@ -167,7 +171,7 @@ $research-image-size-mobile: 180px !default;
 
 
         &[tag-content="进行中..."] {
-            background-color: rgba(255, 0, 0, 0.1);
+            background-color: rgba(197, 0, 0, 0.1);
             color: #d32f2f; // 红色系
         }
 

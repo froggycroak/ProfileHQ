@@ -29,6 +29,8 @@
 
 
 
+
+
     &-bold {
         font-weight: bold;
         color: $default-shade !important;
@@ -77,6 +79,29 @@
     }
 }
 
+.plainpassage-brief {
+    padding: 1rem;
+    margin-top: 1rem !important;
+    border-left: 4px solid #c0c0c0;
+    background-color: #f9f9f9;
+    border-radius: 0;
+    // font-style: italic;
+    color: $default-tint;
+    line-height: 1.6;
+
+    &::before {
+        content: "";
+        font-size: 1rem;
+        color: $default-tint;
+        // margin-right: 0.5rem;
+        // vertical-align: -0.5rem;
+    }
+
+    ul {
+        margin: 0;
+    }
+}
+
 .header-text>div {
     display: flex;
     justify-content: space-between;
@@ -94,11 +119,13 @@
 }
 
 .year-heading {
-    color: gray;
+    // color: gray;
+    color: $default-tint;
 }
 
 .chapter-heading {
-    color: grey;
+    // color: grey;
+    color: $default-tint;
     margin-top: 2rem !important;
     margin-bottom: 1rem !important;
     font-size: 1.25rem;
@@ -109,7 +136,8 @@
 }
 
 .chapter-heading-left {
-    color: grey;
+    // color: grey;
+    color: $default-tint;
     margin-top: 2rem !important;
     margin-bottom: 1rem !important;
     font-size: 1.25rem;
@@ -121,6 +149,29 @@
 
 .subpassage {
     margin: 0.7rem 0;
+}
+
+@media (max-width: 800px) {
+    .subpassage>div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .subpassage>div>span:first-child {
+        width: 100%;
+        /* 第一个span占满整行 */
+        margin-bottom: 4px;
+        /* 添加间距 */
+    }
+
+    .subpassage>div>span:last-child {
+        width: auto;
+        /* 第二个span自适应宽度 */
+        // margin-left: auto;
+        /* 靠右对齐 */
+    }
 }
 
 .weakpassage {

@@ -149,7 +149,7 @@
     display: block;
     /* 使<a>标签表现为块级元素 */
     width: 100%;
-    max-width: 400px;
+    max-width: 370px;
     margin: 2rem auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -274,7 +274,7 @@
 
 
 /* 响应式设计：当屏幕宽度小于400px时 */
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .business-card-container {
         width: 75%;
         margin: 1rem auto;
