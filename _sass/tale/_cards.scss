@@ -117,6 +117,11 @@
     .plainpassage-card-container {
         grid-template-columns: repeat(2, 1fr);
         /* 强制2列 */
+
+    }
+
+    .plainpassage-card {
+        min-height: 160px;
     }
 
 }

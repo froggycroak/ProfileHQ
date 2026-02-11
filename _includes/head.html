@@ -22,6 +22,27 @@
     }
   </script>
 
+  <!-- 公式渲染 -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        tags: 'ams'  // 启用公式编号
+      },
+      chtml: {
+        displayAlign: 'left',  // 块级公式左对齐
+        displayIndent: '0em'   // 缩进设置为0
+      },
+      svg: {
+        displayAlign: 'left',
+        displayIndent: '0em'
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
   <!-- Font Awesome CDN -->
   <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.7.2/css/all.css" rel="stylesheet">
   <!-- Iconfont CDN -->

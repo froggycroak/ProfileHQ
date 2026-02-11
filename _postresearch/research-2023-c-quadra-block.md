@@ -28,9 +28,14 @@ location-cn:
 
 
 ---
+<!-- <div class="plainpassage-brief"></div> -->
 
-本研究运用数学规划的通用求解方法，解决城市尺度的生成式设计问题。研究以高校生活区为例，该类设计受多重规划指标与多样化场地边界的制约。二次规划为此类问题提供了数学模型，借助先进的数学规划求解器，可自动处理带二次约束的设计生成。然而，其核心挑战在于如何有效构建复杂的场地边界、灵活的建筑模板并处理建筑朝向的可变性。为应对这些挑战，本研究融合了模型内部的表征技术与模型外部的几何算法模块，共同增强二次规划主模型，并构建了一套适用于实际城市设计项目的完整流程。生成结果验证了增强模型及该应用流程的有效性。
+研究聚焦于生成式城市设计领域，特别是针对高校生活区的建筑布局问题。该研究创新性地采用二次规划（Quadratic Programming, QP）作为数学编程工具，结合通用求解器（如Gurobi）来实现设计方案的自动生成。研究核心在于通过QP模型将复杂的城市设计约束（如建筑密度、容积率、日照间距等）转化为数学表达式，从而摆脱传统手工设计的迭代过程，提升设计效率。这种方法允许设计师专注于问题形式化而非求解过程，为处理多指标、多边界形状的城市设计问题提供了新思路。
 
-This research aims to tackle the problem of the generative urban design of residential areas using a general-solving machine of mathematical programming. Residential areas on university campuses are taken as examples. As a type of urban design problem, the layout of residential areas on campuses is subject to multiple indicators and various boundary shapes. Quadratic Programming (QP) offers a representation of this problem, and with the assistance of cutting-edge mathematical programming solvers, the urban design problem with quadratic constraints can be automatically tackled. However, the difficulties lie in formulating complex boundaries, flexible building templates, and directional variability. To overcome these challenges, this research combines inside-model techniques of representation and outside-model modules utilizing geometric methods to enhance the main model of QP. A pipeline is provided to apply the approach in real urban design projects. The generated results validate the effectiveness of the enhanced model and the pipeline.
+研究的关键突破体现在QP模型的具体构建上。模型首先定义了灵活的建築模板，其中宿舍建筑通过变量（如房间数量nₕ、nₗ）参数化表示深度、长度和高度，并引入控制区域概念来处理建筑间的防火和日照距离约束。针对复杂边界形状，研究提出了凹多边形分解方法，将不规则边界转化为凸多边形组合，确保数学表达式不超出二次约束限制。这些技术创新使模型能够适应真实的校园地块形状，并生成符合规范的设计方案。
+
+此外，研究通过外部模块扩展了QP模型的灵活性。建筑对齐模块实现了规则式布局生成，向量场方法解决了建筑方向多样化问题，最终形成完整的建模管道。这些增强措施使生成结果更贴近人工设计效果，验证了该方法在真实设计项目中的实用性，为生成式城市设计提供了可扩展的解决方案框架。
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R23-C01-QuadraBlock/pipeline.png" note="模块结构图" %}
+
+

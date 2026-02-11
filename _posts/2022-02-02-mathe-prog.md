@@ -56,25 +56,25 @@ SCIP 开源，有pyscipopt，但没有C#接口。
       <td><strong>Gurobi</strong></td>
       <td>商业求解器，速度快、稳定性强，支持 LP/MIP/MIQP/NLP 等全类型问题，提供免费学术许可。</td>
       <td>Python/C++/Java/C#/MATLAB 等主流语言</td>
-      <td>大规模复杂模型（如城市级建筑群优化）</td>
+      <td>...</td>
     </tr>
     <tr>
       <td><strong>CPLEX</strong></td>
       <td>商业求解器，与 Gurobi 性能相当，擅长 MIP 问题，提供可视化建模工具。</td>
       <td>类似 Gurobi，支持 C#/Python 等</td>
-      <td>工业级项目（如建筑供应链优化）</td>
+      <td>...</td>
     </tr>
     <tr>
       <td><strong>SCIP</strong></td>
       <td>开源求解器，支持 MIP/NLP/CP 等，灵活性强，可通过插件扩展算法。</td>
-      <td>提供 pyscipopt（Python）、C 接口；无官方 C# 接口，需通过 C++ 封装调用</td>
-      <td>学术研究、中小规模模型</td>
+      <td>提供 pyscipopt（Python）、C 接口；无官方 C# 接口</td>
+      <td>...</td>
     </tr>
     <tr>
       <td><strong>GLPK</strong></td>
       <td>轻量级开源求解器，适合教学与简单 LP/MIP 问题，计算效率较低。</td>
       <td>支持 C/Python/Java 等</td>
-      <td>入门级模型验证</td>
+      <td>...</td>
     </tr>
     <tr>
       <td><strong>COIN-OR</strong></td>
@@ -86,8 +86,8 @@ SCIP 开源，有pyscipopt，但没有C#接口。
 </table>
 
 <h5 class="chapter-heading-left">应用案例</h5>
-
-PeterWonka
+...
+<!-- PeterWonka
 中科大2018
 飚门系列
-野人2021系列
+野人2021系列 -->

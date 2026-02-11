@@ -79,7 +79,7 @@
     a:not(.btn) {
         color: $default-tint;
         // text-decoration: underline;
-        @include transition(all .3s ease-out);
+        @include transition(all .1s ease-out);
 
         &:hover {
             color: $link-hover;
