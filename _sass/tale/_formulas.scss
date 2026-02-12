@@ -1,23 +1,11 @@
-/* 求和符号上下标间距优化 */
-mjx-munderover mjx-under {
-    margin-top: -0.2em !important;
-    /* 上标上移 */
-    margin-bottom: -0.1em !important;
-    /* 下标下移 */
+.katex-display {
+    text-align: left !important;
+    margin: 1em 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.5em 0;
 }
 
-mjx-munder mjx-under {
-    margin-top: -0.15em !important;
-}
-
-/* 极限符号间距调整 */
-mjx-munderover mjx-script {
-    padding: 0.05em 0.1em !important;
-    /* 减少内边距 */
-}
-
-/* 运算符间距优化 */
-mjx-mo {
-    margin-left: 0.05em !important;
-    margin-right: 0.05em !important;
+.katex {
+    text-align: left;
 }
