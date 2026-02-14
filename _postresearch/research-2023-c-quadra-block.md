@@ -55,14 +55,12 @@ $$D_m \geq h \times k$$
 $$\sum_{i=1}^4 \xi_i = 1 \quad (\xi_i \in \{0,1\})$$
 
 $$\begin{aligned}
-
-
-
 &\xi_{1} \times (x_{i} - x_{j} - l_{j} - D_{jE}) + \xi_{2} \times (-x_{i} + x_{j} - l_{j} - D_{jW}) + \\
 &\xi_{3} \times (y_{i} - y_{j} - d_{j} - D_{jN}) + \xi_{4} \times (-y_{i} + y_{j} - d_{j} - D_{jS}) \geq 0
 \end{aligned}$$
 
 $$\forall i \in \{1,2,3,\ldots, n\}, \quad a_{i}x + b_{i}y + c_{i} \geq 0$$
+
 $$\sum_{i=1}^n \xi_i = 1 \quad (\xi_i \in \{0,1\}) \quad \wedge \quad \sum_{i=1}^n \xi_i(a_i x + b_i y + c_i) \leq 0$$
 
 `凹多边形处理方法`
@@ -78,14 +76,22 @@ $$\begin{array}{l}
 `高密容约束`
 
 $$\delta_{\min} \leq \mathop{\sum}_{i=1}^n d_i \times l_i \leq \delta_{\max}$$
+
 $$F_{\min} \leq \mathop{\sum}\limits_{i=1}^{n} d_{i} l_{i} n_{hi} \leq F_{\max}$$
 
 `对齐规则约束`
 
 $$\xi_a + \xi_b = 1 \quad (\xi_a, \xi_b \in \{0,1\})$$
+
 $$\xi_a \times (x_i - x_j) + \xi_b \times (x_i - x_j + l_i - l_j) = 0$$
+
 $$y_i - y_j \leq 0$$
+
 $$2 \times k \times h_{\text{unit}} \times (n_h)_{\text{min}} + y_i - y_j \geq 0$$
+
+<br>
+
+`部分图解`
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R23-C01-QuadraBlock/building-and-site.jpg" note="建筑与场地的表述方法" %}
 

@@ -42,3 +42,5 @@ location-cn:
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitéPacking/cases.png" note="典型案例拆解分析" %}
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitéPacking/experiment.png" note="实验原理与测试输出" %}
+
+<!-- <h5 class="chapter-heading-left">模板拼贴实验原理</h5> -->
