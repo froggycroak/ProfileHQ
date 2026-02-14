@@ -22,7 +22,7 @@ location-cn:
 ---
 
 {% include link_citation.html key="PUB-2212-CPC" note="引用 "%}
-{% include link_pdf.html content='文献直达-article' link='http://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2022)C%25DADA-%E5%9F%BA%E4%BA%8E%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%8E%86%E5%8F%B2%E5%9C%B0%E6%AE%B5%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6.pdf'  %}
+{% include link_pdf.html content='文献直达-article' link='https://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2022)C%25DADA-%E5%9F%BA%E4%BA%8E%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%8E%86%E5%8F%B2%E5%9C%B0%E6%AE%B5%E6%95%B0%E6%8D%AE%E6%94%B6%E9%9B%86%E6%96%B9%E6%B3%95%E7%A0%94%E7%A9%B6.pdf'  %}
 ---
 
 <div class="plainpassage-brief">在历史地段的更新保护中，实地调研以收集数据是不可或缺的工作。由于缺乏系统的工作方法和专门的工具平台，调研工作时常效率低下，难以改良。群智计算的广泛应用启示我们，可以通过分划数据收集工作、搭建网络信息平台予以优化。本研究基于实际调研经验，搭建网络信息平台，探讨了一种多端合作、实时共享、高效便捷的调研方法，提升了调研工作效率，对于推进众包合作的历史地段更新设计模式具有重要意义。</div>
@@ -39,7 +39,7 @@ location-cn:
 - 建筑评分；
 - 住户调查。
   
-{% include figure_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/tecture.png" note="信息收集平台总体架构" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/tecture.png" note="信息收集平台总体架构" %}
 
 <!-- This study addresses manual data collection challenges in Chinese historic areas—an essential but inefficient preliminary step in renewal design requiring team collaboration. Despite digital tech enabling real-time group data interaction and online platforms, current fieldwork remains fragmented, with cumbersome data/score collection causing chaos (e.g., inconsistent scoring, label conflicts, misjudged focus). Guided by Chinese historic area traits and Kropf/Marshall’s urban morphology theory, a data structure was built. Practical experience in a Chinese historic area informed a collaborative workflow, tested via web demos for feasibility. Extensive trials yielded a stable, efficient sequence:
 
@@ -55,6 +55,6 @@ location-cn:
 
 <!-- With the support of this technical framework, we have completed a historical site survey and area renewal design for a town in Jiangsu Province. It is a renewal design of a complex area on a small hill, which may be regarded as an urban village because the area is surrounded by urban space while itself is more like a high-density village. The conservation and regeneration of this urban village requires exhaustive site investigation, overall planning, further architectural design and consideration of heritage preservation. In order to fully develop land value and improve the life quality of vulnerable residents, several new functions were embed and the environment of road network and open spaces were bettered. Also, several schemes for architectural design were proposed, including preservation and renovation of some old buildings. The design might also activate the area and the eccentric terrain as well as the scenery on the top of the hill could be enjoyed by more citizens. -->
 
-{% include figure_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/site.png" note="江苏省某城镇更新项目场地概况" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/site.png" note="江苏省某城镇更新项目场地概况" %}
 
-{% include figure_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/birdview.png" note="更新设计方案概况" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/birdview.png" note="更新设计方案概况" %}

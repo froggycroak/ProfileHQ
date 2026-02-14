@@ -55,4 +55,4 @@ team-cn: 胡潜
 
 对建筑设计为主业的研发团队而言，相比于追逐技术热点，应更加注重这种问题导向、务实整合的策略。通过将宏大的愿景分解为一系列“简明而落实”的子问题，并为之匹配恰当的技术工具组合，生成设计才能真正跨越理论与实践的鸿沟，在具体的业务场景中持续产生扎实、可靠且富有洞见的设计解决方案。
 
-{% include figure_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/general/lecture-ppt/gen-paradim-2-2.png" note="本人在华建集团上海院所作相关学术分享" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/general/lecture-ppt/gen-paradim-2-2.png" note="本人在华建集团上海院所作相关学术分享" %}

@@ -1,0 +1,50 @@
+---
+layout: default
+title: "More"
+title-cn: "其他 · 私有"
+
+permalink: /morepr/
+---
+
+<br>
+<h1 class="cataloguepage-title" align="center">- {{page.title-cn}} -</h1>
+
+
+<div class="tags">
+  <div class="tags-item" id="">
+    <div class="col-12 p-0">
+      <h5 class="chapter-heading-left">私有内容</h5>
+    </div>
+    {% for post in site.postprivate %}
+    <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+      <div>
+        <span class="tags-post-title">- {{ post.abbrev}} / {{ post.title-cn }}</span>
+        <div class="tags-post-line"></div>
+      </div>
+      <span class="tags-post-meta">
+        <time datetime="{{ post.date }}">
+          {{ post.date | date:"%Y-%m" }}
+        </time>
+      </span>
+    </a>
+    {% endfor %}
+    </div></div>
+
+  
+
+<!-- <div>
+  <a>
+    <i class="fa-brands fa-sistrix"></i>
+    <i class="fa-solid fa-envelope"></i>
+    <i class="fa-regular fa-envelope"></i>
+    <i class="fa-solid fa-paperclip"></i>
+    <i class="fa-solid fa-up-right-from-square"></i>
+    <i class="fa-solid fa-list"></i>
+    <i class="fa-solid fa-0"></i>
+    <i class="fa-solid fa-angle-down"></i>
+    <i class="fa-solid fa-comment"></i>
+    <i class="fa-solid fa-phone"></i>
+    <i class="fa-solid fa-trophy"></i>
+    <i class="fa-solid fa-award"></i>
+  </a>
+</div> -->

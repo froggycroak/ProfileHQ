@@ -61,6 +61,9 @@ collections:
   postresearch:
     output: true
     permalink: /research/:title
+  postprivate:
+    output: true
+    permalink: /morepr/:title  
 
 # seo:
 #   title_separator: " | "

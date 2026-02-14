@@ -3,7 +3,7 @@ layout: research
 projid: R23-C01
 abbrev: QuadraBlock
 icon-image:
-featured-image: http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R23-C01-QuadraBlock/featured.png
+featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R23-C01-QuadraBlock/featured.png
 sort-year: 2023
 sort-order: 1
 
@@ -24,7 +24,7 @@ location-cn:
 ---
 
 {% include link_citation.html key="PUB-2504-CPE" note="引用 "%}
-{% include link_pdf.html content='文献直达-article' link='http://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2025)C%25CDRF-Flexible%20Plot-scale%20Urban%20Design%20using%20QP-FullVersion.pdf'  %}
+{% include link_pdf.html content='文献直达-article' link='https://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2025)C%25CDRF-Flexible%20Plot-scale%20Urban%20Design%20using%20QP-FullVersion.pdf'  %}
 
 
 ---

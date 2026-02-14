@@ -47,6 +47,8 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-environment-variables (1.0.1)
+      jekyll (>= 3.0, < 5.x)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
@@ -104,6 +106,7 @@ PLATFORMS
 DEPENDENCIES
   bigdecimal
   jekyll (~> 4.3)
+  jekyll-environment-variables
   jekyll-feed
   jekyll-paginate
   jekyll-remote-theme

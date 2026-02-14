@@ -12,3 +12,4 @@ gem "jekyll-feed"
 gem "jekyll-seo-tag"
 
 gem "bigdecimal"
+gem 'jekyll-environment-variables'
