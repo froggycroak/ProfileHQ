@@ -2,10 +2,12 @@
 layout: research
 projid: R24-C01
 abbrev: AlphaPlot
+permalink: /Research/AlphaPlot/
 icon-image:
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R24-C01-AlphaPlot/featured.png
 sort-year: 2024
-sort-order: 3
+include-website: true
+include-pdf: true
 
 title: Generative Design of Building Volumes Dominated by Corridors
 title-cn: 走道式组合主导的建筑体量集合生成研究——以高校生活区为例

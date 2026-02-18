@@ -68,7 +68,9 @@ a {
   pre,
   table,
   img,
-  .subpassage {
+  .subpassage,
+  .print-in-page,
+  .figure-full {
     page-break-inside: avoid;
     /* 尽量避免这些元素内部被分页 */
   }
@@ -98,4 +100,11 @@ img {
 
 td {
   vertical-align: top;
+}
+
+@media print {
+            
+  .page-break {
+      page-break-before: always;
+  }
 }

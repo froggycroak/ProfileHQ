@@ -15,10 +15,10 @@
 <div class="resume-content">
     <!-- 个人信息 -->
     <!-- 工作经历 -->
-    <section>
+    <section class=" print-in-page">
         <!-- <hr style=" margin: 0"> -->
         <div class="col-12 p-0">
-            <h5 class="chapter-heading" align="center">- 工作经历 Working -</h5>
+            <h5 class="chapter-heading" align="center">工作经历 Working</h5>
         </div>
 
         <!-- 华建科技 -->
@@ -36,7 +36,8 @@
                 href="{{ProtoMass.url | prepend: site.baseurl}}">面向原创设计的建筑体量原型智能演绎工具</a><br>
             - 深度参与研发项目: <a class="plainpassage-link" href="{{OvalAgent.url | prepend: site.baseurl}}">体育建筑智能设计助手</a>,
             获省部级奖项<br>
-            - 主导研发项目: <a class="plainpassage-link" href="{{StandRecons.url | prepend: site.baseurl}}">基于实景图片的看台碗三维重建</a>
+            - 主导研发项目: <a class="plainpassage-link" href="{{StandRecons.url | prepend: site.baseurl}}">基于实景图片的看台碗三维重建</a><br>
+            - 参与多个设计项目: 旗忠村网球场改扩建、静安文体中心、南通某足球场
         </div>
 
         <!-- 东大院 -->
@@ -81,10 +82,10 @@
     </section>
 
     <!-- 教育背景 -->
-    <section>
+    <section class="">
         <!-- <hr style="margin: 0"> -->
         <div class="col-12 p-0">
-            <h5 class="chapter-heading" style="color: gray; ">- 教育背景 Education -</h5>
+            <h5 class="chapter-heading" style="color: gray; ">教育背景 Education</h5>
         </div>
 
         <div class="subpassage">
@@ -116,9 +117,9 @@
     </section>
 
     <!-- 技术能力 -->
-    <section>
+    <section class=" print-in-page">
         <div class="col-12 p-0">
-            <h5 class="chapter-heading" style="color: gray; ">- 技术能力 Skills -</h5>
+            <h5 class="chapter-heading" style="color: gray; ">技术能力 Skills</h5>
         </div>
         <!-- <hr style="margin: 0"> -->
         <div class="subpassage">
@@ -141,18 +142,19 @@
     </section>
 
     <!-- 发表情况 -->
-    <section class="plainpassage">
+    <section class="plainpassage" >
         <div class="col-12 p-0">
-            <h5 class="chapter-heading" style="color: gray; ">- 发表情况 Publications -</h5>
+            <h5 class="chapter-heading" style="color: gray; ">发表情况 Publications</h5>
         </div>
         <!-- <hr style="margin: 0"> -->
 
         <div class="subpassage"><strong>学位论文 Thesis</strong>
             {% include link_citation.html key="PUB-2406-MTC" %}
+            <!-- {% include link_pdf.html content='文献直达-article' link='https://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2024)M%25%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87-%E8%B5%B0%E9%81%93%E5%BC%8F%E7%BB%84%E5%90%88%E4%B8%BB%E5%AF%BC%E7%9A%84%E5%BB%BA%E7%AD%91%E4%BD%93%E9%87%8F%E9%9B%86%E5%90%88%E7%94%9F%E6%88%90%E7%A0%94%E7%A9%B6.pdf'  %} -->
         </div>
         <div class="subpassage"><strong>期刊论文 Journal</strong>
             {% include link_citation.html key="PUB-2402-JAC" %}
-            {% include link_citation_pre.html content="李星桥,胡潜,徐晓明*. 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型[J].
+            {% include link_citation_pre.html content="李星桥,胡潜,徐晓明. 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型[J].
             建筑技艺,2026(待发表)." note=""%}
         </div>
 

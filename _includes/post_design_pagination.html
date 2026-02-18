@@ -1,0 +1,26 @@
+{% assign proj_count = site.postdesign | size %}
+{% assign proj_index = 0 %}
+{% for proj in site.postdesign reversed %}
+{% assign proj_index = proj_index | plus: 1 %}
+{% if proj.url == post.url %}
+{% break %}
+{% endif %}
+{% endfor %}
+
+<div class="pagination">
+  {% if post.next.url %}
+  <a href="{{ post.next.url | prepend: site.baseurl }}" class="left arrow">
+    <i class="fa-solid fa-arrow-left"></i>
+  </a>
+  {% endif %}
+
+  <div class="arrow">
+    {{proj_index}} of {{proj_count}}
+  </div>
+
+  {% if post.previous.url %}
+  <a href="{{ post.previous.url | prepend: site.baseurl }}" class="right arrow">
+    <i class="fa-solid fa-arrow-right"></i>
+  </a>
+  {% endif %}
+</div>

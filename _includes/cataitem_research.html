@@ -1,18 +1,11 @@
+{% if include.link %}
+    {% assign project_link = include.link %}
+{% else %}
+    {% assign project_link = post.include.link | default: post.url | relative_url %}
+{% endif %}
+
 <article class="research-item">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="research-link">
-    <!-- {% if post.featured-image %}
-    <div class="research-image-container">
-      <img src='{{post.featured-image }}'
-        alt="{% if post.alt %}{{ post.alt }}{% else %}文章“{{ post.title | escape }}”的配图{% endif %}"
-        class="research-image" loading="lazy" />
-    </div>
-    {% else %}
-    <div class="research-image-container">
-      <img
-        src="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S00-design-template/img-sample.jpg"
-        class="research-image" loading="lazy" />
-    </div>
-    {% endif %} -->
+  <a href="{{ project_link }}" class="research-link">
     <div class="research-image-container">
       <img src="{{ site.osshost-url }}research/imghost-{{ post.projid}}-{{post.abbrev}}/featured.jpg" alt=""
         class="research-image" loading="lazy" />
@@ -21,16 +14,9 @@
     <div class="research-content">
       <h2 class="research-title">{{ post.abbrev}}</h2>
       {% if post.subtitle or post.title-cn %}
-      <p class="research-subtitle2">{{ post.title}}</p>
-      <p class="research-subtitle">{{ post.title-cn }}</p>
-
+        <p class="research-subtitle2">{{ post.title}}</p>
+        <p class="research-subtitle">{{ post.title-cn }}</p>
       {% endif %}
-      <div class="research-meta">
-        {% if include.sticky == 'true' %}
-        <span class="research-pinned">置顶 ·</span>
-        {% endif %}
-        <!-- <time datetime="{{ post.date }}" class="research-time">{{ post.date | date: "%Y年%m月%d日" }}</time> -->
-      </div>
       <div class="research-tags">
         {% for tag in post.tags-cn %}
         <p tag-content="{{ tag }}">{{ tag }}</p>

@@ -90,7 +90,7 @@
       white-space: nowrap;
     }
 
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       &-meta {
         display: none;
         /* 在移动端隐藏日期 */

@@ -2,11 +2,12 @@
 layout: research
 projid: R23-C01
 abbrev: QuadraBlock
+permalink: /Research/QuadraBlock/
 icon-image:
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R23-C01-QuadraBlock/featured.png
 sort-year: 2023
-sort-order: 1
-
+include-website: true
+include-pdf: true
 
 
 title: Flexible Plot-Scale Urban Design Using Quadratic Programming

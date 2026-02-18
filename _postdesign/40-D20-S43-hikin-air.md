@@ -2,9 +2,13 @@
 layout: design
 projid: D20-S43
 abbrev: HikinAir
+permalink: /Design/HikinAir/
 icon-d: M40 40H0V0H40V40ZM22.5 12H4V25H12V36H36V28H15V15H36V4H22.5V12Z
-featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/featured.jpg
 year: 2020
+include-website: true
+include-pdf: true
+sticky: true
+
 
 title: Hike in the Air
 title-cn: '雷军科技大厦: 高层建筑综合设计'
@@ -12,16 +16,7 @@ subtitle:
 subtitle-cn: 
 team: [ HU Qian ]
 team-cn: [ 胡潜, 郭翔(指导), 兰兵(指导)]
-location:
-sticky: true
 
-
-type1: 
-type1-cn: 
-type2: 
-type2-cn: 
-type3: 
-type3-cn: 
 
 ---
 
@@ -34,10 +29,8 @@ type3-cn:
 - 环境方面，综合考量与周边街道、建筑的关联，以此为据设计建筑的整体形态、格网方向、表皮形式、裙楼空间。
 这样的办公楼，一是要给内部使用者提供不同寻常的工作体验，激发创新创造、合作交互；二是要协调周边城市环境，赋予整个地块活力。
 
-<br>
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/birdview.png" note="鸟瞰图" %}
-<br>
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/sectionhuge.png" note="剖透视" %}
 
@@ -47,7 +40,10 @@ type3-cn:
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/tectonic.png" note="构造剖透视" %}
 
 
+
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/perspective.png" note="透视图" %}
+
+
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/floorplans.png" note="楼层平面图" %}
 

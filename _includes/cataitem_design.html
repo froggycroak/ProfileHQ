@@ -1,4 +1,10 @@
-<a href="{{ post.url | relative_url }}" class="project-grid-item">
+{% if include.link %}
+    {% assign project_link = include.link %}
+{% else %}
+    {% assign project_link = post.include.link | default: post.url | relative_url %}
+{% endif %}
+
+<a href="{{ project_link }}" class="project-grid-item">
     <img src="{{ site.osshost-url }}design/imghost-{{ post.projid}}-{{post.abbrev}}/featured.jpg" alt="">
     <div class="project-grid-info">
         <div class="inline-block">

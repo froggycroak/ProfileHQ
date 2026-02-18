@@ -2,11 +2,14 @@
 layout: research
 projid: R24-D01
 abbrev: StandRecons
+permalink: /Research/StandRecons/
 icon-image: 
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R24-D01-StandRecons/featured.png
 sort-year: 2024
 sort-order: 2
-permalink: /hello/
+include-website: true
+include-pdf: false
+
 
 
 title: Image-based 3D Reconstruction of Stadium Bowls

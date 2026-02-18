@@ -20,11 +20,14 @@ $research-image-size-mobile: 180px !default;
         .research-line {
             width: 5rem;
         }
+        // transform: translateY(-3px);
+        text-decoration: none;
     }
 
     &:last-child {
         border-bottom: 0;
     }
+    transition: transform 0.3s ease-out
 }
 
 .research-link {
@@ -45,7 +48,7 @@ $research-image-size-mobile: 180px !default;
         text-decoration: none !important;
     }
 
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) {
         flex-direction: column;
         padding: 1.25rem 0;
     }
@@ -57,7 +60,7 @@ $research-image-size-mobile: 180px !default;
     margin-right: 1.5rem;
     align-self: flex-start;
 
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) {
         margin-right: 0;
         margin-bottom: .5rem;
         align-self: center; // 移动端图片居中
@@ -73,7 +76,7 @@ $research-image-size-mobile: 180px !default;
     display: block;
     margin: 0 0 0 0;
 
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) {
         width: 100%;
         height: 62.25%;
         margin-bottom: 1 rem;
@@ -110,7 +113,7 @@ $research-image-size-mobile: 180px !default;
     margin: 0 0 0.1rem 0;
     line-height: 1.3;
 
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) {
         font-size: 1.3rem;
     }
 }

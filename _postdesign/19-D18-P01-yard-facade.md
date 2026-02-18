@@ -5,7 +5,7 @@ abbrev: YardFaçade
 icon-d: png
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/featured.jpg
 year: 2018
-
+include-pdf: false
 
 title: 
 title-cn: 废弃立面构件与临时庭院空间的共生

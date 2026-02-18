@@ -113,7 +113,7 @@
 /* 响应式设计：在小屏幕（如手机）上堆叠显示 */
 
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .plainpassage-card-container {
         grid-template-columns: repeat(2, 1fr);
         /* 强制2列 */
@@ -127,7 +127,7 @@
 }
 
 /* 小屏幕：当宽度不足以舒适地放下2列时，变为1列 */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .plainpassage-card-container {
         grid-template-columns: 1fr;
         /* 强制1列 */
@@ -279,7 +279,7 @@
 
 
 /* 响应式设计：当屏幕宽度小于400px时 */
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .business-card-container {
         width: 75%;
         margin: 1rem auto;

@@ -1,0 +1,28 @@
+<!-- title - info - content -->
+<div class="postpageresearch">
+    <div class="research-tags">
+        {% for tag in post.tags-cn %}
+        <p tag-content="{{ tag }}">{{ tag }}</p>
+        {% endfor %}
+    </div>
+
+    <h1 class="postpageresearch-title">{{ post.abbrev }}</h1>
+    <h2 class="postpageresearch-subtitle">{{ post.title-cn }}</h2>
+
+    {% if post.team-cn and post.team-cn != "" %}
+    <div class="postpageresearch-info m-0">
+        <a class="in-text-icon">
+            <i class="fa-solid fa-user fa-fw"></i>
+        </a>
+        团队 {{ post.team-cn | join: ", " }}
+    </div>
+    {% endif %}
+    <div class="postpageresearch-info">
+        <a class="in-text-icon">
+            <i class="fa-solid fa-clock fa-fw"></i>
+        </a>
+        时间 {{ post.sort-year }}
+    </div>
+    
+    {{ post.content }}
+</div>

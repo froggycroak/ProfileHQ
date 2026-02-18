@@ -4,7 +4,8 @@ projid: D18-S32
 abbrev: VisualConcess
 icon-d: png
 year: 2018
-
+include-website: true
+include-pdf: true
 
 title: 
 title-cn: 扭转 / 下沉 / 酒店综合体设计

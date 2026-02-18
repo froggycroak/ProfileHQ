@@ -5,6 +5,8 @@ abbrev: InnovChain
 icon-d: png
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D19-S42-InnovChain/featured.png
 year: 2019
+include-website: false
+include-pdf: false
 
 title: Emmm
 title-cn: '创客林荫道: 校城边界的创新创业街区设计'

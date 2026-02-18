@@ -2,10 +2,13 @@
 layout: research
 projid: R25-C01
 abbrev: OvalAgent
+permalink: /Research/OvalAgent/
 icon-image: 
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/featured.png
 sort-year: 2025
 sort-order: 1
+include-website: true
+include-pdf: true
 
 
 

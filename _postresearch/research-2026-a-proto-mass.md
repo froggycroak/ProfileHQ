@@ -2,10 +2,12 @@
 layout: research
 projid: R25-B01
 abbrev: ProtoMass
+permalink: /Research/ProtoMass/
 icon-image: 
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/featured.jpg
 sort-year: 2026
-sort-order: 1
+include-website: true
+include-pdf: true
 
 title: Exploring Architectural Design with Digital Ptototypes of Building Volume
 title-cn: 面向原创设计的建筑体量原型智能演绎工具

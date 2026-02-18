@@ -3,11 +3,14 @@ layout: clean
 title: "Resume"
 abbrev: "Resume"
 title-cn: "简历"
-permalink: /resume/
+permalink: /Resume/
 ---
 
 {% include business_card2.html %}
-<div align="center">{% include link_button_home.html text='访问我的网页'%}</div>
-
+<!-- <div align="center">{% include link_button_home.html text='访问我的网页'%}</div> -->
+<div align="center">
+    {% capture siteurl %}{{ '/'|prepend:site.baseurl }}{% endcapture %}
+    {% include link_button.html text='访问我的网页' iconstr='fa-solid fa-arrow-up-right-from-square' link=siteurl %}
+</div>
 
 {% include resume.html %}

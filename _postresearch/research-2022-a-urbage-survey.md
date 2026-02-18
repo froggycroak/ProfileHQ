@@ -2,10 +2,12 @@
 layout: research
 projid: R22-C02
 abbrev: UrbageSurvey
+permalink: /Research/UrbageSurvey/
 icon-image:
 featured-image: http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C02-UrbageSurvey/featured.png
 sort-year: 2022
-sort-order: 1
+include-website: true
+include-pdf: false
 
 title: Historical Urban-village Survey and Design Enhanced by Online Platform
 title-cn: 网络信息平台支持的历史地段数据收集与城市设计

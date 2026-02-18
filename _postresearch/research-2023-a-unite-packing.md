@@ -2,11 +2,12 @@
 layout: research
 projid: R22-C01
 abbrev: UnitéPacking
+permalink: /Research/UnitéPacking/
 icon-image:
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R22-C01-UnitéPacking/featured.png
 sort-year: 2023
-sort-order: 2
-
+include-website: true
+include-pdf: true
 
 
 title: Rethinking Le Corbusier’s Unités d'Habitation via Integer Programming

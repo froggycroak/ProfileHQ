@@ -6,7 +6,12 @@ layout: default
   <title>{{ page.abbrev }} | {{ site.title }}</title>
 </head>
 
-{% assign proj_count = site.postdesign | size %}
+
+{% assign post=page %}
+{% include post_design_pagination.html %}
+{% include post_design.html %}
+
+<!-- {% assign proj_count = site.postdesign | size %}
 {% assign proj_index = 0 %}
 {% for proj in site.postdesign reversed %}
 {% assign proj_index = proj_index | plus: 1 %}
@@ -47,21 +52,14 @@ layout: default
   <div class="postpagedesign-header">
     <h1 class="postpagedesign-title">{{ page.abbrev }}</h1>
     <h2 class="postpagedesign-subtitle">{{ page.title-cn }}</h2>
-    <!-- <h2 class="postpagedesign-subtitle">{{ page.subtitle-cn }}</h2> -->
 
     {% if page.team-cn and page.team-cn != "" %}
     <div class="postpageresearch-info m-0">
-      <!-- <a class="in-text-icon">
-        <i class="fa-solid fa-user fa-fw"></i>
-      </a> -->
 
       团队 {{ page.team-cn | join: ", " }}
     </div>
     {% endif %}
     <div class="postpageresearch-info">
-      <!-- <a class="in-text-icon">
-        <i class="fa-solid fa-clock fa-fw"></i>
-      </a> -->
       时间 {{ page.year }}
     </div>
   </div>
@@ -69,4 +67,4 @@ layout: default
   <div class="postpagedesign-content">
     {{ content }}
   </div>
-</div>
+</div> -->
