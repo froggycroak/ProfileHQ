@@ -4,16 +4,16 @@
 
 <section class="print-in-page" id="content-research">
     <div class="col-12 p-0">
-        <h5 class="chapter-heading" style="color: gray; ">作品目录 / 研发 Research</h5>
+        <h5 class="chapter-heading" style="color: gray; ">作品目录 · 研发 Research</h5>
     </div>
     <div class="subpassage">
         <div class="catalogue">
             {% for abbrev in research_abbrev_list %}
-                {% assign post = site.postresearch | where: "abbrev", abbrev | first %}
-                {% if post %}
-                    {% capture research_link %}#research-{{ post.projid }}{% endcapture %}
-                    {% include cataitem_research.html link=research_link %}
-                {% endif %}
+            {% assign post = site.postresearch | where: "abbrev", abbrev | first %}
+            {% if post %}
+            {% capture research_link %}#research-{{ post.projid }}{% endcapture %}
+            {% include cataitem_research.html link=research_link %}
+            {% endif %}
             {% endfor %}
         </div>
     </div>
@@ -22,49 +22,47 @@
 
 <section class="print-in-page" id="content-design">
     <div class="col-12 p-0">
-        <h5 class="chapter-heading" style="color: gray; ">作品目录 / 设计 Design</h5>
+        <h5 class="chapter-heading" style="color: gray; ">作品目录 · 设计 Design</h5>
     </div>
+    <br>
     <div class="subpassage">
         <div class="project-grid-container">
             {% for abbrev in design_abbrev_list %}
-                {% assign post = site.postdesign | where: "abbrev", abbrev | first %}
-                {% if post %}
-                    {% capture design_link %}#design-{{ post.projid }}{% endcapture %}
-                    {% include cataitem_design.html link=design_link %}
-                {% endif %}
+            {% assign post = site.postdesign | where: "abbrev", abbrev | first %}
+            {% if post %}
+            {% capture design_link %}#design-{{ post.projid }}{% endcapture %}
+            {% include cataitem_design.html link=design_link %}
+            {% endif %}
             {% endfor %}
         </div>
-    </div> 
+    </div>
 </section>
 
-<div class="page-break"></div>
-{% include link_button_series.html %}
+
+<br>
 
 
 <section id="research-pages">
     {% for abbrev in research_abbrev_list %}
-        {% assign post = site.postresearch | where: "abbrev", abbrev | first %}
-        {% if post %}
-            <div id='research-{{ post.projid }}'>
-                {% include post_research.html%}
-                <div class="page-break"></div>
-                {% include link_button_series.html %}
-            </div>
-        {% endif %}
+    {% assign post = site.postresearch | where: "abbrev", abbrev | first %}
+    {% if post %}
+    <div id='research-{{ post.projid }}'>
+        <div class="page-break"></div>
+        {% include post_research.html%}
+    </div>
+    {% endif %}
     {% endfor %}
 </section>
 
 
 <section id="design-pages">
     {% for abbrev in design_abbrev_list %}
-        {% assign post = site.postdesign | where: "abbrev", abbrev | first %}
-        {% if post %}
-            <div id='design-{{ post.projid }}'>
-                {% include post_design.html%}
-                <div class="page-break"></div>
-                {% include link_button_series.html %}
-            </div>
-        {% endif %}
+    {% assign post = site.postdesign | where: "abbrev", abbrev | first %}
+    {% if post %}
+    <div id='design-{{ post.projid }}'>
+        <div class="page-break"></div>
+        {% include post_design.html%}
+    </div>
+    {% endif %}
     {% endfor %}
 </section>
-

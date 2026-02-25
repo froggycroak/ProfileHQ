@@ -45,6 +45,14 @@ a {
   // }
 }
 
+
+
+// @media screen {
+//   .footer-print-container {
+//     display: none !important;
+//   }
+// }
+
 @media print {
   a {
     text-decoration: none !important;
@@ -70,12 +78,17 @@ a {
   img,
   .subpassage,
   .print-in-page,
-  .figure-full {
+  .figure-full,
+  .btn-simple-hrow {
     page-break-inside: avoid;
     /* 尽量避免这些元素内部被分页 */
   }
-}
 
+  .page-break {
+    page-break-before: always;
+  }
+
+}
 
 blockquote {
   border-left: .25rem solid $grey-2;
@@ -100,11 +113,4 @@ img {
 
 td {
   vertical-align: top;
-}
-
-@media print {
-            
-  .page-break {
-      page-break-before: always;
-  }
 }

@@ -27,4 +27,4 @@ location:
 
 {%include figure_full.html note='手工模型照片' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D21-S52-LeisureHub/model.png" %}
 
-{%include figure_full.html note='手工模型照片' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D21-S52-LeisureHub/site-three.jpg" %}
+{%include figure_full.html note='设计场地' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D21-S52-LeisureHub/site-three.jpg" %}

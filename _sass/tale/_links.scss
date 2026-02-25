@@ -53,9 +53,13 @@
 
 
 .btn-simple-row {
-  display: flex; /* 启用Flexbox布局 */
-  flex-wrap: wrap; /* 允许按钮在容器宽度不足时换行 */
-  gap: 10px; /* 按钮之间的间距 */
-  margin: 10px 0; /* 可选：添加上下边距 */
-  justify-content: center;
+    display: flex;
+    /* 启用Flexbox布局 */
+    flex-wrap: wrap;
+    /* 允许按钮在容器宽度不足时换行 */
+    gap: 10px;
+    /* 按钮之间的间距 */
+    margin: 10px 0;
+    /* 可选：添加上下边距 */
+    justify-content: center;
 }

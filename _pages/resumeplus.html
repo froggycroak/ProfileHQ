@@ -1,5 +1,5 @@
 ---
-layout: clean
+layout: print_a
 title: "Resume&Portfolio"
 abbrev: "ResumePlus"
 title-cn: "简历和作品集"
@@ -7,19 +7,15 @@ permalink: /Resumeplus/
 ---
 
 {% include business_card2.html %}
-<!-- <div align="center">{% include link_button_home.html text='访问我的网页'%}</div> -->
-
-<div align="center">
-    {% capture siteurl %}{{ '/'|prepend:site.baseurl }}{% endcapture %}
-    {% include link_button.html text='访问我的网页' iconstr='fa-solid fa-arrow-up-right-from-square' link=siteurl %}
-</div>
-
 
 {% include resume.html %}
-<!-- <hr style="margin: 2"> -->
-<br><br>
-<h1 class="cataloguepage-title" align="center">- 作品选集 -</h1>
-<p align="center" style="text-align: center; margin-bottom: 40px;">@export {{ site.time | date: "%Y年%m月%d日" }}</p>
-<p class="plainpassage">该部分节选了我的研发成果和设计作品，点击目录中的项目可以跳转至对应的pdf页面。更多作品见<a class="plainpassage-boldlink" href="{{ '/'|prepend:site.baseurl }}" target="_blank">我的个人网页</a></p>
 
+<br><br><br>
+<h1 class="cataloguepage-title" align="center">作品集</h1>
+<p align="center" style="text-align: center;font-size: 1.1rem; margin-bottom: 1rem;">PORTFOLIO</p>
+<!-- <p align="center" style="text-align: center; margin-bottom: 40px;">@export {{ site.time | date: "%Y年%m月%d日" }}</p> -->
+<div style="display: flex; align-items: center; justify-content: center; margin-top:1rem;">
+    <p class="plainpassage" style="width: 51%;">该部分节选了我的研发项目和设计作品，点击目录中的项目可以跳转至对应的pdf页面。更多作品见<a
+            class="plainpassage-boldlink" href="{{ '/'|prepend:site.baseurl }}" target="_blank">我的个人网页</a>。</p>
+</div>
 {% include portfolio.html %}

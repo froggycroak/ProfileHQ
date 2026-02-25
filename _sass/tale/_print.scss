@@ -1,0 +1,54 @@
+@media print {
+
+    /* 定义页面边距和尺寸 */
+    @page {
+        size: A4;
+        margin: 1.5cm 1.5cm 2.5cm;
+        /* 1.5和2.5来回改动，有时具有刷新作用 */
+        /* 下边距稍大，为页脚预留空间 */
+    }
+
+
+
+    /* 避免内容与页脚重叠 */
+    body {
+        padding-bottom: 0.5cm;
+        /* 与页脚高度匹配 */
+    }
+}
+
+
+/* 页脚样式 - 固定在每页底部 */
+.footer-print-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2cm;
+    /* 页脚高度 */
+    padding: 0.5cm 1.5cm;
+
+    /* 视觉样式 */
+    // border-top: 1px solid #ccc;
+    // border: 2px solid red;
+    font-size: 1rem;
+    color: $midgrey;
+    background: white;
+    // width: 100%;
+
+    /* 分页控制 */
+    page-break-inside: avoid;
+    break-inside: avoid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 页脚内容布局 */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}

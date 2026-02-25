@@ -8,7 +8,7 @@ main,
 footer,
 .nav-container {
   display: block;
-  margin: 0 auto;
+  margin: 2rem auto;
   max-width: 800px;
   width: 80%;
 }
@@ -91,7 +91,7 @@ footer,
 
 footer {
   font-family: $serif-secondary;
-  padding: 2rem 0;
+  // padding: 2rem 0;
   text-align: center;
 
   span {
@@ -104,11 +104,11 @@ footer {
 
 .footer-nav1 {
   a {
-    color: $default-tint;
+    color: $midgrey;
   }
 
   span {
-    color: $default-tint;
+    color: $midgrey;
   }
 
   a:hover {

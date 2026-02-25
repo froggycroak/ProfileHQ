@@ -20,7 +20,8 @@ team-cn: [ 胡潜, 郭翔(指导), 兰兵(指导)]
 
 ---
 
----
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/birdview.png" note="鸟瞰图" %}
+
 
 雷军科技大厦是武汉大学知名校友雷军捐赠建设的校企研发办公楼，本设计基于服务校内外创新人员的目标，提出了多维的设计目标。
 
@@ -30,7 +31,7 @@ team-cn: [ 胡潜, 郭翔(指导), 兰兵(指导)]
 这样的办公楼，一是要给内部使用者提供不同寻常的工作体验，激发创新创造、合作交互；二是要协调周边城市环境，赋予整个地块活力。
 
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/birdview.png" note="鸟瞰图" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/perspective.png" note="透视图" %}
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/sectionhuge.png" note="剖透视" %}
 
@@ -39,15 +40,6 @@ team-cn: [ 胡潜, 郭翔(指导), 兰兵(指导)]
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/tectonic.png" note="构造剖透视" %}
 
-
-
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/perspective.png" note="透视图" %}
-
-
-
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/floorplans.png" note="楼层平面图" %}
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/section.png" note="剖面图和立面图" %}
-
-
----

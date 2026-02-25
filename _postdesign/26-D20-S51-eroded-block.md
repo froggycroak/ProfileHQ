@@ -26,8 +26,6 @@ location:
 
 {%include figure_full.html note='超级寓所概念效果图' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/main.png" %}
 
-
-
 本设计采用「侵蚀」的算法，改变现有的住区模式和公共功能配置秩序，达到适应后疫情时代的目标。疫情期间，大量城市住区进入「暂停模式」，人员不得出入。由于住区内活动单一，服务不全，人们的生活质量被「牺牲」。相应地，本次设计的「超级寓所」在进入「暂停模式」后应当尽可能减少这种「牺牲」。将居住体量看作一块大理石，以酸性液体「侵蚀」之，形成不同层级的「孔隙」；再将城市公共功能分配至「超级寓所(Block)」，结合现代科技背景与活动自身特征设定对应「孔隙」的层级。
 
 {%include figure_full.html note='侵蚀概念示意' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/idea.png" %}
@@ -38,8 +36,7 @@ location:
 
 {%include figure_full.html note='多尺度层级的设计策略' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/operations.png" %}
 
+
+{%include figure_full.html note='内部场景示意' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/scenes-14.jpg" %}
+
 <!-- {%include figure_full.html note='超级寓所元素' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/ele.png" %} -->
-
-
-
-

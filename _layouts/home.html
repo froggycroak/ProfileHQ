@@ -88,24 +88,16 @@ abbrev: "Home"
   <a class='plainpassage-boldlink' href="">Arcplus PLC Group</a>,
   engaged in research on architectural digital technologies.
 </p>
-<br>
+
+<hr>
+
+
 
 {% assign design_abbrev_list = "HikinAir, VisualConcess" | split: ", " %}
 {% assign research_abbrev_list = "ProtoMass, OvalAgent, AlphaPlot" | split: ", " %}
 
 <section class="print-in-page">
-    <div class="subpassage">
-        <div class="project-grid-container">
-            {% for abbrev in design_abbrev_list %}
-                {% assign post = site.postdesign | where: "abbrev", abbrev | first %}
-                {% if post %}
-                    {% capture design_link %}#design-{{ post.projid }}{% endcapture %}
-                    {% include cataitem_design.html link=design_link %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div> 
-    <div class="subpassage">
+  <div class="subpassage">
         <div class="catalogue">
             {% for abbrev in research_abbrev_list %}
                 {% assign post = site.postresearch | where: "abbrev", abbrev | first %}
@@ -116,9 +108,20 @@ abbrev: "Home"
             {% endfor %}
         </div>
     </div>
-    
+    <div class="subpassage">
+        <div class="project-grid-container">
+        <!-- <div class="catalogue"> -->
+            {% for abbrev in design_abbrev_list %}
+                {% assign post = site.postdesign | where: "abbrev", abbrev | first %}
+                {% if post %}
+                    {% capture design_link %}#design-{{ post.projid }}{% endcapture %}
+                    {% include cataitem_design.html link=design_link %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div> 
 </section>
-
+<br>
 
 {% include business_card.html %}
 

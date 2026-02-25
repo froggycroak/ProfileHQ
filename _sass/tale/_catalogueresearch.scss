@@ -20,6 +20,7 @@ $research-image-size-mobile: 180px !default;
         .research-line {
             width: 5rem;
         }
+
         // transform: translateY(-3px);
         text-decoration: none;
     }
@@ -27,6 +28,7 @@ $research-image-size-mobile: 180px !default;
     &:last-child {
         border-bottom: 0;
     }
+
     transition: transform 0.3s ease-out
 }
 
@@ -156,6 +158,7 @@ $research-image-size-mobile: 180px !default;
 }
 
 .research-tags {
+    margin-top: .5rem;
 
 
     p {
