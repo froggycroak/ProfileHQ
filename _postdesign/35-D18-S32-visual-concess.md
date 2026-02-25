@@ -17,6 +17,7 @@ team-cn: [ 胡潜, 邵宁(指导) ]
 
 ---
 
+---
 
 {% include figure_full.html note="轴测效果图：新建酒店和历史建筑围合出广场" link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S32-VisualConcess/bridview.jpg" %}
 

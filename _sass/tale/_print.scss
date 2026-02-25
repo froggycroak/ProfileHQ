@@ -45,6 +45,22 @@
     align-items: center;
 }
 
+.footer-print-container2 {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2cm;
+    padding: 0cm 1.3cm 0cm 1.3cm;
+    font-size: 1rem;
+    color: $midgrey;
+    background: white;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* 页脚内容布局 */
 .footer-content {
     display: flex;

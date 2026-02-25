@@ -14,6 +14,7 @@ team-cn: [ 胡潜, 宋靖华(指导), 李鹍(指导)]
 
 ---
 
+---
 
 {% include figure_full.html note='轴测图' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D19-S41-UrbanFarm/axonometric.jpg" %}
 

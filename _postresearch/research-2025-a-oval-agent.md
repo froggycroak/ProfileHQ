@@ -22,7 +22,7 @@ team-cn: [ 华建科技数字化所 ]
 
 ---
 
-{% include link_citation_pre.html content="李星桥,胡潜,徐晓明. 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型[J]. 建筑技艺,2026(待发表)." note="引用 "%}
+{% include link_citation_pre.html content="李星桥,胡潜,徐晓明. 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型[J]. 2026(待发表)." note="引用 "%}
 
 {% include link_clip.html link='https://aiovaltool.com/' content='试用链接' %}
 
@@ -34,18 +34,20 @@ team-cn: [ 华建科技数字化所 ]
 
 体育建筑智能设计助手是面向体育场馆方案设计与前期策划的智能设计平台。平台以AI技术重塑建筑设计流程，融合多智能体协同、大语言模型、生成式设计算法与行业大数据，构建从语义输入到策略推荐、从模型生成到性能分析的一体化智能设计体系。依托覆盖全球144个国家、4000余座场馆与6万余张实景图片的体育建筑数据库，OVAL Agent可理解设计意图，提供专业的看台碗生成式设计与智能分析功能，同时辅以前期策划、案例推荐、知识问答等多维能力，进而形成云端协同的一体化工作环境。
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/intro_viewstage.gif" note="智能配参与形态生成"  %}
+
+
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/intro_agent.gif" note="自然语言对话编辑形态"  %}
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/intro_planning.gif" note="体育建筑项目前期策划"  %}
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/img%20(1).png" note="网页应用的入口界面" link-jump="https://aiovaltool.com/" %}
-
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/sixwebpages.jpg" note="网页应用的各功能页面"  %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/intro_viewstage.gif" note="智能配参与形态生成"  %}
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/sixanalysis.jpg" note="看台碗视觉质量分析功能实例"  %}
 
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/sixwebpages.jpg" note="网页应用的各功能页面"  %}
+
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/img%20(1).png" note="网页应用的入口界面" link-jump="https://aiovaltool.com/" %}
 
 <h5 class="chapter-heading-left">关键方法</h5>
 
@@ -62,6 +64,7 @@ team-cn: [ 华建科技数字化所 ]
 - 知识编码：将专家经验转化为可配置的参数模块，通过特征值控制复杂参数组合，降低专业门槛。
 - 策略合成：基于全球体育场馆数据库，采用机器学习算法自动生成设计策略与关键参数。
 - 形态编辑：引入自然语言交互与大模型推理，支持通过语义描述直接调整形态，并辅以视觉质量等多维度分析。
+
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/maintecture.png" note="网页应用功能架构图"  %}
 

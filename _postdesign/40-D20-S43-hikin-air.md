@@ -17,18 +17,18 @@ subtitle-cn:
 team: [ HU Qian ]
 team-cn: [ 胡潜, 郭翔(指导), 兰兵(指导)]
 
+---
 
 ---
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/birdview.png" note="鸟瞰图" %}
 
 
-雷军科技大厦是武汉大学知名校友雷军捐赠建设的校企研发办公楼，本设计基于服务校内外创新人员的目标，提出了多维的设计目标。
+雷军科技大厦是武汉大学知名校友雷军捐赠建设的校企研发办公楼。设计一是要给内部使用者提供不同寻常的工作体验，激发创新创造、合作交互；二是要协调周边城市环境，赋予整个地块活力。本设计基于上述目标，提出了多维的设计策略：
 
 - 功能方面，设计引入“非正式功能空间”，与办公空间相互咬合，打破层的限制；
 - 流线方面，建立上下贯通的步道系统，使人们在休息时段得以无计划地上下两层楼，看到不一样的活动；
 - 环境方面，综合考量与周边街道、建筑的关联，以此为据设计建筑的整体形态、格网方向、表皮形式、裙楼空间。
-这样的办公楼，一是要给内部使用者提供不同寻常的工作体验，激发创新创造、合作交互；二是要协调周边城市环境，赋予整个地块活力。
 
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/perspective.png" note="透视图" %}

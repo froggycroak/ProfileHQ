@@ -89,6 +89,7 @@ abbrev: "Home"
   engaged in research on architectural digital technologies.
 </p>
 
+<br>
 <hr>
 
 
@@ -97,20 +98,21 @@ abbrev: "Home"
 {% assign research_abbrev_list = "ProtoMass, OvalAgent, AlphaPlot" | split: ", " %}
 
 <section class="print-in-page">
+  <h1 class="cataloguepage-title">精选项</h1>
+  <p class="cataloguepage-english-serif">HIGHLIGHTS</p>
   <div class="subpassage">
-        <div class="catalogue">
-            {% for abbrev in research_abbrev_list %}
-                {% assign post = site.postresearch | where: "abbrev", abbrev | first %}
-                {% if post %}
-                    {% capture research_link %}#research-{{ post.projid }}{% endcapture %}
-                    {% include cataitem_research.html link=research_link %}
-                {% endif %}
-            {% endfor %}
-        </div>
+    <div class="catalogue">
+      {% for abbrev in research_abbrev_list %}
+      {% assign post = site.postresearch | where: "abbrev", abbrev | first %}
+      {% if post %}
+      {% capture research_link %}#research-{{ post.projid }}{% endcapture %}
+      {% include cataitem_research.html link=research_link %}
+      {% endif %}
+      {% endfor %}
     </div>
-    <div class="subpassage">
+  </div>
+  <!-- <div class="subpassage">
         <div class="project-grid-container">
-        <!-- <div class="catalogue"> -->
             {% for abbrev in design_abbrev_list %}
                 {% assign post = site.postdesign | where: "abbrev", abbrev | first %}
                 {% if post %}
@@ -119,11 +121,9 @@ abbrev: "Home"
                 {% endif %}
             {% endfor %}
         </div>
-    </div> 
+    </div>  -->
 </section>
-<br>
+
+<hr>
 
 {% include business_card.html %}
-
-
-
