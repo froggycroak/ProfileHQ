@@ -28,7 +28,7 @@ team-cn: [ 胡潜, 郭翔(指导), 兰兵(指导)]
 
 - 功能方面，设计引入“非正式功能空间”，与办公空间相互咬合，打破层的限制；
 - 流线方面，建立上下贯通的步道系统，使人们在休息时段得以无计划地上下两层楼，看到不一样的活动；
-- 环境方面，综合考量与周边街道、建筑的关联，以此为据设计建筑的整体形态、格网方向、表皮形式、裙楼空间。
+- 环境方面，综合考量与周边街道、建筑的关联，以此为据设计建筑的整体形态、格网方向、表皮形式等。
 
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/perspective.png" note="透视图" %}

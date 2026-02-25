@@ -10,9 +10,8 @@
 <!-- DesignAssignment -->
 {% assign FishFlow = site.postdesign | where: "abbrev", "FishFlow" | first %}
 
-<!-- <h1 class="cataloguepage-title" align="center">{{page.title-cn}}</h1> -->
-<!-- <article class="post"></article> -->
-<div class="resume-content">
+
+<div class="resume-content" id="start-resume">
     <!-- 个人信息 -->
     <!-- 工作经历 -->
     <section class=" print-in-page">
@@ -38,7 +37,7 @@
             获省部级奖项<br>
             - 主导研发项目: <a class="plainpassage-link"
                 href="{{StandRecons.url | prepend: site.baseurl}}">基于实景图片的看台碗三维重建</a><br>
-            - 参与多个设计项目: 旗忠村网球场改扩建、静安文体中心、南通某足球场
+            - 参与多个设计项目: 旗忠村网球场改扩建、静安文体中心、南通某足球场等
         </div>
 
         <!-- 东大院 -->
@@ -50,11 +49,11 @@
                 <span>2022.09 - 2023.03</span>
             </div>
             <!-- Architectural Enterprise of Southeast University(AESEU) [Intern Researcher] -->
-            - 参与科研项目: <a class="plainpassage">大学城量形互动布局生成</a>, 获专利2项, 软著1项;<br>
+            - 参与科研项目: <a class="plainpassage">大学城量形互动布局生成</a>, 获专利2项, 软著1项<br>
             - 主导数控建造项目: <a class="plainpassage-link" href="{{FishFlow.url | prepend: site.baseurl}}">莲花荡农业展馆门圈数控建造设计</a>
-            ; 同时负责建筑总体施工图绘制;<br>
-            - 参与小城镇更新项目: <a class="plainpassage-link" href="{{UrbageSurvey.url | prepend: site.baseurl}}">丁蜀镇城市设计</a>;
-            以及<a class="plainpassage">丁蜀镇古南街单体建筑设计</a>;
+            ; 同时负责建筑总体施工图绘制<br>
+            - 参与小城镇更新项目: <a class="plainpassage-link" href="{{UrbageSurvey.url | prepend: site.baseurl}}">丁蜀镇城市设计</a>
+            以及部分单体建筑设计
         </div>
 
 
@@ -127,7 +126,7 @@
             <strong>程序编写 Coding</strong>
             <br>- 熟练使用C#/Python/Java等常用编程语言
             <br>- 熟悉计算几何方法,有自主开发的工具库和高频使用的外部库
-            <br>- 熟悉运筹学方法,熟练掌握Gurobi和SCIP等求解工具; 熟悉机器学习方法
+            <br>- 熟悉运筹学方法,熟练掌握Gurobi和SCIP等求解工具; 了解文字/图像大模型的原理和API调用
             <br>- 熟悉Rhino系列的开发,plugin/inside/compute/script等
         </div>
         <div class="subpassage">
@@ -138,7 +137,7 @@
         <div class="subpassage">
             <strong>外语交流 Language</strong>
             <br>- 优秀的英文听说读写能力,雅思7.5
-            <br>- 长期阅读外文文献和技术文档; 具有英文论文发表和国际会议汇报经历
+            <br>- 长期阅读外文文献和技术文档; 有英文论文发表和国际会议汇报经历
         </div>
     </section>
 
@@ -151,7 +150,7 @@
 
         <div class="subpassage"><strong>学位论文 Thesis</strong>
             {% include link_citation.html key="PUB-2406-MTC" %}
-            <!-- {% include link_pdf.html content='文献直达-article' link='https://workhub.oss-cn-shanghai.aliyuncs.com/pdf/articles/%E8%AE%BA%E6%96%87%5B%E8%83%A1%E6%BD%9C%5D(2024)M%25%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87-%E8%B5%B0%E9%81%93%E5%BC%8F%E7%BB%84%E5%90%88%E4%B8%BB%E5%AF%BC%E7%9A%84%E5%BB%BA%E7%AD%91%E4%BD%93%E9%87%8F%E9%9B%86%E5%90%88%E7%94%9F%E6%88%90%E7%A0%94%E7%A9%B6.pdf'  %} -->
+
         </div>
         <div class="subpassage"><strong>期刊论文 Journal</strong>
             {% include link_citation.html key="PUB-2402-JAC" %}
