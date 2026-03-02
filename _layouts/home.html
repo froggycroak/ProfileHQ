@@ -4,14 +4,32 @@ abbrev: "Home"
 ---
 
 
-
-
+<div style="display: flex; gap: 5px;">
+  <div style="flex: 2;"> </div>
+  <div style="flex: 1;">
+    <h1 class="cataloguepage-title">計 畫</h1>
+    <p class="cataloguepage-english-serif">CONCEIVE</p>
+  </div>
+  <div style="flex: 1;">
+    <h1 class="cataloguepage-title">×</h1>
+  </div>
+  <div style="flex: 1;">
+    <h1 class="cataloguepage-title">建 構</h1>
+    <p class="cataloguepage-english-serif">CONSTRUCT</p>
+  </div>
+  <div style="flex: 1;">
+    <h1 class="cataloguepage-title">×</h1>
+  </div>
+  <div style="flex: 1;">
+    <h1 class="cataloguepage-title">運 算</h1>
+    <p class="cataloguepage-english-serif">COMPUTE</p>
+  </div>
+  <div style="flex: 2;"></div>
+</div>
 
 <br>
 
-<!-- <p>
-  欢迎来到我的个人网页！
-</p> -->
+
 
 <p class="plainpassage">
   我是<a class='plainpassage-bold'>胡潜</a>，一名<a class='plainpassage-bold'>程序员&建筑师</a>，致力于运用计算智能的理论方法，解决建成环境中的实际问题。
@@ -21,7 +39,6 @@ abbrev: "Home"
     href="https://www.arcplus.com.cn/">华东建筑集团</a>的<a class='plainpassage-boldlink'
     href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">科技分公司</a>，从事建筑数字化技术研究。
 </p>
-
 
 
 
@@ -72,11 +89,6 @@ abbrev: "Home"
 </div>
 
 
-
-<!-- <p>
-  Welcome to my blog!
-</p> -->
-
 <p class="plainpassage">I am Hu Qian, a <a class='plainpassage-bold'>Algorithm Engineer & Architect</a>, dedicated to
   applying theories and methods of computational intelligence to solve practical problems in the built environment. My
   research interests include Generative Design / AI-Aided Design / Embodied Intelligence in Architecture, etc. I
@@ -88,6 +100,7 @@ abbrev: "Home"
   <a class='plainpassage-boldlink' href="">Arcplus PLC Group</a>,
   engaged in research on architectural digital technologies.
 </p>
+
 
 <br>
 <hr>
@@ -105,8 +118,7 @@ abbrev: "Home"
       {% for abbrev in research_abbrev_list %}
       {% assign post = site.postresearch | where: "abbrev", abbrev | first %}
       {% if post %}
-      {% capture research_link %}#research-{{ post.projid }}{% endcapture %}
-      {% include cataitem_research.html link=research_link %}
+      {% include cataitem_research.html %}
       {% endif %}
       {% endfor %}
     </div>
@@ -128,3 +140,11 @@ abbrev: "Home"
 <br>
 
 {% include business_card.html %}
+
+
+<!-- <p>
+  欢迎来到我的个人网页！
+</p> -->
+<!-- <p>
+  Welcome to my blog!
+</p> -->
