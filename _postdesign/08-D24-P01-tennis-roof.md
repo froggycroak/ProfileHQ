@@ -25,5 +25,5 @@ tags-cn: [  ]
 
 {%include figure_full.html note='入围方案汇总页面：左三为本方案，左四为中标方案' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D24-P01-TennisRoof/comparison.jpg" %}
 
-最终建成方案为华建集团上海院的作品(图中左四)，深化后的方案见<a herf="http://www.archina.com/index.php?g=works&m=index&a=show&id=159321" class="boldlink">ARCHINA</a>。该方案在第一轮筛选时因造型夸张而被评审组认为可以忽略，但最终凭借施工迅速、报价合理、形象独特而跻身前列。这大概就是建筑设计的魅力所在：看似突破常规的结果背后，有现实逻辑的支持；而看似符合常理的操作之下，未见得解决了特有的问题。
+最终建成方案为华建集团上海院的作品(图中左四)，深化后的方案见<a herf="http://www.archina.com/index.php?g=works&m=index&a=show&id=159321" class="plainpassage-boldlink">ARCHINA</a>。该方案在第一轮筛选时因造型夸张而被评审组认为可以忽略，但最终凭借施工迅速、报价合理、形象独特而跻身前列。这大概就是建筑设计的魅力所在：看似突破常规的结果背后，有现实逻辑的支持；而看似符合常理的操作之下，未见得解决了特有的问题。
 

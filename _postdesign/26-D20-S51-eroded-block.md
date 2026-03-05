@@ -39,4 +39,4 @@ location:
 
 {%include figure_full.html note='内部场景示意' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/scenes-14.jpg" %}
 
-<!-- {%include figure_full.html note='超级寓所元素' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S51-ErodedBlock/ele.png" %} -->
+

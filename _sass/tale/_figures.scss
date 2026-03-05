@@ -58,3 +58,179 @@
 
     }
 }
+
+
+
+// 视频组件样式
+.video-full {
+    margin: 1rem 0 1.5rem 0;
+
+    video {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+        color: $default-tint !important;
+        margin: 0.2rem 0 0 0;
+    }
+
+    p i {
+        color: $default-tint;
+        margin: 0 0 0 0;
+    }
+
+    a.video-full-link {
+        display: block;
+        overflow: hidden;
+        transition: transform 0.8s ease;
+
+        video {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: transform 0.8s ease;
+        }
+
+        &:hover {
+            video {
+                transform: scale(1.12);
+            }
+        }
+    }
+}
+
+// 视频组件样式 - 与figure-full保持一致
+.video-full {
+    margin: 1rem 0 1.5rem 0;
+
+    video {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+        color: $default-tint !important;
+        margin: 0.2rem 0 0 0;
+    }
+
+    p i {
+        color: $default-tint;
+        margin: 0 0 0 0;
+    }
+
+    a.video-full-link {
+        display: block;
+        overflow: hidden;
+        transition: transform 0.8s ease;
+
+        video {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: transform 0.8s ease;
+        }
+
+        &:hover {
+            video {
+                transform: scale(1.12);
+            }
+        }
+    }
+}
+
+// 视频部分样式
+.video-part {
+    margin: 0; // 由容器控制间距
+
+    video {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+        color: $default-tint !important;
+        margin: 0.2rem 0 0 0;
+    }
+
+    p i {
+        color: $default-tint;
+        margin: 0 0 0 0;
+    }
+
+    a.video-part-link {
+        display: block;
+        overflow: hidden;
+        transition: transform 0.8s ease;
+
+        video {
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: transform 0.8s ease;
+        }
+
+        &:hover {
+            video {
+                transform: scale(1.12);
+            }
+        }
+    }
+}
+
+// 交互效果
+.video-interact {
+    video {
+        transition: transform 0.5s ease;
+    }
+
+    &:hover {
+        video {
+            transform: translateY(-5px);
+        }
+    }
+}
+
+// 视频容器 - 完全控制布局
+.videos-container {
+    display: flex;
+    gap: 1rem; // 控制间距
+    margin: 1rem 0 1.5rem 0;
+    flex-wrap: wrap; // 允许换行
+
+    .video-part {
+        flex: 1; // 等宽分布
+        min-width: 300px; // 响应式最小宽度
+
+        // 如果需要不同比例，可以在容器级别定义
+        // 例如：&.video-part-wide { flex: 2; }
+        // 或者：&[data-width="2"] { flex: 2; }
+    }
+
+    // 两列布局示例
+    &.videos-2-col .video-part {
+        flex: 0 0 calc(50% - 0.5rem); // 减去gap的一半
+    }
+
+    // 三列布局示例
+    &.videos-3-col .video-part {
+        flex: 0 0 calc(33.333% - 0.666rem);
+    }
+
+    // 四列布局示例
+    &.videos-4-col .video-part {
+        flex: 0 0 calc(25% - 0.75rem);
+    }
+}
