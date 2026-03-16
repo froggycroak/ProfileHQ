@@ -1,8 +1,8 @@
 # Site settings
 title:          HU Qian
 description:    "HU Qian's Academic Blog!"
-baseurl:        "/ProfileHQ" #大小写敏感
-url:            "https://froggycroak.github.io"
+baseurl:        "https://blog.archifrog.com" #"/ProfileHQ" #大小写敏感
+url:            ""  #"https://froggycroak.github.io"
 osshost-url:    "https://workhub.oss-cn-shanghai.aliyuncs.com/picture/"
 future: true
 
@@ -13,7 +13,7 @@ google_analytics: UA—XXXXXXXX-X
 # Author
 author:
   name:         HU Qian
-  url:          https://froggycroak.github.io/profilehq/
+  url:          https://blog.archifrog.com
   email:        huqian.archi@outlook.com
 
 # Build settings
