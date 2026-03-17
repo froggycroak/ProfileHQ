@@ -2,7 +2,7 @@
 layout: design
 projid: D22-P02
 abbrev: FishFlow
-
+permalink: /Design/FishFlow/
 icon-d: png
 year: 2022
 include-website: true

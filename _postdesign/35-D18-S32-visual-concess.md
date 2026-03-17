@@ -2,6 +2,7 @@
 layout: design
 projid: D18-S32
 abbrev: VisualConcess
+permalink: /Design/VisualConcess/
 icon-d: png
 year: 2018
 include-website: true

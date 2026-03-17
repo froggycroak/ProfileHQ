@@ -2,6 +2,7 @@
 layout: design
 projid: D18-P01
 abbrev: YardFaçade
+permalink: /Design/YardFaçade/
 icon-d: png
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/featured.jpg
 year: 2018

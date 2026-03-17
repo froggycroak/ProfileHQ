@@ -2,6 +2,7 @@
 layout: design
 projid: D18-C02
 abbrev: BeyondPyramid
+permalink: /Design/BeyondPyramid/
 icon-d: M40 40H0V0H40V40ZM4 36H6V28H10V31H14V26H20V36H25V30H32V32H36V4H4V36ZM10 22V26H6V22H10ZM32 24H25V17H32V24ZM20 19H14V13H20V19Z
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-C02-BeyondPyramid/featured.jpg
 year: 2018

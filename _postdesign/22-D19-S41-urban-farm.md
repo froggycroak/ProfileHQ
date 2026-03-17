@@ -2,11 +2,12 @@
 layout: design
 projid: D19-S41
 abbrev: UrbanFarm
+permalink: /Design/UrbanFarm/
 icon-d: png
 year: 2019
 
 title: 
-title-cn: 都市农场-社区中心-地铁商业综合设计
+title-cn: 都市农场 / 社区中心 / 地铁商业综合设计
 subtitle: 
 subtitle-cn: 
 team: [ HU Qian ]
