@@ -19,12 +19,16 @@ tags-cn: [  ]
 
 ---
 
-`编辑中...`
+{%include figure_full.html note='场地位置与周边环境：彩色部分为待改造建筑' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D24-P01-TennisRoof/site.jpg" %}
 
+为迎接国际顶级赛事的高标准挑战，全面提升场馆的运营韧性与观赛品质，拟对久事网球中心2号场地进行改建，在原有场地和看台的基础上加建罩棚（可开启屋盖）。以下介绍本人提供的设计方案，并非最终建成方案。
+
+{%include figure_full.html note='鸟瞰图：新建罩棚造型' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D24-P01-TennisRoof/birdview.jpg" %}
 
 {%include figure_full.html note='剖面图：可开启索膜屋顶示意' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D24-P01-TennisRoof/roof-dynamic.jpg" %}
 
-{%include figure_full.html note='入围方案汇总页面：左三为本方案，左四为中标方案' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D24-P01-TennisRoof/comparison.jpg" %}
+{%include figure_full.html note='入围方案对比：左三为本方案，左四为中标方案' link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D24-P01-TennisRoof/comparison.jpg" %}
 
-最终建成方案为华建集团上海院的作品(图中左四)，深化后的方案见<a herf="http://www.archina.com/index.php?g=works&m=index&a=show&id=159321" class="plainpassage-boldlink">ARCHINA</a>。该方案在第一轮筛选时因造型夸张而被评审组认为可以忽略，但最终凭借施工迅速、报价合理、形象独特而跻身前列。这大概就是建筑设计的魅力所在：看似突破常规的结果背后，有现实逻辑的支持；而看似符合常理的操作之下，未见得解决了特有的问题。
+为了避免新建部分对原有建筑产生新的荷载，业主和设计团队计划在四角设置立柱来支撑新建罩棚，并用拱形来实现立柱之间的跨度。在此基础上，图中所示的四个方案体现出非常不同的设计策略。左一强调了原始结构的暴露，将建筑形式作为受力的图解表达；左二则从建筑造型出发，要求去除这个拱形；本人所主导的方案左三以简洁而连贯的造型将拱形包裹在内，在结构美学和建筑造型之间取得了平衡；左四则突破常规，将罩棚的短边延申到入口广场上空。
 
+最终建成方案为华建集团上海院的作品(图中左四)。该方案在第一轮筛选时因造型夸张而被评审组认为可以忽略，但最终凭借施工迅速、报价合理、形象独特而跻身前列。这大概就是建筑设计的魅力所在：看似突破常规的结果背后，有现实逻辑的支持。
