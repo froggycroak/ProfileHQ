@@ -91,7 +91,7 @@ $$y_i - y_j \leq 0$$
 
 $$2 \times k \times h_{\text{unit}} \times (n_h)_{\text{min}} + y_i - y_j \geq 0$$
 
-<br>
+<div class="page-break"></div>
 
 <h5 class="chapter-heading-left">部分图解</h5>
 
