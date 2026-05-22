@@ -9,7 +9,7 @@ themecolor: rgb(62, 130, 255)
 
 title: Eroded Block
 title-cn: 后疫情时代的扁平化立体社区
-subtitle:
+subtitle: 
 subtitle-cn: 
 team: [ HU Qian, ZHANG Hanqing* ]
 team-cn: [ 胡潜, 张翰卿(指导) ]
