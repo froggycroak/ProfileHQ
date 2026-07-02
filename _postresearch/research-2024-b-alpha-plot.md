@@ -6,7 +6,7 @@ permalink: /Research/AlphaPlot/
 icon-image:
 featured-image: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R24-C01-AlphaPlot/featured.png
 sort-year: 2024
-include-website: true
+include-website: false
 include-pdf: true
 
 title: Generative Design of Building Volumes Dominated by Corridors

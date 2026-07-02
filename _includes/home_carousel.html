@@ -1,0 +1,106 @@
+{% assign slides = site.data.home_carousel.slides %}
+{% if slides and slides.size > 0 %}
+<section class="home-carousel" data-interval="5000" aria-label="Featured works carousel">
+  <div class="home-carousel-viewport">
+    {% for slide in slides %}
+    {% assign pagelink = slide.pagelink | relative_url %}
+    {% assign linked_post = site.postresearch | where: "url", pagelink | first %}
+    {% unless linked_post %}
+      {% assign linked_post = site.postdesign | where: "url", pagelink | first %}
+    {% endunless %}
+    {% assign slide_title_cn = slide.title-cn | default: linked_post.title-cn %}
+    <div class="home-carousel-slide{% if forloop.first %} is-active{% endif %}">
+      <img src="{{ slide.piclink }}" alt="{{ slide_title_cn | default: '' }}" class="home-carousel-image"
+        loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+      {% if slide_title_cn %}
+      <a href="{{ pagelink }}" class="home-carousel-caption research-subtitle">{{ slide_title_cn }}</a>
+      {% endif %}
+    </div>
+    {% endfor %}
+    {% if slides.size > 1 %}
+    <button type="button" class="home-carousel-zone home-carousel-zone-prev" aria-label="上一张">
+      <span class="home-carousel-zone-icon" aria-hidden="true"><span>&lsaquo;</span></span>
+    </button>
+    <button type="button" class="home-carousel-zone home-carousel-zone-next" aria-label="下一张">
+      <span class="home-carousel-zone-icon" aria-hidden="true"><span>&rsaquo;</span></span>
+    </button>
+    {% endif %}
+  </div>
+
+  {% if slides.size > 1 %}
+  <div class="home-carousel-dots" role="tablist">
+    {% for slide in slides %}
+    <button type="button" class="home-carousel-dot{% if forloop.first %} is-active{% endif %}"
+      aria-label="第 {{ forloop.index }} 张" data-index="{{ forloop.index0 }}"></button>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+
+<script>
+  (function () {
+    var carousel = document.querySelector('.home-carousel');
+    if (!carousel) return;
+
+    var slides = carousel.querySelectorAll('.home-carousel-slide');
+    if (slides.length <= 1) return;
+
+    var dots = carousel.querySelectorAll('.home-carousel-dot');
+    var current = 0;
+    var timer = null;
+    var interval = parseInt(carousel.dataset.interval, 10) || 5000;
+
+    function show(index) {
+      current = (index + slides.length) % slides.length;
+      slides.forEach(function (slide, i) {
+        slide.classList.toggle('is-active', i === current);
+      });
+      dots.forEach(function (dot, i) {
+        dot.classList.toggle('is-active', i === current);
+      });
+    }
+
+    function next() { show(current + 1); }
+    function prev() { show(current - 1); }
+
+    function startAutoplay() {
+      stopAutoplay();
+      timer = setInterval(next, interval);
+    }
+
+    function stopAutoplay() {
+      if (timer) clearInterval(timer);
+    }
+
+    var prevZone = carousel.querySelector('.home-carousel-zone-prev');
+    var nextZone = carousel.querySelector('.home-carousel-zone-next');
+
+    function goPrev(e) {
+      if (e) e.preventDefault();
+      prev();
+      startAutoplay();
+    }
+
+    function goNext(e) {
+      if (e) e.preventDefault();
+      next();
+      startAutoplay();
+    }
+
+    if (prevZone) prevZone.addEventListener('click', goPrev);
+    if (nextZone) nextZone.addEventListener('click', goNext);
+
+    dots.forEach(function (dot) {
+      dot.addEventListener('click', function () {
+        show(parseInt(dot.dataset.index, 10));
+        startAutoplay();
+      });
+    });
+
+    carousel.addEventListener('mouseenter', stopAutoplay);
+    carousel.addEventListener('mouseleave', startAutoplay);
+
+    startAutoplay();
+  })();
+</script>
+{% endif %}

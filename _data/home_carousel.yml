@@ -1,0 +1,13 @@
+# 首页轮播配置
+# piclink:  轮播图图片地址（可与文章 featured-image 相同，也可单独指定横幅图）
+# pagelink: 点击跳转的内页路径，需与 research / design 文章的 permalink 一致
+# title-cn: 可选，不写则根据 pagelink 自动读取对应文章的 title-cn
+slides:
+  - piclink: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/client-1.png
+    pagelink: /Research/ProtoMass/
+  - piclink: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/maintecture.png
+    pagelink: /Research/OvalAgent/
+  - piclink: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D20-S43-HikinAir/birdview.png
+    pagelink: /Design/HikinAir/
+  - piclink: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D18-S32-VisualConcess/square-nightview.jpg
+    pagelink: /Design/VisualConcess/

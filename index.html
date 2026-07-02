@@ -1,5 +1,79 @@
 ---
-layout: home
+layout: default
 title: Home
-
+abbrev: Home
 ---
+
+{% include home_carousel.html %}
+
+
+
+
+<!-- 卡片网格 -->
+<!-- 引用图片的方法 style="background-image: url('');"> -->
+<div class="plainpassage-card-container">
+  <!-- 研发/Research 卡片 -->
+  <a href="{{ '/Research' | relative_url }}" class="plainpassage-card">
+    <div class="plainpassage-card-content">
+      <h3>研究 · 开发</h3>
+      <hr>
+      <p>我主导或参与的课题研究和程序开发</p>
+      <p>Research I lead or participate in</p>
+    </div>
+  </a>
+
+  <!-- 设计/Design 卡片 -->
+  <a href="{{ '/Design' | relative_url }}" class="plainpassage-card">
+    <div class="plainpassage-card-content">
+      <h3>设计 · 作品</h3>
+      <hr>
+      <p>我在建筑设计及相关领域的各类作品</p>
+      <p>Architectural design and other</p>
+    </div>
+  </a>
+
+  <!-- 更多/More 卡片 -->
+  <a href="{{ '/More' | relative_url }}" class="plainpassage-card">
+    <div class="plainpassage-card-content">
+      <h3>更多 · 有趣</h3>
+      <hr>
+      <p>我原创发布或整理分享的资讯和知识</p>
+      <p>Information and knowledge</p>
+    </div>
+  </a>
+
+  <!-- 关于/About 卡片 -->
+  <a href="{{ '/About' | relative_url }}" class="plainpassage-card">
+    <div class="plainpassage-card-content">
+      <h3>关于 · 介绍</h3>
+      <hr>
+      <p>我的联系方式和更多的个人信息介绍</p>
+      <p>More personal introduction</p>
+    </div>
+  </a>
+</div>
+
+<hr>
+
+<p class="plainpassage">
+  我是<a class='plainpassage-bold'>胡潜</a>，一名<a class='plainpassage-bold'>程序员&建筑师</a>，致力于运用计算智能的理论方法，解决建成环境中的实际问题。
+  我的研究兴趣包括生成式建筑设计 / 人工智能辅助设计 / 建筑中的具身智能等。
+  我毕业于<a class="plainpassage-boldlink" href="https://arch.seu.edu.cn/main.htm">东南大学建筑学院</a>-<a
+    class="plainpassage-boldlink" href="https://archialgo.com/">建筑运算与应用研究所</a>，现就职于<a class='plainpassage-boldlink'
+    href="https://www.arcplus.com.cn/">华东建筑集团</a>的<a class='plainpassage-boldlink'
+    href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">科技分公司</a>，从事建筑数字化技术研究。
+</p>
+
+<p class="plainpassage">I am Hu Qian, a <a class='plainpassage-bold'>Algorithm Engineer & Architect</a>, dedicated to
+  applying theories and methods of computational intelligence to solve practical problems in the built environment. My
+  research interests include Generative Design / AI-Aided Design / Embodied Intelligence in Architecture, etc. I
+  graduated from the
+  <a class="plainpassage-boldlink" href="">SEU School of Architecture</a> -
+  <a class="plainpassage-boldlink" href="">Institute of Architectural Algorithm and Applications</a>,
+  and currently work at the
+  <a class='plainpassage-boldlink' href="">Science and Technology Department</a> of
+  <a class='plainpassage-boldlink' href="">Arcplus PLC Group</a>,
+  engaged in research on architectural digital technologies.
+</p>
+
+<hr>

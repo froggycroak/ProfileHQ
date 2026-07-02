@@ -34,7 +34,5 @@ location:
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D22-P02-FishFlow/building-view.jpg" note="农业科技展示馆建筑总体形象" %}
 
-<!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D22-P02-FishFlow/from-living.jpg" note="生物形象-简笔绘画-金属切割" %} -->
 
-<!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/design/imghost-D22-P02-FishFlow/six-shots.jpg" note="程序截图与创意联想" %} -->
 
