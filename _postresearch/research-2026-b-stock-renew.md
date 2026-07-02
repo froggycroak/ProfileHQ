@@ -8,7 +8,7 @@ sort-year: 2026
 include-website: false
 include-pdf: false
 
-title: 
+title: Toolkit Development for Building Asset Revitalization
 title-cn: 楼宇资产活化更新 / 系列工具开发
 tags: [ ]
 tags-cn: [ 进行中... , 主导, 存量楼宇, 策划咨询]
