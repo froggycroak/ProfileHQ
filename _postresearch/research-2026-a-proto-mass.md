@@ -29,7 +29,7 @@ ProtoMass建筑体量原型智能演绎工具是华建科技数字化所与华�
   </ul>
 </div>
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/client-1.png" note="用户使用界面" %}
+{% include video_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/ProtoMass-20260713.mp4" note="用户使用界面" %}
 
 <h5 class="chapter-heading-left">项目背景</h5>
 
