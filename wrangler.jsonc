@@ -1,5 +1,5 @@
 {
-  "name": "huqian", 
+  "name": "profilehq", 
   "compatibility_date": "2026-02-11",
   "assets": {
     "directory": "./_site" // 指向 Jekyll 生成的静态文件目录
