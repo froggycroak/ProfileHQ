@@ -3,7 +3,7 @@
 # pagelink: 点击跳转的内页路径，需与 research / design 文章的 permalink 一致
 # title-cn: 可选，不写则根据 pagelink 自动读取对应文章的 title-cn
 slides:
-  - piclink: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/client-1.png
+  - piclink: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/using-volumegen-002.jpg
     pagelink: /Research/ProtoMass/
   - piclink: https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-C01-OvalAgent/maintecture.png
     pagelink: /Research/OvalAgent/
