@@ -203,6 +203,42 @@
     }
 }
 
+// 图片容器 - 多图并排，用法与 videos-container 一致
+.figures-container {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0 1.5rem 0;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    .figure-part {
+        flex: 1;
+        min-width: 280px;
+    }
+}
+
+.figure-part {
+    margin: 0;
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        color: $default-tint !important;
+        margin: 0.2rem 0 0 0;
+    }
+
+    p i {
+        color: $default-tint;
+        margin: 0;
+    }
+}
+
 // 视频容器 - 完全控制布局
 .videos-container {
     display: flex;

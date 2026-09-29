@@ -1,0 +1,22 @@
+<div class="figure-part">
+    {% assign figure_note = include.note | default: "" | strip %}
+    {% if include.link-jump %}
+    <a class="figure-part-link" href="{{ include.link-jump }}">
+        <img src="{{ include.link }}" alt="点击跳转">
+    </a>
+    {% if figure_note != "" %}
+    <p>
+        <i class="fa-solid fa-caret-up"></i>
+        {{ figure_note }} (点击图片跳转)
+    </p>
+    {% endif %}
+    {% else %}
+    <img src="{{ include.link }}" alt="">
+    {% if figure_note != "" %}
+    <p>
+        <i class="fa-solid fa-caret-up"></i>
+        {{ figure_note }}
+    </p>
+    {% endif %}
+    {% endif %}
+</div>

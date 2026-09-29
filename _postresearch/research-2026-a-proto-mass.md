@@ -12,30 +12,23 @@ include-pdf: true
 title: Exploring Architectural Design with Digital Ptototypes of Building Volume
 title-cn: 面向原创设计的建筑体量原型智能演绎工具
 tags: [ ]
-tags-cn: [ 进行中..., 主导, AI, 原创建筑设计]
+tags-cn: [ 进行中..., 主导, 生成式设计, 原创建筑设计]
 team: [ SSTD-DTA, ECADI-CC ]
 team-cn: [ 华建科技数字化所, 华东院创作中心 ]
 ---
 
-{% include link_clip.html link='https://protomass.archifrog.com/' content='项目主页' %}
-
-{% include link_clip.html link='https://protomass.archifrog.com/workbench/' content='网页端应用页面（仅集团内网）' %}
 
 ---
 
 <div class="plainpassage-brief">
-ProtoMass建筑体量原型智能演绎工具是华建科技数字化所与华东院创作中心合作的数字化开发项目，旨在为原创设计师提供自动化交互式的初步体量方案生成服务。我在项目中担任技术负责人。从问题梳理，到技术路线的制订，再到实验执行，主要工作由我负责计划和推进。当前该项目已完成总体架构设计和初步测试版本，包含客户端和网页端两种使用方式。
+ProtoMass建筑体量原型智能演绎工具是华建科技与华东院合作研发的智慧设计项目，旨在为原创设计师提供自动化交互式的初步体量方案生成服务。该工具系统基于建筑师的业务经验，通过过程式建模和运筹学方法搭建灵活多变的体量设计程序，融合地理信息嵌入和智能体工具调用，为设计初期“头脑风暴”环节提供启发性支持。我在项目中担任技术负责人，工作内容包含问题梳理、技术选型、架构设计、实验测试等。当前该项目已完成初版本并投入内测。
 </div>
 
-{% include figure_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/using-volumegen-002.jpg" note="客户端界面" %}
-
-{% include figure_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/webpage-ecosystem.png" note="页面服务体系" %}
+{% include video_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/ProtoMass-20260713.mp4" note="用户使用界面" %}
 
 <h5 class="chapter-heading-left">项目背景</h5>
 
-建筑原创设计对建筑设计企业至关重要。建筑师需解构重组建筑知识经验、快速提出大量方案、并在其中充分考虑场地条件而迭代选优。丁顺总建筑师团队基于多年实践，发展了一套“原型”工作方法，通过几何形态分析形成建筑体量原型，基于场地条件演绎原型，从而穷举初步方案。数字化和人工智能技术的进步为这一方法带来新机遇：能够将原型进一步抽象和提炼，组合出更多新颖的建筑体量方案；能够快速大量执行，提高方案选优迭代的规模和速度。本课题结合数字化与人工智能技术，开发建筑体量原型智能演绎工具，为原创设计方案试排体制增效，弥补了通用大模型底层逻辑的不足，进一步推动原创设计的发展。
-
-{% include video_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/ProtoMass-20260713.mp4" note="操作界面录屏演示" %}
+建筑原创设计对建筑设计企业至关重要。建筑师需解构重组建筑知识经验、快速提出大量方案、并在其中充分考虑场地条件而迭代选优。华东院的原创建筑设计团队基于多年实践，发展了基于“原型”的工作方法，通过几何形态分析形成建筑体量原型，基于场地条件演绎原型，从而穷举初步方案。数字化和人工智能技术的进步为这一方法带来新机遇：能够将原型进一步抽象和提炼，组合出更多新颖的建筑体量方案；能够快速大量执行，提高方案选优迭代的规模和速度。本课题结合数字化与人工智能技术，开发建筑体量原型智能演绎工具，为原创设计方案试排体制增效，弥补了通用大模型底层逻辑的不足，进一步推动原创设计的发展。
 
 <div class="videos-container">
     {% include video_part.html
@@ -48,11 +41,11 @@ ProtoMass建筑体量原型智能演绎工具是华建科技数字化所与华�
     %}
 </div>
 
-<!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/pre-experiment-01.png" note="体量生成预实验: 随手绘制场地边界，生成符合指标要求的重复体量组合" %} -->
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/pre-experiment-01.png" note="体量生成预实验: 随手绘制场地边界，生成符合指标要求的重复体量组合" %}
 
 <!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/syntax-compare2-01.jpg" note="选定组合要素原型，仍具有方案多样性" %} -->
 
-<!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/img%20(4).jpg" note="建筑体量原型转译的接口设计" %} -->
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/img%20(4).jpg" note="建筑体量原型转译的接口设计" %}
 
 <div class="page-break"></div>
 
@@ -62,7 +55,7 @@ ProtoMass建筑体量原型智能演绎工具是华建科技数字化所与华�
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/img%20(3).jpg" note="建筑体量原型的作用原理" %}
 
-<h5 class="chapter-heading-left">流程图</h5>
+<h5 class="chapter-heading-left">流程策划</h5>
 
 生成大量建筑体量方案的操作流程大致如图所示。首先，用户上传任务书和地形图，另外可以手动划定范围、编辑条件、附加文字；而后，由后台程序解析用户输入，为原型网络图结构的节点赋初始权重，根据权重选择排名靠前的原型；由此，触发对应的体量生成程序，基于场地形状和参考指标等入参计算3D体量成果，并通过图像大模型做关键视角的细节赋予；经用户交互确定喜欢、不喜欢的体量方案，遵照衰减函数反向调整网络中的节点权重。上述过程可循环多轮，而得到一系列差异化方案。
 
