@@ -92,3 +92,43 @@
   margin-bottom: .5rem;
   font-weight: 400;
 }
+
+// 首页 INTRODUCTION / ALL SECTIONS / HIGHLIGHTS 统一垂直节奏
+.home-section {
+  padding: 1.25rem 0;
+
+  &:not(:last-of-type) {
+    margin-bottom: 1.5rem;
+  }
+
+  > .cataloguepage-english-serif {
+    margin-top: 0;
+    margin-bottom: 0.65rem;
+  }
+
+  > .plainpassage-card-container {
+    margin: 0;
+  }
+
+  > .subpassage {
+    margin: 0;
+  }
+
+  > .plainpassage {
+    margin-top: 0;
+  }
+
+  .catalogue-item {
+    padding: 1.25rem 0;
+
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+}
+
+main > hr {
+  margin: 1.5rem 0 0;
+  border: 0;
+  border-top: 1px solid $grey-2;
+}

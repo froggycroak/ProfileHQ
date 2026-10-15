@@ -4,7 +4,7 @@ paper-id: R25-C01-P01J
 attached-proj-abbrev: OvalAgent
 pub-type: Journal Article
 language: ch
-gbt: 李星桥,胡潜,徐晓明. 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型[J]. 建筑技艺,2026,32(3):85-89. DOI:10.3969/j.issn.1674-6635.2026.03.013.
+gbt: 李星桥,胡潜,徐晓明. 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型[J]. 建筑技艺,2026,32(3):85-89.
 mla: 李星桥, et al. "从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型." 建筑技艺, vol. 32, no. 3, Mar. 2026, pp. 85-89. http://dx.chinadoi.cn/10.3969/j.issn.1674-6635.2026.03.013.
 apa: 李星桥, 胡潜, & 徐晓明. (2026). 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型. 建筑技艺, 32(3), 85-89. http://dx.chinadoi.cn/10.3969/j.issn.1674-6635.2026.03.013.李星桥, 胡潜, & 徐晓明. (2026). 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型. 建筑技艺, 32(3), 85-89. http://dx.chinadoi.cn/10.3969/j.issn.1674-6635.2026.03.013.
 featured-image:

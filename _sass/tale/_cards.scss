@@ -5,7 +5,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     /* 卡片间距 */
-    margin: 2rem 0;
+    margin: 0;
 
 }
 
@@ -26,12 +26,10 @@
     /* 卡片最小宽度，防止过小 */
     background-color: $white;
     border: 1px solid transparent;
-    /* 默认背景色，背景图加载前的回退 */
     border-radius: 10px;
-    /* 倒角半径，可调整大小 */
     padding: 2rem 2rem;
-    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    box-shadow: none;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
     /* 悬停动画效果 */
     text-decoration: none;
     /* 移除链接下划线 */
@@ -78,7 +76,7 @@
     transform: translateY(-2px);
     border-color: $midgrey;
     background-color: $white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
     text-decoration: none;
 }
 
@@ -148,8 +146,11 @@
 
 //BUSSINESS-CARD
 
+$business-card-font: "Microsoft YaHei", "微软雅黑", sans-serif;
+
 /* 名片外层容器样式 - 现在作为可点击的整体 */
 .business-card-container {
+    font-family: $business-card-font;
     display: block;
     /* 使<a>标签表现为块级元素 */
     width: 100%;
@@ -185,6 +186,7 @@
     align-items: center;
     gap: 30px;
     padding: 20px 30px 20px 30px;
+    font-family: $business-card-font;
 
 }
 
@@ -210,6 +212,7 @@
 .card-right {
     flex: 1;
     text-align: left;
+    font-family: $business-card-font;
 
     .position-title {
         margin: 0 0 8px 0 !important;
@@ -217,11 +220,18 @@
 
 }
 
-/* 紧凑的文字间距 */
+.business-card-name {
+    margin: 0 0 8px 0 !important;
+    text-align: center;
+    font-family: $sans-serif !important;
+    font-weight: 500 !important;
+}
+
+/* 姓名与职位行同一套正文字号 */
 .card-right h2 {
     margin: 0 0 3px 0;
-    /* 减少上下间距 */
-    font-size: 1.5rem;
+    font: inherit;
+    color: inherit;
 }
 
 .card-right h4 {
@@ -294,25 +304,20 @@
         /* 移动端减少内边距 */
     }
 
-    .card-right {
+    .business-card-container .card-right {
         text-align: center;
     }
 
-    .contact-info {
+    .business-card-container .contact-info {
         justify-content: center;
     }
 
 
-    /* 移动端更紧凑的文字大小 */
-    .card-right h2 {
-        font-size: 1.3rem;
-    }
-
-    .card-right h4 {
+    .business-card-container .card-right h4 {
         font-size: 0.9rem;
     }
 
-    .contact-info {
+    .business-card-container .contact-info {
         font-size: 0.8rem;
     }
 }

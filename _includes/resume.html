@@ -6,6 +6,7 @@
 {% assign StandRecons = site.postresearch | where: "abbrev", "StandRecons" | first %}
 {% assign OvalAgent = site.postresearch | where: "abbrev", "OvalAgent" | first %}
 {% assign ProtoMass = site.postresearch | where: "abbrev", "ProtoMass" | first %}
+{% assign StockRenew = site.postresearch | where: "abbrev", "StockRenew" | first %}
 
 <!-- DesignAssignment -->
 {% assign FishFlow = site.postdesign | where: "abbrev", "FishFlow" | first %}
@@ -31,50 +32,39 @@
                 <span>2024.07 - 至今</span>
             </div>
             <!-- Arcplus PLC Group - SSTD [Researcher] -->
-            - 主导研发项目: <a class="plainpassage-link"
-                href="{{ProtoMass.url | prepend: site.baseurl}}">面向原创设计的建筑体量原型智能演绎工具</a><br>
-            - 深度参与研发项目: <a class="plainpassage-link" href="{{OvalAgent.url | prepend: site.baseurl}}">体育建筑智能设计助手</a>,
-            获省部级奖项<br>
-            - 主导研发项目: <a class="plainpassage-link"
-                href="{{StandRecons.url | prepend: site.baseurl}}">基于实景图片的看台碗三维重建</a><br>
+            <p class="weakpassage">建筑数字化方向 · 核心研发</p>
+
+            <div style="margin-left: 0.5em;">
+                <strong><a class="plainpassage-link" href="{{ProtoMass.url | prepend: site.baseurl}}">ProtoMass
+                        建筑原型智能设计系统</a></strong> · 技术负责人<br>
+                <span class="weakpassage">定位</span>：原创方案设计「头脑风暴」阶段辅助，在任务书限定下快速生成差异化体块方案；内测中。<br>
+                - 主导业务拆解与方案制定：分层接口定义体块设计方法；「脚本-项目」机制支持建筑师参与代码编写与测试<br>
+                - 主导分布式架构：同构 Browser 端与 Rhino 桌面客户端，及多个算法微服务<br>
+                - 开发体块生成 / 场地建模 / LLM 智能对话等子服务；以计算几何与运筹优化实现体块方案生成模块<br>
+                <span class="weakpassage">成效</span>：平均约 5 秒返回一版方案，单轮比选由约 1 天压缩至约 0.5h；原型库与随机因子拓展方案想象力<br>
+            </div>
+
+            <div style="margin-left: 0.5em; margin-top: 0.6em;">
+                <strong><a class="plainpassage-link" href="{{StockRenew.url | prepend: site.baseurl}}">StocKase
+                        城市更新智能案例库 / 数据库</a></strong> · 技术负责人<br>
+                <span class="weakpassage">定位</span>：城市更新策划阶段辅助平台，集案例对标、相似推荐、智能策划于一体；WDCC 世界城市日发布。<br>
+                - 指导团队搭建数据收集 skills，从网络文本提取高价值字段，建立上海典型更新案例与 70+ 关键字段数据底座<br>
+                - 主导 mcphub 集成分发模式，打通与其他系统的能力互通；以 LLM 编排实现「区位-政策-案例-存量」一体化智能策划<br>
+                <span class="weakpassage">成效</span>：补足通用智能体在专业策划上的不足，试点项目中策划业务耗时约减少 70%<br>
+            </div>
+
+            <div style="margin-left: 0.5em; margin-top: 0.6em;">
+                <strong><a class="plainpassage-link" href="{{OvalAgent.url | prepend: site.baseurl}}">OvalAgent
+                        体育建筑智能设计助手</a></strong> · 核心研发 / 子模块负责人<br>
+                <span class="weakpassage">定位</span>：体育场馆设计一站式网页服务；上海市住建行业人工智能十佳案例。<br>
+                - 搭建基于 RhinoCompute 与 GHScript 的看台碗生成服务；指导团队优化代码，成品率由 55% 提升至 95%<br>
+                - 维护优化参数配置服务（数据筛选、回归模型、规则运算），补全业务逻辑，准确率由 80% 提升至 95%，并沉淀为技术专利<br>
+                <span class="weakpassage">成效</span>：生成式设计子功能将常规 2 天建模工作压缩至约 0.5h，显著提升方案迭代效率<br>
+            </div>
+
+            <p style="margin-top: 0.6em;">更多研发项目见 <a class="plainpassage-link"
+                    href="{{ '/Research/' | prepend: site.baseurl }}">Research</a></p>
         </div>
-
-        <!-- 东大院 -->
-        <div class="subpassage">
-            <div style="display: flex; justify-content: space-between;">
-                <span>
-                    <a class='plainpassage-boldlink' href="https://adri.seu.edu.cn/">东南大学建筑设计研究院</a> - 数字建筑中心 [实习]
-                </span>
-                <span>2022.09 - 2023.03</span>
-            </div>
-            <!-- Architectural Enterprise of Southeast University(AESEU) [Intern Researcher] -->
-            - 参与科研项目: <a class="plainpassage">大学城量形互动布局生成</a>, 获专利2项, 软著1项<br>
-            - 主导数控建造项目: <a class="plainpassage-link" href="{{FishFlow.url | prepend: site.baseurl}}">莲花荡农业展馆门圈数控建造设计</a>
-            ; 同时负责建筑总体施工图绘制<br>
-            - 参与小城镇更新项目: <a class="plainpassage-link" href="{{UrbageSurvey.url | prepend: site.baseurl}}">丁蜀镇城市设计</a>
-            以及部分单体建筑设计
-        </div>
-
-
-        <!-- 浙江省院 -->
-        <!-- <div class="subpassage">
-            <div style="display: flex; justify-content: space-between;">
-                <span>
-                    <a class='plainpassage-boldlink' href="https://www.ziad.cn/">浙江省建筑设计研究院</a> [实习]
-                </span>
-                <span>2020.06 - 2020.08</span>
-            </div>
-        </div> -->
-
-        <!-- 浙江天然 -->
-        <!-- <div class="subpassage">
-            <div style="display: flex; justify-content: space-between;">
-                <span>
-                    <a class='plainpassage-boldlink' href="https://www.zjtianran.com/index.aspx">浙江天然设计集团</a> [实习]
-                </span>
-                <span>2018.07 - 2018.08</span>
-            </div>
-        </div> -->
 
     </section>
 
@@ -95,8 +85,9 @@
                 </span>
                 <span>2021.09 - 2024.06</span>
             </div>
-            - 导师唐芃教授, 研究方向为生成式设计<br>
-            - 学业成绩 GPA 3.83/4 | 排名 26/108
+            - 硕士论文: 走道式组合主导的建筑体量集合生成研究<br>
+            - 导师唐芃教授; 参与国家级、企业与所内课题, 涵盖生成式设计、历史地段数据收集与数学规划在建筑设计中的应用<br>
+            - 学业成绩 GPA 3.83/4 | 排名 26/108, 获得程泰宁奖学金
 
         </div>
         <div class="subpassage">
@@ -120,22 +111,25 @@
         </div>
         <!-- <hr style="margin: 0"> -->
         <div class="subpassage">
-            <strong>程序编写 Coding</strong>
-            <br>- 熟练使用C#/Python/Java等常用编程语言
-            <br>- 熟悉计算几何方法;熟悉Rhino系列的开发技术
-            <br>- 熟悉运筹学方法,掌握Gurobi和SCIP等求解工具
-            <br>- 熟悉大模型应用开发,关注人工智能前沿动态
+            <strong>空间智能与计算几何</strong>
+            <br>- 熟练应用规则建模与参数化设计; 自研几何工具库 ArchiGeoSharp, 跨项目复用
+            <br>- 掌握 Gurobi / SCIP 等求解工具; 擅长将空间问题形式化为数学规划模型
+            <br>- 精通 Rhino 全栈开发 (Plugin / Inside / Compute / Scripting), 具备建模软件二次开发经验
 
         </div>
         <div class="subpassage">
-            <strong>软件使用 Software</strong>
-            <br>- 熟练掌握建筑设计相关软件,如Rhino/Grasshopper/AutoCAD/SketchUp等
-            <br>- 熟悉Office系列办公软件和Adobe系列绘图软件
+            <strong>系统架构与应用实现</strong>
+            <br>- 后端: C# (ASP.NET / 工具库)、Python (算法服务化 / 数据处理); 熟悉 REST API 设计
+            <br>- 前端与可视化: Vue / Vite; Three.js 三维几何数据可视化
+            <br>- 系统架构: Browser-Client-Server 协同及后端微服务分布式架构
+        </div>
+        <div class="subpassage">
+            <strong>大模型应用</strong>
+            <br>- 在实际项目中应用 function calling、结构化输出、任务编排、MCP 集成等
         </div>
         <div class="subpassage">
             <strong>外语交流 Language</strong>
-            <br>- 优秀的英文听说读写能力,雅思7.5
-            <br>- 长期阅读外文文献和技术文档; 有英文论文发表和国际会议汇报经历
+            <br>- 优秀的英文听说读写能力, 雅思 7.5; 具备英文论文发表及国际会议汇报经验
         </div>
     </section>
 
@@ -152,8 +146,7 @@
         </div>
         <div class="subpassage"><strong>期刊论文 Journal</strong>
             {% include link_citation.html key="PUB-2402-JAC" %}
-            {% include link_citation_pre.html content="李星桥,胡潜,徐晓明. 从工具生产到模式拓新——OVAL AI体育建筑智能设计助手的转型[J].2026(6)(待发表)."
-            note=""%}
+            {% include link_citation.html key="PUB-2601-JAC" %}
         </div>
 
         <div class="subpassage"><strong>会议论文 Conference</strong>
@@ -163,73 +156,15 @@
         </div>
         <div class="subpassage">
             <strong>发明专利 Patent</strong>
-            {% include link_citation_pre.html content="高校校园规划设计中量性形统筹的数字化生成方法:CN202311191285.7[P].2024-08-09." %}
+            {% include link_citation_pre.html content="体育场馆看台碗关键设计参数配置的数字化方法:CN202512000518.6[P]. 2026-04-03." %}
+            {% include link_citation_pre.html content="基于视觉语言模型自进化的建筑体量原型生成与优化方法、系统和应用:CN202511722453.X[P]. 2026-02-24." %}
             {% include link_citation_pre.html content="高校校园规划设计中面积分配与分区测算的数字化方法:CN202310878488.7[P]. 2024-09-06." %}
-            {% include link_citation_pre.html content="体育场馆建筑看台碗设计中关键设计参数配置的数字化方法(受理)." %}
-            {% include link_citation_pre.html content="基于视觉语言模型自进化的建筑体量原型生成与优化方法、系统和应用(受理)." %}
+            {% include link_citation_pre.html content="高校校园规划设计中量性形统筹的数字化生成方法:CN202311191285.7[P]. 2024-08-09." %}
         </div>
     </section>
-
-
-    <!-- <section class="plainpassage">
-            <div class="col-12 p-0">
-                <h5 class="chapter-heading" style="color: gray; ">- 知识产权 Copyright -</h5>
-            </div>
-
-            
-
-            <div class="subpassage">
-                <strong>软件著作权</strong>
-                {% include link_citation_pre.html content="高校校园规划指标计算与分区分配软件" %}
-                {% include link_citation_pre.html content="体育场馆内场设计参数智能调配系统" %}
-                {% include link_citation_pre.html content="体育场馆内场看台智能分析系统" %}
-                {% include link_citation_pre.html content="体育场馆内场看台智能建模系统" %}
-                {% include link_citation_pre.html content="体育场馆案例检索与前期策划平台" %}
-                {% include link_citation_pre.html content="体育场馆设计智能问答平台" %}
-                {% include link_citation_pre.html content="体育建筑看台碗实景图片几何信息提取与智能建模系统" %}
-            </div>
-
-        </section> -->
 
 
 </div>
 
 
 
-<!-- <section class="resume-header">
-            <div class="header-text" align="center">
-                <h4>胡 潜</h4>
-                <a>建筑设计师 / 算法工程师</a>
-            </div>
-            <br>
-            <div>
-                <strong>联系方式</strong>
-                <div>
-                    <a class='in-text-icon'>
-                        <i class=" fa-solid fa-envelope"></i>
-                    </a>
-                    <a class="plainpassage">
-                        huqian.archi@outlook.com
-                    </a>
-                </div>
-                <div>
-                    <a class='in-text-icon'>
-                         <i class="fa-solid fa-phone"></i>
-        <i class="fa-brands fa-weixin"></i>
-        </a>
-        <a class="plainpassage">
-            hq604036262
-        </a>
-    </div>
-    <div>
-        <a class='in-text-icon'>
-            <i class="fa-solid fa-phone"></i>
-            <i class="fa-brands fa-weixin"></i>
-        </a>
-        <a class="plainpassage">
-            15927613607
-        </a>
-    </div>
-
-    </div>
-    </section> -->

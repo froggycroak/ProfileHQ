@@ -191,6 +191,21 @@ $research-image-size-mobile: 180px !default;
             color: #388e3c; // 绿色系
         }
 
+        &[tag-content="技术负责人"] {
+            background-color: rgba(0, 128, 0, 0.1);
+            color: #388e3c; // 绿色系
+        }
+
+        &[tag-content="子模块负责人"] {
+            background-color: rgba(0, 128, 0, 0.1);
+            color: #388e3c; // 绿色系
+        }
+
+        &[tag-content="核心研发"] {
+            background-color: rgba(0, 128, 0, 0.1);
+            color: #388e3c; // 绿色系
+        }
+
         &[tag-content="abcd"] {
             background-color: rgba(0, 0, 255, 0.1);
             color: #1976d2; // 蓝色系
