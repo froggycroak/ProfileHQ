@@ -1,0 +1,80 @@
+// 首页主标题，布局参考 VitePress VPHero（ags.archifrog.com）
+.home-hero {
+  text-align: left;
+  padding: 0.25rem 0 1.75rem;
+}
+
+.home-hero-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  font-size: 2rem;
+  font-family: $sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.home-section > .home-hero-heading {
+  margin-bottom: 0.15em;
+}
+
+.home-hero-name,
+.home-hero-text {
+  width: fit-content;
+  max-width: 100%;
+  line-height: 1.25;
+  font-size: 2rem;
+  white-space: pre-wrap;
+}
+
+.home-hero-name {
+  color: $primary;
+}
+
+.home-hero-text {
+  color: $default-shade;
+  margin-top: 0.15em;
+}
+
+.home-hero-tagline {
+  margin: 0.65rem 0 0;
+  max-width: 36rem;
+  line-height: 1.5;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: $default-tint;
+  font-family: $sans-serif;
+}
+
+@media screen and (min-width: 640px) {
+  .home-hero-heading {
+    font-size: 2.75rem;
+  }
+
+  .home-hero-name,
+  .home-hero-text {
+    font-size: 2.75rem;
+    line-height: 1.2;
+  }
+
+  .home-hero-tagline {
+    padding-top: 0.15rem;
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .home-hero-heading {
+    font-size: 3rem;
+  }
+
+  .home-hero-name,
+  .home-hero-text {
+    font-size: 3rem;
+  }
+
+  .home-hero-tagline {
+    font-size: 1.25rem;
+  }
+}

@@ -2,12 +2,19 @@
 layout: default
 title: Home
 abbrev: Home
+hero-name: Blog. ArchiFrog
+hero-text: 建筑数字化技术研究
+hero-tagline: Generative Design, Space Computing & Architectural Works
 ---
 
 <!-- {% include home_carousel.html %} -->
 
 <section class="print-in-page home-section">
-  <p class="cataloguepage-english-serif">I N T R O D U C T I O N</p>
+
+  <h1 class="home-hero-heading">
+    <span class="home-hero-name">{{ page.hero-name }}</span>
+    <span class="home-hero-text">{{ page.hero-text }}</span>
+  </h1>
   <p class="plainpassage">
     我是胡潜，一名程序员&建筑师，致力于运用计算智能的理论方法，解决城市空间中的实际问题。我的研究兴趣包括生成式设计 / 智能体开发 / 空间计算等。我毕业于<a class="plainpassage-link"
       href="https://arch.seu.edu.cn/main.htm">东南大学建筑学院</a>-<a class="plainpassage-link"
@@ -15,12 +22,11 @@ abbrev: Home
       href="https://www.arcplus.com.cn/">华东建筑集团</a>的<a class='plainpassage-link'
       href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">科技分公司</a>，从事建筑数字化技术研究。
   </p>
-</section>
 
-<!-- 卡片网格 -->
-<!-- 引用图片的方法 style="background-image: url('');"> -->
-<section class="print-in-page home-section">
-  <p class="cataloguepage-english-serif">M A I N S E C T I O N S</p>
+
+  <!-- 卡片网格 -->
+  <!-- 引用图片的方法 style="background-image: url('');"> -->
+
   <div class="plainpassage-card-container">
 
     <!-- 研发/Research 卡片 -->
@@ -65,14 +71,13 @@ abbrev: Home
   </div>
 </section>
 
-
-
+<hr>
 
 {% assign research_abbrev_list = "ProtoMass, OvalAgent, QuadraBlock" | split: ", " %}
 
 <section class="print-in-page home-section">
-  <!-- <h1 class="cataloguepage-title">HIGHLIGHTS</h1> -->
-  <p class="cataloguepage-english-serif">H I G H L I G H T S</p>
+  <!-- <h1 class="cataloguepage-title">精选项</h1>
+  <p class="cataloguepage-english-serif">HIGHLIGHTS</p> -->
   <div class="subpassage">
     <div class="catalogue">
       {% for abbrev in research_abbrev_list %}
