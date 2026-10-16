@@ -4,7 +4,7 @@
 {% assign project_link = post.include.link | default: post.url | relative_url %}
 {% endif %}
 
-<article class="research-item">
+<article class="research-item{% if include.compact %} research-item--compact{% endif %}">
   <a href="{{ project_link }}" class="research-link">
     <div class="research-image-container">
       {% if include.is_design %}
@@ -18,6 +18,11 @@
 
     <div class="research-content">
       <h2 class="research-title">{{ post.abbrev}}</h2>
+      {% if include.compact %}
+      {% if post.title-cn %}
+      <p class="research-subtitle">{{ post.title-cn }}</p>
+      {% endif %}
+      {% else %}
       {% if post.subtitle or post.title-cn %}
       <p class="research-subtitle2">{{ post.title}}</p>
       <p class="research-subtitle">{{ post.title-cn }}</p>
@@ -28,6 +33,7 @@
         {% endfor %}
       </div>
       <div class="research-line"></div>
+      {% endif %}
     </div>
   </a>
 </article>

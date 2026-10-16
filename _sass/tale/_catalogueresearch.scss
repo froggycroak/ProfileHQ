@@ -253,3 +253,70 @@ $research-image-size-mobile: 180px !default;
         margin-left: 0;
     }
 }
+
+// 首页精选：与导航卡片同为多列网格，图在上、文在下
+.home-highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    @media screen and (max-width: 900px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 600px) {
+        grid-template-columns: 1fr;
+    }
+
+    .research-item {
+        background-color: $grey-3;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .research-link {
+        flex-direction: column;
+        align-items: stretch;
+        height: 100%;
+        padding: 0;
+    }
+
+    .research-image-container {
+        margin: 0;
+        width: 100%;
+        align-self: stretch;
+    }
+
+    .research-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 240 / 149.25;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .research-content {
+        flex: 1;
+        padding: 1rem 1.25rem 1.25rem;
+        text-align: center;
+    }
+
+    .research-title {
+        font-size: 1.2rem;
+    }
+
+    .research-subtitle {
+        font-size: 0.9rem;
+        margin-top: 0.35rem;
+    }
+
+    .research-item--compact .research-content {
+        padding-bottom: 1rem;
+    }
+}

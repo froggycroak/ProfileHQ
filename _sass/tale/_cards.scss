@@ -3,7 +3,7 @@
     display: grid;
     /* 初始状态：4列，每列等宽 */
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: $home-grid-gap;
     /* 卡片间距 */
     margin: 0;
 
@@ -297,7 +297,7 @@ $business-card-font: "Microsoft YaHei", "微软雅黑", sans-serif;
     .business-card {
         flex-direction: column;
         text-align: center;
-        gap: 10px;
+        gap: $home-grid-gap;
         padding: 15px;
         /* 移动端减少内边距 */
     }

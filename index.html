@@ -3,7 +3,7 @@ layout: default
 title: Home
 abbrev: Home
 hero-name: Blog. ArchiFrog
-hero-text: 建筑数字化技术研究
+hero-text: 建筑数字化技术研究博客
 hero-tagline: Generative Design, Space Computing & Architectural Works
 ---
 
@@ -11,17 +11,29 @@ hero-tagline: Generative Design, Space Computing & Architectural Works
 
 <section class="print-in-page home-section">
 
-  <h1 class="home-hero-heading">
-    <span class="home-hero-name">{{ page.hero-name }}</span>
-    <span class="home-hero-text">{{ page.hero-text }}</span>
-  </h1>
-  <p class="plainpassage">
-    我是胡潜，一名程序员&建筑师，致力于运用计算智能的理论方法，解决城市空间中的实际问题。我的研究兴趣包括生成式设计 / 智能体开发 / 空间计算等。我毕业于<a class="plainpassage-link"
-      href="https://arch.seu.edu.cn/main.htm">东南大学建筑学院</a>-<a class="plainpassage-link"
-      href="https://archialgo.com/">建筑运算与应用研究所</a>，现就职于<a class='plainpassage-link'
-      href="https://www.arcplus.com.cn/">华东建筑集团</a>的<a class='plainpassage-link'
-      href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">科技分公司</a>，从事建筑数字化技术研究。
-  </p>
+  <div class="home-masthead">
+    <img class="home-masthead-avatar"
+      src="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/general/intro-personal/frogabj.jpg" alt="ArchiFrog 形象"
+      width="160" height="160" loading="eager" decoding="async" />
+    <div class="home-masthead-main">
+      <header class="home-masthead-head">
+        <h1 class="home-hero-name">{{ page.hero-name }}</h1>
+        <p class="home-hero-subtitle">{{ page.hero-text }}</p>
+        {% if page.hero-tagline %}
+        <p class="home-hero-subtitle">{{ page.hero-tagline }}</p>
+        {% endif %}
+      </header>
+      <div class="home-intro plainpassage">
+        <p>
+          我是胡潜，程序员&建筑师，致力于用计算智能的方法解决城市空间里的实际问题。我的研究兴趣包括生成式设计、智能体开发等。我毕业于<a class="plainpassage-link"
+            href="https://arch.seu.edu.cn/main.htm">东南大学建筑学院</a>与<a class="plainpassage-link"
+            href="https://archialgo.com/">建筑运算与应用研究所</a>；现就职于<a class="plainpassage-link"
+            href="https://www.arcplus.com.cn/">华东建筑集团</a><a class="plainpassage-link"
+            href="https://mp.weixin.qq.com/s/ICJ_eFqt-gfHWJ7Cj3O6Pg">科技分公司</a>，从事建筑数字化技术研究。
+        </p>
+      </div>
+    </div>
+  </div>
 
 
   <!-- 卡片网格 -->
@@ -73,17 +85,17 @@ hero-tagline: Generative Design, Space Computing & Architectural Works
 
 <hr>
 
-{% assign research_abbrev_list = "ProtoMass, OvalAgent, QuadraBlock" | split: ", " %}
+{% assign research_abbrev_list = "ProtoMass, StockRenew, OvalAgent, QuadraBlock" | split: ", " %}
 
-<section class="print-in-page home-section">
+<section class="print-in-page home-section home-section--highlights">
   <!-- <h1 class="cataloguepage-title">精选项</h1>
   <p class="cataloguepage-english-serif">HIGHLIGHTS</p> -->
   <div class="subpassage">
-    <div class="catalogue">
+    <div class="catalogue home-highlights-grid">
       {% for abbrev in research_abbrev_list %}
       {% assign post = site.postresearch | where: "abbrev", abbrev | first %}
       {% if post %}
-      {% include cataitem_research.html %}
+      {% include cataitem_research.html compact=true %}
       {% endif %}
       {% endfor %}
     </div>
