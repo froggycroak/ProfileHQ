@@ -60,12 +60,19 @@ StocKase 面向城市更新策划阶段，是集案例对标、相似推荐与�
 
 UrbanCheck 服务更新前期策划中的微观区位与公服配套研判：按地址或地图点选目标，在圈层内汇总 POI 分布与多维度评分，并给出可读摘要与导出结果，供策划使用。同一套引擎覆盖单点、多点、片区等场景；区位助手依据程序生成的站点事实卡回答用户提问。
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R26-C01-StockRenew/webview-urbancheck.png" note="UrbanCheck 城市区位分析与公服设施体检平台" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R26-C01-StockRenew/seg_urbancheck.gif" note="UrbanCheck 城市区位分析与公服设施体检平台" %}
+
+
+
+<h5 class="chapter-heading-left">StockBudget 楼宇资产投改测算</h5>
+
+StockBudget 用于楼宇资产投资改造的成本和回报计算。目前该平台只置入了不同类型资产的简单计算功能，需要手动填写较多参数。后续将进一步研究数据驱动的智能预测方法，作为现有计算函数的入参，以实现更加高效和准确的测算能力。
+
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R26-C01-StockRenew/seg_stockbudget.gif" note="StockBudget 楼宇资产投改测算" %}
+
 
 <h5 class="chapter-heading-left">RegionShot 城市区域场地模型快速生成工具</h5>
 
 RegionShot 用于策划阶段的场地快速表达：按地名或地图圈定范围，从开放地图数据生成周边建筑与道路的简易三维场景，通过规则推算缺少的数据，并实现轻量化传输，网页预览，以及导出 Json/Mesh/Brep 模型，减少手工建模时间。
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R26-C01-StockRenew/webview-regionshot-002.png" note="RegionShot 城市区域场地模型快速生成工具" %}
-
-
