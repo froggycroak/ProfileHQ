@@ -24,13 +24,13 @@ team-cn: [ 华建科技数字化所, 华东院创作中心 ]
 ProtoMass 建筑原型智能设计系统是华建科技与华东院合作研发的智慧设计项目，面向原创建筑方案设计「头脑风暴」阶段，在任务书限定下实现体块方案的差异化快速生成，当前处于内测。我在项目中担任技术负责人：主导业务问题拆解与技术方案制定，以分层接口设计定义体块设计方法，并通过「脚本-项目」交互机制支持建筑师直接参与代码编写与测试；主导含同构 Browser 端、Rhino 桌面客户端与多项算法微服务的分布式系统架构；开发体块生成、场地建模与 LLM 智能对话等子服务，并基于计算几何与运筹优化方法实现体块方案生成模块。产品侧平均约 5 秒返回一次方案，将单轮方案比选从约 1 天压缩至约 0.5 小时。
 </div>
 
-{% include video_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/ProtoMass-20261015-basic-operations-720p-23s.mp4" note="基础操作演示" %}
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/many-schemes-001.jpg" note="同一地块, 不同原型引导下生成的体量方案" %}
 
-<h5 class="chapter-heading-left">项目背景</h5>
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/panel-001.jpg" note="体量生成模块的核心输入条件" %}
 
-建筑原创设计对建筑设计企业至关重要。建筑师需解构重组建筑知识经验、快速提出大量方案、并在其中充分考虑场地条件而迭代选优。华东院的原创建筑设计团队基于多年实践，发展了基于“原型”的工作方法，通过几何形态分析形成建筑体量原型，基于场地条件演绎原型，从而穷举初步方案。数字化和人工智能技术的进步为这一方法带来新机遇：能够将原型进一步抽象和提炼，组合出更多新颖的建筑体量方案；能够快速大量执行，提高方案选优迭代的规模和速度。本课题结合数字化与人工智能技术，开发建筑体量原型智能演绎工具，为原创设计方案试排体制增效，弥补了通用大模型底层逻辑的不足，进一步推动原创设计的发展。
+{% include video_full.html link="http://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/ProtoMass-20261015-basic-operations-720p-23s.mp4" note="基础操作演示" crop="16" ratio="1280/692" %}
 
-<div class="videos-container">
+<!-- <div class="videos-container">
     {% include video_part.html
         link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/SyntaxB1cFreeRepeats-VolumeRoofDoubleBox-24-0.4-1.0.mp4" 
         note="体量生成实验：录屏1"
@@ -39,13 +39,15 @@ ProtoMass 建筑原型智能设计系统是华建科技与华东院合作研发�
         link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/SyntaxB1dGridAligned-VolumeRoofSingleBox-24-0.4-1.0.mp4"
         note="体量生成实验：录屏2"
     %}
-</div>
+</div> -->
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/pre-experiment-01.png" note="体量生成预实验: 随手绘制场地边界，生成符合指标要求的重复体量组合" %}
+<!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/pre-experiment-01.png" note="体量生成预实验: 随手绘制场地边界，生成符合指标要求的重复体量组合" %} -->
 
 <!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/syntax-compare2-01.jpg" note="选定组合要素原型，仍具有方案多样性" %} -->
 
-{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/img%20(4).jpg" note="建筑体量原型转译的接口设计" %}
+<h5 class="chapter-heading-left">项目背景</h5>
+
+建筑原创设计对建筑设计企业至关重要。建筑师需解构重组建筑知识经验、快速提出大量方案、并在其中充分考虑场地条件而迭代选优。华东院的原创建筑设计团队基于多年实践，发展了基于“原型”的工作方法，通过几何形态分析形成建筑体量原型，基于场地条件演绎原型，从而穷举初步方案。数字化和人工智能技术的进步为这一方法带来新机遇：能够将原型进一步抽象和提炼，组合出更多新颖的建筑体量方案；能够快速大量执行，提高方案选优迭代的规模和速度。本课题结合数字化与人工智能技术，开发建筑体量原型智能演绎工具，为原创设计方案试排体制增效，弥补了通用大模型底层逻辑的不足，进一步推动原创设计的发展。
 
 <div class="page-break"></div>
 
@@ -61,11 +63,18 @@ ProtoMass 建筑原型智能设计系统是华建科技与华东院合作研发�
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/img%20(2).jpg" note="用户操作流程策划" %}
 
+
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/to-rhino.jpg" note="将生成的体块方案实时同步到Rhino以进行编辑" %}
+
 <h5 class="chapter-heading-left">关键方法</h5>
 
 建筑师的设计诠释与原型操作仍具有高度模糊性与不确定性，难以直接对接计算机程序，阻碍了数字化转译与效率提升。为此，本研究构建了一套多层系统以弥合此鸿沟：在建筑师总结的原型与计算设计方法之间插入两个中间层——一层集成生成式设计方法以解决典型建筑设计问题，另一层将解决这些问题的逻辑顺序归纳为若干范式，这些范式同时作为原型的分类依据。通过该框架，大多数建筑原型得以绕过逐一应对模糊性的困境，转化为可执行的计算程序。上述分层框架与「脚本-项目」机制由本人在技术方案中主导落地。
 
 {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/img%20(1).jpg" note="建筑体量原型转译的多层级系统" %}
+
+<!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/img%20(4).jpg" note="建筑体量原型转译的接口设计" %} -->
+
+{% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/tecture-001.jpg" note="系统架构设计" %}
 
 <!-- {% include figure_full.html link="https://workhub.oss-cn-shanghai.aliyuncs.com/picture/research/imghost-R25-B01-ProtoMass/volume-purebox-02.jpg" note="给定指标要求，盒状单一要素在不同地块中的摆放" %} -->
 

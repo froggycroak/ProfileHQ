@@ -270,3 +270,29 @@
         flex: 0 0 calc(25% - 0.75rem);
     }
 }
+
+// 按比例或上下源像素裁掉黑边。ratio 直接给定宽高比；crop 在元数据到达后按源像素计算。
+.video-full .video-crop {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    line-height: 0;
+
+    video {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+        object-position: center center;
+        border-radius: 0;
+        box-shadow: none;
+        background: #000;
+    }
+
+    &.is-framed video {
+        height: 100%;
+    }
+}

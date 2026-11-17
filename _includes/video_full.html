@@ -1,21 +1,66 @@
 <div class="video-full">
+    {% assign crop_top = include.crop-top | default: include.crop %}
+    {% assign crop_bottom = include.crop-bottom | default: include.crop %}
+    {% assign video_ratio = include.ratio %}
+
     {% if include.link-jump %}
     <a class="video-full-link" href="{{ include.link-jump }}">
-        <video src="{{ include.link }}" controls>
+    {% endif %}
+
+    {% if video_ratio or crop_top or crop_bottom %}
+    <div class="video-crop{% if video_ratio %} is-framed{% endif %}"
+        {% if video_ratio %}style="aspect-ratio: {{ video_ratio }};"{% endif %}
+        {% if crop_top %}data-crop-top="{{ crop_top }}"{% endif %}
+        {% if crop_bottom %}data-crop-bottom="{{ crop_bottom }}"{% endif %}>
+        <video src="{{ include.link }}" controls preload="metadata">
             您的浏览器不支持 video 标签
         </video>
+    </div>
+    {% else %}
+    <video src="{{ include.link }}" controls>
+        您的浏览器不支持 video 标签
+    </video>
+    {% endif %}
+
+    {% if include.link-jump %}
     </a>
     <p>
         <i class="fa-solid fa-caret-up"></i>
         {{ include.note }} (点击视频跳转)
     </p>
     {% else %}
-    <video src="{{ include.link }}" controls>
-        您的浏览器不支持 video 标签
-    </video>
     <p>
         <i class="fa-solid fa-caret-up"></i>
         {{ include.note }}
     </p>
+    {% endif %}
+
+    {% if crop_top or crop_bottom %}
+    <script>
+        (function () {
+            document.querySelectorAll(".video-crop[data-crop-top], .video-crop[data-crop-bottom]").forEach(function (frame) {
+                if (frame.getAttribute("data-crop-ready")) return;
+                var video = frame.querySelector("video");
+                if (!video) return;
+                var fit = function () {
+                    var top = parseFloat(frame.getAttribute("data-crop-top") || "0");
+                    var bottom = parseFloat(frame.getAttribute("data-crop-bottom") || "0");
+                    var vw = video.videoWidth;
+                    var vh = video.videoHeight;
+                    if (!vw || !vh) return;
+                    var visible = vh - top - bottom;
+                    if (visible <= 1) return;
+                    frame.style.aspectRatio = vw + " / " + visible;
+                    frame.classList.add("is-framed");
+                    var span = top + bottom;
+                    var y = span === 0 ? 50 : (top / span) * 100;
+                    video.style.objectPosition = "center " + y + "%";
+                    frame.setAttribute("data-crop-ready", "1");
+                };
+                if (video.readyState >= 1) fit();
+                else video.addEventListener("loadedmetadata", fit);
+            });
+        })();
+    </script>
     {% endif %}
 </div>
